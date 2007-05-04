@@ -17,7 +17,10 @@ The objective of the iLigner code project is to develop a manual/semi-automated 
   # Allow user to `lock' sections of the alignment, e.g. when aligning HIV env, lock conserved `C' regions.  Similar to sequence folders, but grouping by site.
   # Optional display of summary statistics on sequences, e.g. indel content, pairwise sequence identity to a reference sequence.
   # Allow minor sequence edits inline, i.e. to resolve sequencing errors and ambiguities.
-  
+  # All accessory panels are collapsable/hide-able.
+  # Multiple (unlimited?) undos.
+  # Several semi-automated alignment tools; perturbation-based (sliding) alignment optimization; seleet rectangular region for local alignment (heuristic improvement).  Drag-and-drop automated alignment, new sequence adopts gaps of current set of sequences.
+  # Fast clean panoramic view of alignment, zoom out and click on region to zoom back in when working with extremely large alignments.  Click and drag alignment to traverse.
 
 
 
