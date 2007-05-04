@@ -1,0 +1,24 @@
+#summary A list of proposed features to be implemented in iLigner.
+
+= Introduction =
+
+The objective of the iLigner code project is to develop a manual/semi-automated sequence alignment editor for Mac OS X with a rich feature set and a snappy intuitive interface.
+
+
+= Details =
+
+  # Adopt `iApps' GUI conventions to match overall
+  # Alignments are like iTunes `playlists', displayed on the left-hand side in which multiple alignments can be stored for the same set of sequences.  Alignments are compactly stored as lists of indels and don't edit the sequences themselves.
+  # Plug-ins for automated alignment and database seasrching.
+  # Graphical display at base of window that can display various site-specific statistics, e.g. Shannon entropy.
+  # Drag-and-drop interface so that files on the desktop that contain sequences in any format (e.g. Genbank) can be dragged into the iLigner window and incorporated into the sequence set.  Automated alignment of sequences that are dropped into window.
+  # Ability to create sequence folders that contain a subset of sequences, which can be collapsed so that the sequences within are represented by a consensus.  Alignment applied to the consensus sequence are propagated to all sequences in folder.
+  # Simultaneous visualization of codons and translated amino acids, using Quartz transparency.
+  # Allow user to `lock' sections of the alignment, e.g. when aligning HIV env, lock conserved `C' regions.  Similar to sequence folders, but grouping by site.
+  # Optional display of summary statistics on sequences, e.g. indel content, pairwise sequence identity to a reference sequence.
+  # Allow minor sequence edits inline, i.e. to resolve sequencing errors and ambiguities.
+  
+
+
+
+
