@@ -1,6 +1,4 @@
 #labels Phase-Design,Phase-Implementation,Phase-Requirements
-= Basic coding tasks =
-
 = Introduction =
 
 Let's get this beastie under way. This page is to outline (and prioritize) tasks. Add what is needed and tag the ones you want to tackle.
@@ -17,7 +15,6 @@ Let's get this beastie under way. This page is to outline (and prioritize) tasks
   * Data structures: representing raw strings and alignments efficiently, so that both by sequence and by site access/search operations are fast
 
   * Formats to read and write. Also, iLigners own format.
-
 
 
 
