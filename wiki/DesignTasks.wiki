@@ -1,14 +1,12 @@
-#labels Phase-Design,Phase-Implementation,Phase-Requirements
+#labels Phase-Desig,Phase-Implementation,Phase-Requirements
 = Introduction =
 
 Let's get this beastie under way. This page is to outline (and prioritize) tasks. Add what is needed and tag the ones you want to tackle.
 
 = Details =
 
- * Data->Model->Controller
-  # The data classes store all the sequences and alignments and the reading and writing of these to/from files.
-  # The model classes provide the data in a form usable by the user interface such as buffers of aligned nucleotides and caching of these. It also provides transactions for editing the data and temporary buffers to animate the editing.
-  # The controller classes are the UI gubbins that interact with the model.
+  * Model-View-Controller:
+    # http://developer.apple.com/macosx/coredata.html
 
   * BioCocoa: investigate utility and decide if we want to build on it
 
