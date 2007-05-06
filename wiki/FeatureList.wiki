@@ -1,4 +1,5 @@
 #summary A list of proposed features to be implemented in iLigner.
+#labels Featured
 
 = Introduction =
 
@@ -21,7 +22,6 @@ The objective of the iLigner code project is to develop a manual/semi-automated 
   # Multiple (unlimited?) undos.
   # Several semi-automated alignment tools; perturbation-based (sliding) alignment optimization; seleet rectangular region for local alignment (heuristic improvement).  Drag-and-drop automated alignment, new sequence adopts gaps of current set of sequences.
   # Fast clean panoramic view of alignment, zoom out and click on region to zoom back in when working with extremely large alignments.  Click and drag alignment to traverse.
-
 
 
 
