@@ -5,13 +5,12 @@ Let's get this beastie under way. This page is to outline (and prioritize) tasks
 
 = Details =
 
- *Data->Model->Controller
+ * Data->Model->Controller
   # The data classes store all the sequences and alignments and the reading and writing of these to/from files.
   # The model classes provide the data in a form usable by the user interface such as buffers of aligned nucleotides and caching of these. It also provides transactions for editing the data and temporary buffers to animate the editing.
   # The controller classes are the UI gubbins that interact with the model.
 
   * BioCocoa: investigate utility and decide if we want to build on it
-
 
   * Interface design: 
     # Layout of the primary window
