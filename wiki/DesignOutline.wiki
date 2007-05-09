@@ -1,4 +1,5 @@
 #summary A brief description of the overall design.
+#labels Featured,Phase-Requirements,Phase-Design,Phase-Implementation
 =Model-View-Controller (MVC)=
 
 ==View objects==
@@ -24,5 +25,4 @@ We should aim to create a self-contained alignment engine that knows nothing abo
 ==Controller objects==
 
 These create the connection between the View and the Model. All such connections must go through the controllers. What I envisage here is that the controller creates and caches buffers of state indices which are used by the Views. When the user does an edit, the controller passes it on to the Model and then rebuilds the buffers and tells the Views to update. Other things like copy/paste are handled here.
-
 
