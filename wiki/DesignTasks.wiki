@@ -1,3 +1,4 @@
+#summary A list of primary design tasks to be done.
 #labels Phase-Design,Phase-Implementation,Phase-Requirements
 = Introduction =
 
