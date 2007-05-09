@@ -1,3 +1,5 @@
+#summary A description of the BioCocoa framework for bioinformatics.
+
 BioCocoa is an open source Cocoa framework for bioinformatics written in Objective-C. 
 
 http://www.bioinformatics.org/biococoa/
