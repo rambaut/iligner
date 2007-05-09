@@ -1,4 +1,4 @@
-#A description of Apple's CoreData framework.
+#summary A description of Apple's CoreData framework.
 
   * http://developer.apple.com/macosx/coredata.html
   * http://developer.apple.com/documentation/Cocoa/Conceptual/CoreData/index.html
