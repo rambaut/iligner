@@ -1,3 +1,5 @@
+#summary Notes to encourage a consistent programming style.
+
 Apple has a good document about Cocoa programming style:
 
 http://developer.apple.com/documentation/Cocoa/Conceptual/CodingGuidelines/index.html
