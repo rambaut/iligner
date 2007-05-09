@@ -1,0 +1,14 @@
+#Some ideas about a consistent programming style.
+
+= Introduction =
+
+Lets lay down some rules for the programming style that we are all comfortable with.
+
+= Style Rules =
+
+* Use fully verbose identifiers (both methods and variables). The exception being local iterator variables (such as i, j etc)
+
+* Class names should have a two letter name-space identifier. I suggest 'IL' as in ILAlignmentView.
+
+
+http://developer.apple.com/documentation/Cocoa/Conceptual/CodingGuidelines/index.html
