@@ -1,4 +1,0 @@
-/* Localized versions of Info.plist keys */
-
-CFBundleName = "Translation";
-NSHumanReadableCopyright = "© 2004 John Timmer";

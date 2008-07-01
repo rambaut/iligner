@@ -1,3 +1,0 @@
-03-10-2005
-This file is here just to prevent cvs from pruning this directory, because it is now empty (just moved TODO)...
-Charles
