@@ -1,0 +1,21 @@
+{
+    IBClasses = (
+        {CLASS = BCSequenceView; LANGUAGE = ObjC; SUPERCLASS = NSTextView; }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {importSequence = id; process = id; }; 
+            CLASS = theController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                theComments = id; 
+                theDuration = id; 
+                theInput = id; 
+                theMW = id; 
+                theOutput = id; 
+                window = NSWindow; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

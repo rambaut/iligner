@@ -1,0 +1,67 @@
+//
+//  BCSequenceArray.m
+//  BioCocoa
+//
+//  Created by Koen van der Drift on 10/9/2005.
+//  Copyright 2005 The BioCocoa Project. All rights reserved.
+//
+//  This code is covered by the Creative Commons Share-Alike Attribution license.
+//	You are free:
+//	to copy, distribute, display, and perform the work
+//	to make derivative works
+//	to make commercial use of the work
+//
+//	Under the following conditions:
+//	You must attribute the work in the manner specified by the author or licensor.
+//	If you alter, transform, or build upon this work, you may distribute the resulting work only under a license identical to this one.
+//
+//	For any reuse or distribution, you must make clear to others the license terms of this work.
+//	Any of these conditions can be waived if you get permission from the copyright holder.
+//
+//  For more info see: http://creativecommons.org/licenses/by-sa/2.5/
+
+#import "BCSequenceArray.h"
+
+
+@implementation BCSequenceArray
+
+- (id)init
+{
+    if ( (self = [super init]) )
+	{
+		sequenceArray = [[NSMutableArray alloc] init];
+	}
+	
+	return self;
+}
+
+- (void) dealloc
+{
+	[sequenceArray release];
+	
+	[super dealloc];
+}
+
+-(BCSequence *) sequenceAtIndex:(int)index
+{
+	// need to do some checking...
+	return [sequenceArray objectAtIndex: index];
+}
+
+
+-(void) addSequence: (BCSequence *) aSequence
+{
+	[sequenceArray addObject: aSequence];
+}
+
+-(void) removeSequence: (BCSequence *) aSequence
+{
+	// actually I am not sure how to implement this if a sequence is passed - maybe it should be removeSequenceAtIndex
+}
+
+- (int) count
+{
+	return [sequenceArray count];
+}
+
+@end

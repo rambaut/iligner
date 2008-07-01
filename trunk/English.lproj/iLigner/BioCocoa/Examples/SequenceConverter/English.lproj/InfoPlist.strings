@@ -1,0 +1,6 @@
+/* Localized versions of Info.plist keys */
+
+CFBundleName = "SequenceConverter";
+CFBundleShortVersionString = "SequenceConverter version 1.5";
+CFBundleGetInfoString = "SequenceConverter version 1.5, Copyright Copyright 2004 Peter Schols.";
+NSHumanReadableCopyright = "Licensed under the GNU LGPL\n© 2004 P. Schols";

@@ -1,0 +1,2027 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 44;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0448157009BCC4DC00B8FA97 /* about-cvs.html in Resources */ = {isa = PBXBuildFile; fileRef = 0448156709BCC4DC00B8FA97 /* about-cvs.html */; };
+		0448157109BCC4DC00B8FA97 /* about-tests.html in Resources */ = {isa = PBXBuildFile; fileRef = 0448156809BCC4DC00B8FA97 /* about-tests.html */; };
+		0448157209BCC4DC00B8FA97 /* bc.css in Resources */ = {isa = PBXBuildFile; fileRef = 0448156909BCC4DC00B8FA97 /* bc.css */; };
+		0448157309BCC4DC00B8FA97 /* biococoaxcode.html in Resources */ = {isa = PBXBuildFile; fileRef = 0448156A09BCC4DC00B8FA97 /* biococoaxcode.html */; };
+		0448157409BCC4DC00B8FA97 /* headerdoc.html in Resources */ = {isa = PBXBuildFile; fileRef = 0448156B09BCC4DC00B8FA97 /* headerdoc.html */; };
+		0448157509BCC4DC00B8FA97 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 0448156C09BCC4DC00B8FA97 /* index.html */; };
+		0448157609BCC4DC00B8FA97 /* newfiles.html in Resources */ = {isa = PBXBuildFile; fileRef = 0448156D09BCC4DC00B8FA97 /* newfiles.html */; };
+		0448157709BCC4DC00B8FA97 /* newtargets.html in Resources */ = {isa = PBXBuildFile; fileRef = 0448156E09BCC4DC00B8FA97 /* newtargets.html */; };
+		0448157809BCC4DC00B8FA97 /* todo.html in Resources */ = {isa = PBXBuildFile; fileRef = 0448156F09BCC4DC00B8FA97 /* todo.html */; };
+		0448160309BDC4BC00B8FA97 /* Info-BioCocoa.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0448160209BDC4BC00B8FA97 /* Info-BioCocoa.plist */; };
+		0448162F09BDC6A100B8FA97 /* BCStringDefinitions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0448162D09BDC6A100B8FA97 /* BCStringDefinitions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0448163009BDC6A100B8FA97 /* BCStringDefinitions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0448162E09BDC6A100B8FA97 /* BCStringDefinitions.m */; };
+		0465452309BDCFCE00E7688D /* BC.icns in Resources */ = {isa = PBXBuildFile; fileRef = 0465452209BDCFCE00E7688D /* BC.icns */; };
+		4802003007D424F100D236DF /* BCSequence.h in Headers */ = {isa = PBXBuildFile; fileRef = 4897A0F807B34C960024883E /* BCSequence.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4802003307D424F100D236DF /* BioCocoa_Prefix.h in Headers */ = {isa = PBXBuildFile; fileRef = 04C2DB26065A5ED50015C8C7 /* BioCocoa_Prefix.h */; };
+		4802003407D424F100D236DF /* BCUtilStrings.h in Headers */ = {isa = PBXBuildFile; fileRef = 04C2DB28065A5ED50015C8C7 /* BCUtilStrings.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4802003907D424F100D236DF /* BCAminoAcid.h in Headers */ = {isa = PBXBuildFile; fileRef = 844A3E5E06D59FFA00423B33 /* BCAminoAcid.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4802003A07D424F100D236DF /* BCNucleotideDNA.h in Headers */ = {isa = PBXBuildFile; fileRef = 844A3E6006D59FFA00423B33 /* BCNucleotideDNA.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4802003B07D424F100D236DF /* BCSymbol.h in Headers */ = {isa = PBXBuildFile; fileRef = 844A3E6206D59FFA00423B33 /* BCSymbol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4802003C07D424F100D236DF /* BCToolMassCalculator.h in Headers */ = {isa = PBXBuildFile; fileRef = 84D54ABB06DE346700B93E1D /* BCToolMassCalculator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4802004107D424F100D236DF /* BCSymbolSet.h in Headers */ = {isa = PBXBuildFile; fileRef = A6B8D58206F22B1C00D408DE /* BCSymbolSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4802004307D424F100D236DF /* BCFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = A684951D06F48F6600C6DE25 /* BCFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4802004407D424F100D236DF /* BCFoundationDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = A684951E06F48F6600C6DE25 /* BCFoundationDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4802004507D424F100D236DF /* BCNucleotideRNA.h in Headers */ = {isa = PBXBuildFile; fileRef = 84476337070095540008A46C /* BCNucleotideRNA.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4802004B07D424F100D236DF /* BCToolSymbolCounter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D583D92073087E4004AB031 /* BCToolSymbolCounter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4802004C07D424F100D236DF /* BCToolSequenceFinder.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DA65F150731CE1000E4B0D9 /* BCToolSequenceFinder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4802004D07D424F100D236DF /* BCSequenceReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DC52C890741A9A000E772AB /* BCSequenceReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4802004E07D424F100D236DF /* BCToolComplement.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DEB8F08074ED0200062A5DE /* BCToolComplement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4802004F07D424F100D236DF /* BCSequenceTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D6B438D0773BBE80020682B /* BCSequenceTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4802005007D424F100D236DF /* BCAnnotation.h in Headers */ = {isa = PBXBuildFile; fileRef = A6BC0D8A07CB89970084DA38 /* BCAnnotation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4802005107D424F100D236DF /* BCSequenceView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D5A0B3607CC19D900578AA1 /* BCSequenceView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4802005207D424F100D236DF /* BCAppKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D4F377D07CEC219004B7241 /* BCAppKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4802005407D424F100D236DF /* BCNucleotide.h in Headers */ = {isa = PBXBuildFile; fileRef = 8499CF1D07CFE68B00E71F3B /* BCNucleotide.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4802005507D424F100D236DF /* BCToolDigest.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DD2B45D07D17C9D000436B2 /* BCToolDigest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4802005807D424F100D236DF /* aminoacids.plist in Resources */ = {isa = PBXBuildFile; fileRef = 844A3E9406D5A16C00423B33 /* aminoacids.plist */; };
+		4802005907D424F100D236DF /* nucleotides.plist in Resources */ = {isa = PBXBuildFile; fileRef = 844A3E9506D5A16C00423B33 /* nucleotides.plist */; };
+		4802006007D424F100D236DF /* BCUtilStrings.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C2DB29065A5ED50015C8C7 /* BCUtilStrings.m */; };
+		4802006107D424F100D236DF /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 04C2DB27065A5ED50015C8C7 /* main.c */; };
+		4802006507D424F100D236DF /* BCAminoAcid.m in Sources */ = {isa = PBXBuildFile; fileRef = 844A3E5F06D59FFA00423B33 /* BCAminoAcid.m */; };
+		4802006607D424F100D236DF /* BCNucleotideDNA.m in Sources */ = {isa = PBXBuildFile; fileRef = 844A3E6106D59FFA00423B33 /* BCNucleotideDNA.m */; };
+		4802006707D424F100D236DF /* BCSymbol.m in Sources */ = {isa = PBXBuildFile; fileRef = 844A3E6306D59FFA00423B33 /* BCSymbol.m */; };
+		4802006807D424F100D236DF /* BCToolMassCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D54ABC06DE346700B93E1D /* BCToolMassCalculator.m */; };
+		4802006E07D424F100D236DF /* BCSymbolSet.m in Sources */ = {isa = PBXBuildFile; fileRef = A69A394506F2388E00A82E04 /* BCSymbolSet.m */; };
+		4802006F07D424F100D236DF /* BCNucleotideRNA.m in Sources */ = {isa = PBXBuildFile; fileRef = 84476338070095540008A46C /* BCNucleotideRNA.m */; };
+		4802007507D424F100D236DF /* BCToolSymbolCounter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D583D93073087E4004AB031 /* BCToolSymbolCounter.m */; };
+		4802007607D424F100D236DF /* BCToolSequenceFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DA65F160731CE1000E4B0D9 /* BCToolSequenceFinder.m */; };
+		4802007707D424F100D236DF /* BCSequenceReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC52C8A0741A9A000E772AB /* BCSequenceReader.m */; };
+		4802007807D424F100D236DF /* BCToolComplement.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DEB8F09074ED0200062A5DE /* BCToolComplement.m */; };
+		4802007907D424F100D236DF /* BCSequenceTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6B438E0773BBE80020682B /* BCSequenceTool.m */; };
+		4802007A07D424F100D236DF /* BCSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = 4897A0F907B34C960024883E /* BCSequence.m */; };
+		4802007C07D424F100D236DF /* BCAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0D8B07CB89970084DA38 /* BCAnnotation.m */; };
+		4802007D07D424F100D236DF /* BCSequenceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5A0B3707CC19D900578AA1 /* BCSequenceView.m */; };
+		4802007F07D424F100D236DF /* BCNucleotide.m in Sources */ = {isa = PBXBuildFile; fileRef = 8499CF1E07CFE68B00E71F3B /* BCNucleotide.m */; };
+		4802008007D424F100D236DF /* BCToolDigest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD2B45E07D17C9D000436B2 /* BCToolDigest.m */; };
+		4802008307D424F100D236DF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		4818329307FFC4B800B42A19 /* BioCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4802008907D424F100D236DF /* BioCocoa.framework */; };
+		48DCBB66081C62CC00C222EA /* Test-BCFoundation_Prefix.h in Headers */ = {isa = PBXBuildFile; fileRef = 48DCBB5A081C62CB00C222EA /* Test-BCFoundation_Prefix.h */; };
+		48DCBB67081C62CC00C222EA /* Test-BCFoundation-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 48DCBB5B081C62CC00C222EA /* Test-BCFoundation-Info.plist */; };
+		48DCBB6A081C62CC00C222EA /* TestBCSequenceInit.h in Headers */ = {isa = PBXBuildFile; fileRef = 48DCBB5E081C62CC00C222EA /* TestBCSequenceInit.h */; };
+		48DCBB6B081C62CC00C222EA /* TestBCSequenceInit.m in Sources */ = {isa = PBXBuildFile; fileRef = 48DCBB5F081C62CC00C222EA /* TestBCSequenceInit.m */; };
+		48DCBB6C081C62CC00C222EA /* TestBCSequenceProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = 48DCBB60081C62CC00C222EA /* TestBCSequenceProperties.h */; };
+		48DCBB6D081C62CC00C222EA /* TestBCSequenceProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 48DCBB61081C62CC00C222EA /* TestBCSequenceProperties.m */; };
+		5D27F9AE0823B4AE0008A8CA /* BCToolHydropathyCalculator.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D27F9AC0823B4AE0008A8CA /* BCToolHydropathyCalculator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D27F9AF0823B4AE0008A8CA /* BCToolHydropathyCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D27F9AD0823B4AE0008A8CA /* BCToolHydropathyCalculator.m */; };
+		5D500D2907FC40CF009C116B /* Peptide.h in Resources */ = {isa = PBXBuildFile; fileRef = 5D500D2707FC40CE009C116B /* Peptide.h */; };
+		5D500D2A07FC40CF009C116B /* Peptide.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D500D2807FC40CE009C116B /* Peptide.m */; };
+		5D6D40940A8E1FEC00147C25 /* BCSequenceWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D6D40920A8E1FEC00147C25 /* BCSequenceWriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D6D40950A8E1FEC00147C25 /* BCSequenceWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6D40930A8E1FEC00147C25 /* BCSequenceWriter.m */; };
+		5D6F4F960891DE0B0072286F /* BCUtilData.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D6F4F940891DE0B0072286F /* BCUtilData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D6F4F970891DE0B0072286F /* BCUtilData.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6F4F950891DE0B0072286F /* BCUtilData.m */; };
+		5D81C612088DD07500DEB16C /* BCCodon.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D81C607088DD07500DEB16C /* BCCodon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D81C613088DD07500DEB16C /* BCCodon.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D81C608088DD07500DEB16C /* BCCodon.m */; };
+		5D81C614088DD07500DEB16C /* BCCodonDNA.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D81C609088DD07500DEB16C /* BCCodonDNA.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D81C615088DD07500DEB16C /* BCCodonDNA.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D81C60A088DD07500DEB16C /* BCCodonDNA.m */; };
+		5D81C616088DD07500DEB16C /* BCCodonRNA.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D81C60B088DD07500DEB16C /* BCCodonRNA.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D81C617088DD07500DEB16C /* BCCodonRNA.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D81C60C088DD07500DEB16C /* BCCodonRNA.m */; };
+		5D81C618088DD07500DEB16C /* BCGeneticCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D81C60D088DD07500DEB16C /* BCGeneticCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D81C619088DD07500DEB16C /* BCGeneticCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D81C60E088DD07500DEB16C /* BCGeneticCode.m */; };
+		5D81C61A088DD07500DEB16C /* universal genetic code.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5D81C610088DD07500DEB16C /* universal genetic code.plist */; };
+		5D81C61B088DD07500DEB16C /* vertebrate mitochondrial genetic code.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5D81C611088DD07500DEB16C /* vertebrate mitochondrial genetic code.plist */; };
+		5D81C626088DD14A00DEB16C /* BCToolTranslator.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D81C622088DD14A00DEB16C /* BCToolTranslator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D81C627088DD14A00DEB16C /* BCToolTranslator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D81C623088DD14A00DEB16C /* BCToolTranslator.m */; };
+		5D81C628088DD14A00DEB16C /* BCToolTranslatorDNA.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D81C624088DD14A00DEB16C /* BCToolTranslatorDNA.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D81C629088DD14A00DEB16C /* BCToolTranslatorDNA.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D81C625088DD14A00DEB16C /* BCToolTranslatorDNA.m */; };
+		5D81C641088DD28600DEB16C /* BCSequenceCodon.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D81C63F088DD28600DEB16C /* BCSequenceCodon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D81C642088DD28600DEB16C /* BCSequenceCodon.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D81C640088DD28600DEB16C /* BCSequenceCodon.m */; };
+		5D81C755088DED8E00DEB16C /* BCAtom.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D81C749088DED8E00DEB16C /* BCAtom.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D81C756088DED8E00DEB16C /* BCAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D81C74A088DED8E00DEB16C /* BCAtom.m */; };
+		5D81C757088DED8E00DEB16C /* BCChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D81C74B088DED8E00DEB16C /* BCChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D81C758088DED8E00DEB16C /* BCChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D81C74C088DED8E00DEB16C /* BCChain.m */; };
+		5D81C759088DED8E00DEB16C /* BCProteinStructure.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D81C74D088DED8E00DEB16C /* BCProteinStructure.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D81C75A088DED8E00DEB16C /* BCProteinStructure.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D81C74E088DED8E00DEB16C /* BCProteinStructure.m */; };
+		5D81C75B088DED8E00DEB16C /* BCResidue.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D81C74F088DED8E00DEB16C /* BCResidue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D81C75C088DED8E00DEB16C /* BCResidue.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D81C750088DED8E00DEB16C /* BCResidue.m */; };
+		5D81C75F088DED8E00DEB16C /* BCSequenceStructure.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D81C753088DED8E00DEB16C /* BCSequenceStructure.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D81C760088DED8E00DEB16C /* BCSequenceStructure.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D81C754088DED8E00DEB16C /* BCSequenceStructure.m */; };
+		5D81C777088DEFFD00DEB16C /* BCSecondaryStructure.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D81C775088DEFFD00DEB16C /* BCSecondaryStructure.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D81C778088DEFFD00DEB16C /* BCSecondaryStructure.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D81C776088DEFFD00DEB16C /* BCSecondaryStructure.m */; };
+		5D81C7B9088DF07600DEB16C /* BCPairwiseAlignment.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D81C7B3088DF07600DEB16C /* BCPairwiseAlignment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D81C7BA088DF07600DEB16C /* BCPairwiseAlignment.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D81C7B4088DF07600DEB16C /* BCPairwiseAlignment.m */; };
+		5D81C7BB088DF07600DEB16C /* BCScoreMatrix.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D81C7B5088DF07600DEB16C /* BCScoreMatrix.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D81C7BC088DF07600DEB16C /* BCScoreMatrix.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D81C7B6088DF07600DEB16C /* BCScoreMatrix.m */; };
+		5D81C7BD088DF07600DEB16C /* BCSequenceAlignment.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D81C7B7088DF07600DEB16C /* BCSequenceAlignment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D81C7BE088DF07700DEB16C /* BCSequenceAlignment.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D81C7B8088DF07600DEB16C /* BCSequenceAlignment.m */; };
+		5D85BE7609D77D420059781C /* about-svn.html in Resources */ = {isa = PBXBuildFile; fileRef = 5D85BE7509D77D410059781C /* about-svn.html */; };
+		5D85F8600A72612300FD7194 /* license.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D85F85F0A72612300FD7194 /* license.txt */; };
+		5DB533F508F945970043BAC3 /* BCSequenceArray.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB533F308F945970043BAC3 /* BCSequenceArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DB533F608F945970043BAC3 /* BCSequenceArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DB533F408F945970043BAC3 /* BCSequenceArray.m */; };
+		5DB9BD7B07D5488500B4C5E3 /* BCAppKitDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB9BD7A07D5488500B4C5E3 /* BCAppKitDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A62DB5C707ED8029006E8051 /* MainController.h in Headers */ = {isa = PBXBuildFile; fileRef = F55B857D026897B60100012B /* MainController.h */; };
+		A62DB5C807ED8029006E8051 /* ToolbarController.h in Headers */ = {isa = PBXBuildFile; fileRef = 04B2970205611C9E00B91DE5 /* ToolbarController.h */; };
+		A62DB5CB07ED8029006E8051 /* BioCocoa_Prefix.h in Headers */ = {isa = PBXBuildFile; fileRef = 04C2DB26065A5ED50015C8C7 /* BioCocoa_Prefix.h */; };
+		A62DB5CC07ED8029006E8051 /* BCUtilStrings.h in Headers */ = {isa = PBXBuildFile; fileRef = 04C2DB28065A5ED50015C8C7 /* BCUtilStrings.h */; };
+		A62DB5CF07ED8029006E8051 /* BC.icns in Resources */ = {isa = PBXBuildFile; fileRef = 049D0E10054ED30C00000102 /* BC.icns */; };
+		A62DB5D007ED8029006E8051 /* export.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 04C2A936056124D40097E7DD /* export.tiff */; };
+		A62DB5D107ED8029006E8051 /* import.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 04C2A937056124D40097E7DD /* import.tiff */; };
+		A62DB5D207ED8029006E8051 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0405545A0653BAEE00800353 /* Credits.rtf */; };
+		A62DB5D307ED8029006E8051 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A68492E606F4319F00C6DE25 /* InfoPlist.strings */; };
+		A62DB5D407ED8029006E8051 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = A68492E806F4319F00C6DE25 /* MainMenu.nib */; };
+		A62DB5D507ED8029006E8051 /* View.nib in Resources */ = {isa = PBXBuildFile; fileRef = A68492EA06F4319F00C6DE25 /* View.nib */; };
+		A62DB5D707ED8029006E8051 /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = F55B857E026897B60100012B /* MainController.m */; };
+		A62DB5D807ED8029006E8051 /* ToolbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B2970305611C9E00B91DE5 /* ToolbarController.m */; };
+		A62DB5D907ED8029006E8051 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FB913506F4929500802A94 /* main.m */; };
+		A62DB5DB07ED8029006E8051 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		A62DB5E407ED8029006E8051 /* BioCocoa_Prefix.h in Headers */ = {isa = PBXBuildFile; fileRef = 04C2DB26065A5ED50015C8C7 /* BioCocoa_Prefix.h */; };
+		A62DB5E507ED8029006E8051 /* theController.h in Headers */ = {isa = PBXBuildFile; fileRef = 840737D206DED0AB0067BC1C /* theController.h */; };
+		A62DB5E707ED8029006E8051 /* ReadMe.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 840737D106DED0AB0067BC1C /* ReadMe.rtf */; };
+		A62DB5E807ED8029006E8051 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A684930306F431E400C6DE25 /* InfoPlist.strings */; };
+		A62DB5E907ED8029006E8051 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = A684930506F431E400C6DE25 /* MainMenu.nib */; };
+		A62DB5EF07ED8029006E8051 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 840737D006DED0AB0067BC1C /* main.m */; };
+		A62DB5F007ED8029006E8051 /* theController.m in Sources */ = {isa = PBXBuildFile; fileRef = 840737D306DED0AB0067BC1C /* theController.m */; };
+		A62DB5F207ED8029006E8051 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		A62DB60E07ED80B5006E8051 /* BioCocoa.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4802008907D424F100D236DF /* BioCocoa.framework */; };
+		A62DB60F07ED80C6006E8051 /* BioCocoa.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4802008907D424F100D236DF /* BioCocoa.framework */; };
+		A62DB64107ED8271006E8051 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A62DB63507ED8271006E8051 /* main.m */; };
+		A62DB64207ED8271006E8051 /* Peptides_Prefix.pch in Resources */ = {isa = PBXBuildFile; fileRef = A62DB63607ED8271006E8051 /* Peptides_Prefix.pch */; };
+		A62DB64307ED8271006E8051 /* Result.h in Resources */ = {isa = PBXBuildFile; fileRef = A62DB63707ED8271006E8051 /* Result.h */; };
+		A62DB64407ED8271006E8051 /* Result.m in Sources */ = {isa = PBXBuildFile; fileRef = A62DB63807ED8271006E8051 /* Result.m */; };
+		A62DB64807ED8271006E8051 /* theController.h in Resources */ = {isa = PBXBuildFile; fileRef = A62DB63C07ED8271006E8051 /* theController.h */; };
+		A62DB64907ED8271006E8051 /* theController.m in Sources */ = {isa = PBXBuildFile; fileRef = A62DB63D07ED8271006E8051 /* theController.m */; };
+		A62DB73107ED86F3006E8051 /* test1.txt in Resources */ = {isa = PBXBuildFile; fileRef = A62DB73007ED86F3006E8051 /* test1.txt */; };
+		A62DB74507ED8727006E8051 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A62DB74107ED8727006E8051 /* InfoPlist.strings */; };
+		A62DB74607ED8727006E8051 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = A62DB74307ED8727006E8051 /* MainMenu.nib */; };
+		A62DB78207ED8ABE006E8051 /* BioCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4802008907D424F100D236DF /* BioCocoa.framework */; };
+		A62DB78B07ED8B1C006E8051 /* BioCocoa.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4802008907D424F100D236DF /* BioCocoa.framework */; };
+		A62DB7A107ED8C66006E8051 /* BioCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4802008907D424F100D236DF /* BioCocoa.framework */; };
+		A62DB7A207ED8C6F006E8051 /* BioCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4802008907D424F100D236DF /* BioCocoa.framework */; };
+		D62419AD0CB6BB2F008005CC /* BCInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = D62419AC0CB6BB2F008005CC /* BCInternal.h */; };
+		D64201350CA810C800946E18 /* TestBCSuffixArray.h in Headers */ = {isa = PBXBuildFile; fileRef = D64201330CA810C800946E18 /* TestBCSuffixArray.h */; };
+		D64201360CA810C800946E18 /* TestBCSuffixArray.m in Sources */ = {isa = PBXBuildFile; fileRef = D64201340CA810C800946E18 /* TestBCSuffixArray.m */; };
+		D642026F0CA9B78C00946E18 /* TestBCCachedSequenceFile.h in Headers */ = {isa = PBXBuildFile; fileRef = D642026D0CA9B78C00946E18 /* TestBCCachedSequenceFile.h */; };
+		D64202700CA9B78C00946E18 /* TestBCCachedSequenceFile.m in Sources */ = {isa = PBXBuildFile; fileRef = D642026E0CA9B78C00946E18 /* TestBCCachedSequenceFile.m */; };
+		D642F95C0C95A71400946E18 /* BCCachedSequenceFile.h in Headers */ = {isa = PBXBuildFile; fileRef = D642F95A0C95A71400946E18 /* BCCachedSequenceFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D642F95D0C95A71400946E18 /* BCCachedSequenceFile.m in Sources */ = {isa = PBXBuildFile; fileRef = D642F95B0C95A71400946E18 /* BCCachedSequenceFile.m */; };
+		D642F9720C95A9F000946E18 /* BCCachedFastaFile.h in Headers */ = {isa = PBXBuildFile; fileRef = D642F9700C95A9F000946E18 /* BCCachedFastaFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D642F9730C95A9F000946E18 /* BCCachedFastaFile.m in Sources */ = {isa = PBXBuildFile; fileRef = D642F9710C95A9F000946E18 /* BCCachedFastaFile.m */; };
+		D642FDC60CA2BC5E00946E18 /* TestBCSequenceReader.h in Headers */ = {isa = PBXBuildFile; fileRef = D642FDC40CA2BC5E00946E18 /* TestBCSequenceReader.h */; };
+		D642FDC70CA2BC5E00946E18 /* TestBCSequenceReader.m in Sources */ = {isa = PBXBuildFile; fileRef = D642FDC50CA2BC5E00946E18 /* TestBCSequenceReader.m */; };
+		D642FE440CA2CC8600946E18 /* pBR322 in Resources */ = {isa = PBXBuildFile; fileRef = D642FE430CA2CC8600946E18 /* pBR322 */; };
+		D642FE540CA2FC4B00946E18 /* UBBYB in Resources */ = {isa = PBXBuildFile; fileRef = D642FE530CA2FC4B00946E18 /* UBBYB */; };
+		D642FEAD0CA4592000946E18 /* hB2AR-CDS.xdna in Resources */ = {isa = PBXBuildFile; fileRef = D642FEA80CA4592000946E18 /* hB2AR-CDS.xdna */; };
+		D642FEAE0CA4592000946E18 /* hB2AR-protein.xprt in Resources */ = {isa = PBXBuildFile; fileRef = D642FEA90CA4592000946E18 /* hB2AR-protein.xprt */; };
+		D642FEAF0CA4592000946E18 /* hB26H-N,S oligos in Resources */ = {isa = PBXBuildFile; fileRef = D642FEAA0CA4592000946E18 /* hB26H-N,S oligos */; };
+		D642FEB00CA4592000946E18 /* pCDNA3.xdna in Resources */ = {isa = PBXBuildFile; fileRef = D642FEAB0CA4592000946E18 /* pCDNA3.xdna */; };
+		D642FEB10CA4592000946E18 /* pvL1392-SFhB26H in Resources */ = {isa = PBXBuildFile; fileRef = D642FEAC0CA4592000946E18 /* pvL1392-SFhB26H */; };
+		D642FF0E0CA45FF100946E18 /* test.fa in Resources */ = {isa = PBXBuildFile; fileRef = D642FF0B0CA45FF100946E18 /* test.fa */; };
+		D642FF0F0CA45FF100946E18 /* transposon.clustalw in Resources */ = {isa = PBXBuildFile; fileRef = D642FF0C0CA45FF100946E18 /* transposon.clustalw */; };
+		D642FF100CA45FF100946E18 /* transposon.fasta in Resources */ = {isa = PBXBuildFile; fileRef = D642FF0D0CA45FF100946E18 /* transposon.fasta */; };
+		D65244780C67CE5C00045868 /* BCMCP.h in Headers */ = {isa = PBXBuildFile; fileRef = D65244740C67CE5C00045868 /* BCMCP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D65244790C67CE5C00045868 /* BCMCP.m in Sources */ = {isa = PBXBuildFile; fileRef = D65244750C67CE5C00045868 /* BCMCP.m */; };
+		D652447A0C67CE5C00045868 /* BCSuffixArray.h in Headers */ = {isa = PBXBuildFile; fileRef = D65244760C67CE5C00045868 /* BCSuffixArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D652447B0C67CE5C00045868 /* BCSuffixArray.m in Sources */ = {isa = PBXBuildFile; fileRef = D65244770C67CE5C00045868 /* BCSuffixArray.m */; };
+		D689018D0D4FDA7D003DFAEE /* Publications.txt in Resources */ = {isa = PBXBuildFile; fileRef = D689018C0D4FDA7D003DFAEE /* Publications.txt */; };
+		D69310650C511444001936CC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D69310500C511444001936CC /* SenTestingKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		481832F207FFCA5B00B42A19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4802002E07D424F100D236DF;
+			remoteInfo = BioCocoa;
+		};
+		A62DB62607ED8187006E8051 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4802002E07D424F100D236DF;
+			remoteInfo = BioCocoa;
+		};
+		A62DB62807ED8196006E8051 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4802002E07D424F100D236DF;
+			remoteInfo = BioCocoa;
+		};
+		A62DB62A07ED81B9006E8051 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4802002E07D424F100D236DF;
+			remoteInfo = BioCocoa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A62DB5DD07ED8029006E8051 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A62DB60E07ED80B5006E8051 /* BioCocoa.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A62DB5F407ED8029006E8051 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A62DB60F07ED80C6006E8051 /* BioCocoa.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A62DB78507ED8AC7006E8051 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A62DB78B07ED8B1C006E8051 /* BioCocoa.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0405545A0653BAEE00800353 /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = Credits.rtf; path = Examples/SequenceConverter/Credits.rtf; sourceTree = "<group>"; };
+		0448156709BCC4DC00B8FA97 /* about-cvs.html */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.html; path = "about-cvs.html"; sourceTree = "<group>"; };
+		0448156809BCC4DC00B8FA97 /* about-tests.html */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.html; path = "about-tests.html"; sourceTree = "<group>"; };
+		0448156909BCC4DC00B8FA97 /* bc.css */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = bc.css; sourceTree = "<group>"; };
+		0448156A09BCC4DC00B8FA97 /* biococoaxcode.html */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.html; path = biococoaxcode.html; sourceTree = "<group>"; };
+		0448156B09BCC4DC00B8FA97 /* headerdoc.html */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.html; path = headerdoc.html; sourceTree = "<group>"; };
+		0448156C09BCC4DC00B8FA97 /* index.html */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		0448156D09BCC4DC00B8FA97 /* newfiles.html */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.html; path = newfiles.html; sourceTree = "<group>"; };
+		0448156E09BCC4DC00B8FA97 /* newtargets.html */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.html; path = newtargets.html; sourceTree = "<group>"; };
+		0448156F09BCC4DC00B8FA97 /* todo.html */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.html; path = todo.html; sourceTree = "<group>"; };
+		0448160209BDC4BC00B8FA97 /* Info-BioCocoa.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; name = "Info-BioCocoa.plist"; path = "Resources/Info-BioCocoa.plist"; sourceTree = "<group>"; };
+		0448162D09BDC6A100B8FA97 /* BCStringDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = BCStringDefinitions.h; path = BCFoundation/BCStringDefinitions.h; sourceTree = "<group>"; };
+		0448162E09BDC6A100B8FA97 /* BCStringDefinitions.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = BCStringDefinitions.m; path = BCFoundation/BCStringDefinitions.m; sourceTree = "<group>"; };
+		0465452209BDCFCE00E7688D /* BC.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = BC.icns; path = Resources/BC.icns; sourceTree = "<group>"; };
+		049D0E10054ED30C00000102 /* BC.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = BC.icns; path = Resources/BC.icns; sourceTree = "<group>"; };
+		04B2970205611C9E00B91DE5 /* ToolbarController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ToolbarController.h; path = Examples/SequenceConverter/ToolbarController.h; sourceTree = "<group>"; };
+		04B2970305611C9E00B91DE5 /* ToolbarController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = ToolbarController.m; path = Examples/SequenceConverter/ToolbarController.m; sourceTree = "<group>"; };
+		04C2A936056124D40097E7DD /* export.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = export.tiff; path = Examples/SequenceConverter/export.tiff; sourceTree = "<group>"; };
+		04C2A937056124D40097E7DD /* import.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = import.tiff; path = Examples/SequenceConverter/import.tiff; sourceTree = "<group>"; };
+		04C2DB26065A5ED50015C8C7 /* BioCocoa_Prefix.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = BioCocoa_Prefix.h; sourceTree = "<group>"; };
+		04C2DB27065A5ED50015C8C7 /* main.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		04C2DB28065A5ED50015C8C7 /* BCUtilStrings.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = BCUtilStrings.h; path = BCFoundation/BCUtils/BCUtilStrings.h; sourceTree = SOURCE_ROOT; };
+		04C2DB29065A5ED50015C8C7 /* BCUtilStrings.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = BCUtilStrings.m; path = BCFoundation/BCUtils/BCUtilStrings.m; sourceTree = SOURCE_ROOT; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		4802008907D424F100D236DF /* BioCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BioCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4897A0F807B34C960024883E /* BCSequence.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = BCSequence.h; path = BCFoundation/BCSequence/BCSequence.h; sourceTree = "<group>"; };
+		4897A0F907B34C960024883E /* BCSequence.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = BCSequence.m; path = BCFoundation/BCSequence/BCSequence.m; sourceTree = "<group>"; };
+		489E72A707D041B700CF2786 /* Test - BCFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Test - BCFoundation.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48DCBB5A081C62CB00C222EA /* Test-BCFoundation_Prefix.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = "Test-BCFoundation_Prefix.h"; path = "Tests/Test-BCFoundation/Test-BCFoundation_Prefix.h"; sourceTree = "<group>"; };
+		48DCBB5B081C62CC00C222EA /* Test-BCFoundation-Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; name = "Test-BCFoundation-Info.plist"; path = "Tests/Test-BCFoundation/Test-BCFoundation-Info.plist"; sourceTree = "<group>"; };
+		48DCBB5E081C62CC00C222EA /* TestBCSequenceInit.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = TestBCSequenceInit.h; path = "Tests/Test-BCFoundation/TestBCSequenceInit.h"; sourceTree = "<group>"; };
+		48DCBB5F081C62CC00C222EA /* TestBCSequenceInit.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = TestBCSequenceInit.m; path = "Tests/Test-BCFoundation/TestBCSequenceInit.m"; sourceTree = "<group>"; };
+		48DCBB60081C62CC00C222EA /* TestBCSequenceProperties.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = TestBCSequenceProperties.h; path = "Tests/Test-BCFoundation/TestBCSequenceProperties.h"; sourceTree = "<group>"; };
+		48DCBB61081C62CC00C222EA /* TestBCSequenceProperties.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = TestBCSequenceProperties.m; path = "Tests/Test-BCFoundation/TestBCSequenceProperties.m"; sourceTree = "<group>"; };
+		5D27F9AC0823B4AE0008A8CA /* BCToolHydropathyCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BCToolHydropathyCalculator.h; path = BCFoundation/BCTools/BCSequenceProperty/BCToolHydropathyCalculator.h; sourceTree = "<group>"; };
+		5D27F9AD0823B4AE0008A8CA /* BCToolHydropathyCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BCToolHydropathyCalculator.m; path = BCFoundation/BCTools/BCSequenceProperty/BCToolHydropathyCalculator.m; sourceTree = "<group>"; };
+		5D4F377D07CEC219004B7241 /* BCAppKit.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = BCAppKit.h; path = BCAppKit/BCAppKit.h; sourceTree = "<group>"; };
+		5D500D2707FC40CE009C116B /* Peptide.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = Peptide.h; path = Examples/Peptides/Peptide.h; sourceTree = "<group>"; };
+		5D500D2807FC40CE009C116B /* Peptide.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = Peptide.m; path = Examples/Peptides/Peptide.m; sourceTree = "<group>"; };
+		5D583D92073087E4004AB031 /* BCToolSymbolCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BCToolSymbolCounter.h; path = BCFoundation/BCTools/BCSequenceTools/BCToolSymbolCounter.h; sourceTree = "<group>"; };
+		5D583D93073087E4004AB031 /* BCToolSymbolCounter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BCToolSymbolCounter.m; path = BCFoundation/BCTools/BCSequenceTools/BCToolSymbolCounter.m; sourceTree = "<group>"; };
+		5D5A0B3607CC19D900578AA1 /* BCSequenceView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = BCSequenceView.h; path = BCAppkit/BCSequenceView.h; sourceTree = "<group>"; };
+		5D5A0B3707CC19D900578AA1 /* BCSequenceView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = BCSequenceView.m; path = BCAppkit/BCSequenceView.m; sourceTree = "<group>"; };
+		5D6B438D0773BBE80020682B /* BCSequenceTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BCSequenceTool.h; path = BCFoundation/BCTools/BCSequenceTool.h; sourceTree = "<group>"; };
+		5D6B438E0773BBE80020682B /* BCSequenceTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BCSequenceTool.m; path = BCFoundation/BCTools/BCSequenceTool.m; sourceTree = "<group>"; };
+		5D6D40920A8E1FEC00147C25 /* BCSequenceWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BCSequenceWriter.h; path = BCFoundation/BCSequenceIO/BCSequenceWriter.h; sourceTree = "<group>"; };
+		5D6D40930A8E1FEC00147C25 /* BCSequenceWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BCSequenceWriter.m; path = BCFoundation/BCSequenceIO/BCSequenceWriter.m; sourceTree = "<group>"; };
+		5D6F4F940891DE0B0072286F /* BCUtilData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BCUtilData.h; path = BCFoundation/BCUtils/BCUtilData.h; sourceTree = "<group>"; };
+		5D6F4F950891DE0B0072286F /* BCUtilData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BCUtilData.m; path = BCFoundation/BCUtils/BCUtilData.m; sourceTree = "<group>"; };
+		5D81C607088DD07500DEB16C /* BCCodon.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = BCCodon.h; sourceTree = "<group>"; };
+		5D81C608088DD07500DEB16C /* BCCodon.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = BCCodon.m; sourceTree = "<group>"; };
+		5D81C609088DD07500DEB16C /* BCCodonDNA.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = BCCodonDNA.h; sourceTree = "<group>"; };
+		5D81C60A088DD07500DEB16C /* BCCodonDNA.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = BCCodonDNA.m; sourceTree = "<group>"; };
+		5D81C60B088DD07500DEB16C /* BCCodonRNA.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = BCCodonRNA.h; sourceTree = "<group>"; };
+		5D81C60C088DD07500DEB16C /* BCCodonRNA.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = BCCodonRNA.m; sourceTree = "<group>"; };
+		5D81C60D088DD07500DEB16C /* BCGeneticCode.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = BCGeneticCode.h; sourceTree = "<group>"; };
+		5D81C60E088DD07500DEB16C /* BCGeneticCode.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = BCGeneticCode.m; sourceTree = "<group>"; };
+		5D81C610088DD07500DEB16C /* universal genetic code.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; path = "universal genetic code.plist"; sourceTree = "<group>"; };
+		5D81C611088DD07500DEB16C /* vertebrate mitochondrial genetic code.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; path = "vertebrate mitochondrial genetic code.plist"; sourceTree = "<group>"; };
+		5D81C622088DD14A00DEB16C /* BCToolTranslator.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = BCToolTranslator.h; sourceTree = "<group>"; };
+		5D81C623088DD14A00DEB16C /* BCToolTranslator.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = BCToolTranslator.m; sourceTree = "<group>"; };
+		5D81C624088DD14A00DEB16C /* BCToolTranslatorDNA.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = BCToolTranslatorDNA.h; sourceTree = "<group>"; };
+		5D81C625088DD14A00DEB16C /* BCToolTranslatorDNA.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = BCToolTranslatorDNA.m; sourceTree = "<group>"; };
+		5D81C63F088DD28600DEB16C /* BCSequenceCodon.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = BCSequenceCodon.h; path = BCFoundation/BCSequence/BCSequenceCodon.h; sourceTree = "<group>"; };
+		5D81C640088DD28600DEB16C /* BCSequenceCodon.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = BCSequenceCodon.m; path = BCFoundation/BCSequence/BCSequenceCodon.m; sourceTree = "<group>"; };
+		5D81C749088DED8E00DEB16C /* BCAtom.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = BCAtom.h; sourceTree = "<group>"; };
+		5D81C74A088DED8E00DEB16C /* BCAtom.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = BCAtom.m; sourceTree = "<group>"; };
+		5D81C74B088DED8E00DEB16C /* BCChain.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = BCChain.h; sourceTree = "<group>"; };
+		5D81C74C088DED8E00DEB16C /* BCChain.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = BCChain.m; sourceTree = "<group>"; };
+		5D81C74D088DED8E00DEB16C /* BCProteinStructure.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = BCProteinStructure.h; sourceTree = "<group>"; };
+		5D81C74E088DED8E00DEB16C /* BCProteinStructure.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = BCProteinStructure.m; sourceTree = "<group>"; };
+		5D81C74F088DED8E00DEB16C /* BCResidue.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = BCResidue.h; sourceTree = "<group>"; };
+		5D81C750088DED8E00DEB16C /* BCResidue.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = BCResidue.m; sourceTree = "<group>"; };
+		5D81C753088DED8E00DEB16C /* BCSequenceStructure.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = BCSequenceStructure.h; sourceTree = "<group>"; };
+		5D81C754088DED8E00DEB16C /* BCSequenceStructure.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = BCSequenceStructure.m; sourceTree = "<group>"; };
+		5D81C775088DEFFD00DEB16C /* BCSecondaryStructure.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = BCSecondaryStructure.h; sourceTree = "<group>"; };
+		5D81C776088DEFFD00DEB16C /* BCSecondaryStructure.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = BCSecondaryStructure.m; sourceTree = "<group>"; };
+		5D81C7B3088DF07600DEB16C /* BCPairwiseAlignment.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = BCPairwiseAlignment.h; sourceTree = "<group>"; };
+		5D81C7B4088DF07600DEB16C /* BCPairwiseAlignment.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = BCPairwiseAlignment.m; sourceTree = "<group>"; };
+		5D81C7B5088DF07600DEB16C /* BCScoreMatrix.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = BCScoreMatrix.h; sourceTree = "<group>"; };
+		5D81C7B6088DF07600DEB16C /* BCScoreMatrix.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = BCScoreMatrix.m; sourceTree = "<group>"; };
+		5D81C7B7088DF07600DEB16C /* BCSequenceAlignment.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = BCSequenceAlignment.h; sourceTree = "<group>"; };
+		5D81C7B8088DF07600DEB16C /* BCSequenceAlignment.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = BCSequenceAlignment.m; sourceTree = "<group>"; };
+		5D85BE7509D77D410059781C /* about-svn.html */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.html; path = "about-svn.html"; sourceTree = "<group>"; };
+		5D85F85F0A72612300FD7194 /* license.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = license.txt; sourceTree = "<group>"; };
+		5DA65F150731CE1000E4B0D9 /* BCToolSequenceFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BCToolSequenceFinder.h; path = BCFoundation/BCTools/BCSequenceTools/BCToolSequenceFinder.h; sourceTree = "<group>"; };
+		5DA65F160731CE1000E4B0D9 /* BCToolSequenceFinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BCToolSequenceFinder.m; path = BCFoundation/BCTools/BCSequenceTools/BCToolSequenceFinder.m; sourceTree = "<group>"; };
+		5DB533F308F945970043BAC3 /* BCSequenceArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BCSequenceArray.h; path = BCFoundation/BCSequence/BCSequenceArray.h; sourceTree = "<group>"; };
+		5DB533F408F945970043BAC3 /* BCSequenceArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BCSequenceArray.m; path = BCFoundation/BCSequence/BCSequenceArray.m; sourceTree = "<group>"; };
+		5DB9BD7A07D5488500B4C5E3 /* BCAppKitDefines.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = BCAppKitDefines.h; path = BCAppKit/BCAppKitDefines.h; sourceTree = "<group>"; };
+		5DC52C890741A9A000E772AB /* BCSequenceReader.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = BCSequenceReader.h; path = BCFoundation/BCSequenceIO/BCSequenceReader.h; sourceTree = "<group>"; };
+		5DC52C8A0741A9A000E772AB /* BCSequenceReader.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = BCSequenceReader.m; path = BCFoundation/BCSequenceIO/BCSequenceReader.m; sourceTree = "<group>"; };
+		5DD2B45D07D17C9D000436B2 /* BCToolDigest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BCToolDigest.h; path = BCFoundation/BCTools/BCDigest/BCToolDigest.h; sourceTree = "<group>"; };
+		5DD2B45E07D17C9D000436B2 /* BCToolDigest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BCToolDigest.m; path = BCFoundation/BCTools/BCDigest/BCToolDigest.m; sourceTree = "<group>"; };
+		5DEB8F08074ED0200062A5DE /* BCToolComplement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BCToolComplement.h; path = BCFoundation/BCTools/BCSequenceTools/BCToolComplement.h; sourceTree = "<group>"; };
+		5DEB8F09074ED0200062A5DE /* BCToolComplement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BCToolComplement.m; path = BCFoundation/BCTools/BCSequenceTools/BCToolComplement.m; sourceTree = "<group>"; };
+		840737D006DED0AB0067BC1C /* main.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Examples/Translation/main.m; sourceTree = "<group>"; };
+		840737D106DED0AB0067BC1C /* ReadMe.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = ReadMe.rtf; path = Examples/Translation/ReadMe.rtf; sourceTree = "<group>"; };
+		840737D206DED0AB0067BC1C /* theController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = theController.h; path = Examples/Translation/theController.h; sourceTree = "<group>"; };
+		840737D306DED0AB0067BC1C /* theController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = theController.m; path = Examples/Translation/theController.m; sourceTree = "<group>"; };
+		840737E906DED13A0067BC1C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; name = Info.plist; path = Examples/Translation/Info.plist; sourceTree = "<group>"; };
+		84476337070095540008A46C /* BCNucleotideRNA.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = BCNucleotideRNA.h; path = BCFoundation/BCSymbol/BCNucleotideRNA.h; sourceTree = "<group>"; };
+		84476338070095540008A46C /* BCNucleotideRNA.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = BCNucleotideRNA.m; path = BCFoundation/BCSymbol/BCNucleotideRNA.m; sourceTree = "<group>"; };
+		844A3E5E06D59FFA00423B33 /* BCAminoAcid.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = BCAminoAcid.h; path = BCFoundation/BCSymbol/BCAminoAcid.h; sourceTree = SOURCE_ROOT; };
+		844A3E5F06D59FFA00423B33 /* BCAminoAcid.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = BCAminoAcid.m; path = BCFoundation/BCSymbol/BCAminoAcid.m; sourceTree = SOURCE_ROOT; };
+		844A3E6006D59FFA00423B33 /* BCNucleotideDNA.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = BCNucleotideDNA.h; path = BCFoundation/BCSymbol/BCNucleotideDNA.h; sourceTree = SOURCE_ROOT; };
+		844A3E6106D59FFA00423B33 /* BCNucleotideDNA.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = BCNucleotideDNA.m; path = BCFoundation/BCSymbol/BCNucleotideDNA.m; sourceTree = SOURCE_ROOT; };
+		844A3E6206D59FFA00423B33 /* BCSymbol.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = BCSymbol.h; path = BCFoundation/BCSymbol/BCSymbol.h; sourceTree = SOURCE_ROOT; };
+		844A3E6306D59FFA00423B33 /* BCSymbol.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = BCSymbol.m; path = BCFoundation/BCSymbol/BCSymbol.m; sourceTree = SOURCE_ROOT; };
+		844A3E9406D5A16C00423B33 /* aminoacids.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; name = aminoacids.plist; path = "BCFoundation/BCSymbol/Symbol Templates/aminoacids.plist"; sourceTree = SOURCE_ROOT; };
+		844A3E9506D5A16C00423B33 /* nucleotides.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; name = nucleotides.plist; path = "BCFoundation/BCSymbol/Symbol Templates/nucleotides.plist"; sourceTree = SOURCE_ROOT; };
+		8499CF1D07CFE68B00E71F3B /* BCNucleotide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BCNucleotide.h; path = BCFoundation/BCSymbol/BCNucleotide.h; sourceTree = "<group>"; };
+		8499CF1E07CFE68B00E71F3B /* BCNucleotide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BCNucleotide.m; path = BCFoundation/BCSymbol/BCNucleotide.m; sourceTree = "<group>"; };
+		84D54ABB06DE346700B93E1D /* BCToolMassCalculator.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = BCToolMassCalculator.h; path = BCFoundation/BCTools/BCSequenceProperty/BCToolMassCalculator.h; sourceTree = SOURCE_ROOT; };
+		84D54ABC06DE346700B93E1D /* BCToolMassCalculator.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = BCToolMassCalculator.m; path = BCFoundation/BCTools/BCSequenceProperty/BCToolMassCalculator.m; sourceTree = SOURCE_ROOT; };
+		A62DB5DF07ED8029006E8051 /* Info-Demo-SequenceConverter.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "Info-Demo-SequenceConverter.plist"; path = "Examples/SequenceConverter/Info-Demo-SequenceConverter.plist"; sourceTree = "<group>"; };
+		A62DB5E007ED8029006E8051 /* SequenceConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SequenceConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A62DB5F607ED8029006E8051 /* Info-Demo-Translation.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "Info-Demo-Translation.plist"; path = "Examples/Translation/Info-Demo-Translation.plist"; sourceTree = "<group>"; };
+		A62DB5F707ED8029006E8051 /* Translation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Translation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A62DB62007ED8167006E8051 /* Peptides.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Peptides.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A62DB62207ED8167006E8051 /* Info-Demo-Peptides.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "Info-Demo-Peptides.plist"; path = "Examples/Peptides/Info-Demo-Peptides.plist"; sourceTree = "<group>"; };
+		A62DB63507ED8271006E8051 /* main.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Examples/Peptides/main.m; sourceTree = "<group>"; };
+		A62DB63607ED8271006E8051 /* Peptides_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = Peptides_Prefix.pch; path = Examples/Peptides/Peptides_Prefix.pch; sourceTree = "<group>"; };
+		A62DB63707ED8271006E8051 /* Result.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = Result.h; path = Examples/Peptides/Result.h; sourceTree = "<group>"; };
+		A62DB63807ED8271006E8051 /* Result.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = Result.m; path = Examples/Peptides/Result.m; sourceTree = "<group>"; };
+		A62DB63C07ED8271006E8051 /* theController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = theController.h; path = Examples/Peptides/theController.h; sourceTree = "<group>"; };
+		A62DB63D07ED8271006E8051 /* theController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = theController.m; path = Examples/Peptides/theController.m; sourceTree = "<group>"; };
+		A62DB73007ED86F3006E8051 /* test1.txt */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = test1.txt; path = Examples/Peptides/test1.txt; sourceTree = "<group>"; };
+		A62DB74207ED8727006E8051 /* English */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.strings; name = English; path = InfoPlist.strings; sourceTree = "<group>"; };
+		A62DB74407ED8727006E8051 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = MainMenu.nib; sourceTree = "<group>"; };
+		A62DB75707ED87FE006E8051 /* Readme.txt */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = Readme.txt; sourceTree = "<group>"; };
+		A68492E706F4319F00C6DE25 /* English */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.strings; name = English; path = Examples/SequenceConverter/English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A68492E906F4319F00C6DE25 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = Examples/SequenceConverter/English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		A68492EB06F4319F00C6DE25 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = Examples/SequenceConverter/English.lproj/View.nib; sourceTree = "<group>"; };
+		A684930406F431E400C6DE25 /* English */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.strings; name = English; path = Examples/Translation/English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A684930606F431E400C6DE25 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = Examples/Translation/English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		A684951D06F48F6600C6DE25 /* BCFoundation.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = BCFoundation.h; path = BCFoundation/BCFoundation.h; sourceTree = "<group>"; };
+		A684951E06F48F6600C6DE25 /* BCFoundationDefines.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = BCFoundationDefines.h; path = BCFoundation/BCFoundationDefines.h; sourceTree = "<group>"; };
+		A69A394506F2388E00A82E04 /* BCSymbolSet.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = BCSymbolSet.m; path = BCFoundation/BCSymbol/BCSymbolSet.m; sourceTree = "<group>"; };
+		A6B8D58206F22B1C00D408DE /* BCSymbolSet.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = BCSymbolSet.h; path = BCFoundation/BCSymbol/BCSymbolSet.h; sourceTree = "<group>"; };
+		A6BC0D8A07CB89970084DA38 /* BCAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = BCAnnotation.h; path = BCFoundation/BCSequence/BCAnnotation.h; sourceTree = "<group>"; };
+		A6BC0D8B07CB89970084DA38 /* BCAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = BCAnnotation.m; path = BCFoundation/BCSequence/BCAnnotation.m; sourceTree = "<group>"; };
+		A6FB913506F4929500802A94 /* main.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Examples/SequenceConverter/main.m; sourceTree = "<group>"; };
+		D62419AC0CB6BB2F008005CC /* BCInternal.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = BCInternal.h; path = BCFoundation/BCInternal.h; sourceTree = "<group>"; };
+		D64201330CA810C800946E18 /* TestBCSuffixArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestBCSuffixArray.h; path = "Tests/Test-BCFoundation/TestBCSuffixArray.h"; sourceTree = "<group>"; };
+		D64201340CA810C800946E18 /* TestBCSuffixArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestBCSuffixArray.m; path = "Tests/Test-BCFoundation/TestBCSuffixArray.m"; sourceTree = "<group>"; };
+		D642026D0CA9B78C00946E18 /* TestBCCachedSequenceFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestBCCachedSequenceFile.h; path = "Tests/Test-BCFoundation/TestBCCachedSequenceFile.h"; sourceTree = "<group>"; };
+		D642026E0CA9B78C00946E18 /* TestBCCachedSequenceFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestBCCachedSequenceFile.m; path = "Tests/Test-BCFoundation/TestBCCachedSequenceFile.m"; sourceTree = "<group>"; };
+		D642F95A0C95A71400946E18 /* BCCachedSequenceFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BCCachedSequenceFile.h; path = BCFoundation/BCSequenceIO/BCCachedSequenceFile.h; sourceTree = "<group>"; };
+		D642F95B0C95A71400946E18 /* BCCachedSequenceFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BCCachedSequenceFile.m; path = BCFoundation/BCSequenceIO/BCCachedSequenceFile.m; sourceTree = "<group>"; };
+		D642F9700C95A9F000946E18 /* BCCachedFastaFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BCCachedFastaFile.h; path = BCFoundation/BCSequenceIO/BCCachedFastaFile.h; sourceTree = "<group>"; };
+		D642F9710C95A9F000946E18 /* BCCachedFastaFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BCCachedFastaFile.m; path = BCFoundation/BCSequenceIO/BCCachedFastaFile.m; sourceTree = "<group>"; };
+		D642FDC40CA2BC5E00946E18 /* TestBCSequenceReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestBCSequenceReader.h; path = "Tests/Test-BCFoundation/TestBCSequenceReader.h"; sourceTree = "<group>"; };
+		D642FDC50CA2BC5E00946E18 /* TestBCSequenceReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestBCSequenceReader.m; path = "Tests/Test-BCFoundation/TestBCSequenceReader.m"; sourceTree = "<group>"; };
+		D642FE430CA2CC8600946E18 /* pBR322 */ = {isa = PBXFileReference; lastKnownFileType = file; name = pBR322; path = "Tests/Test-BCFoundation/DataFiles/pBR322"; sourceTree = "<group>"; };
+		D642FE530CA2FC4B00946E18 /* UBBYB */ = {isa = PBXFileReference; explicitFileType = file; name = UBBYB; path = "Tests/Test-BCFoundation/DataFiles/UBBYB"; sourceTree = "<group>"; };
+		D642FEA80CA4592000946E18 /* hB2AR-CDS.xdna */ = {isa = PBXFileReference; lastKnownFileType = file; name = "hB2AR-CDS.xdna"; path = "Tests/Test-BCFoundation/DataFiles/hB2AR-CDS.xdna"; sourceTree = "<group>"; };
+		D642FEA90CA4592000946E18 /* hB2AR-protein.xprt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "hB2AR-protein.xprt"; path = "Tests/Test-BCFoundation/DataFiles/hB2AR-protein.xprt"; sourceTree = "<group>"; };
+		D642FEAA0CA4592000946E18 /* hB26H-N,S oligos */ = {isa = PBXFileReference; lastKnownFileType = file; name = "hB26H-N,S oligos"; path = "Tests/Test-BCFoundation/DataFiles/hB26H-N,S oligos"; sourceTree = "<group>"; };
+		D642FEAB0CA4592000946E18 /* pCDNA3.xdna */ = {isa = PBXFileReference; lastKnownFileType = file; name = pCDNA3.xdna; path = "Tests/Test-BCFoundation/DataFiles/pCDNA3.xdna"; sourceTree = "<group>"; };
+		D642FEAC0CA4592000946E18 /* pvL1392-SFhB26H */ = {isa = PBXFileReference; lastKnownFileType = file; name = "pvL1392-SFhB26H"; path = "Tests/Test-BCFoundation/DataFiles/pvL1392-SFhB26H"; sourceTree = "<group>"; };
+		D642FF0B0CA45FF100946E18 /* test.fa */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = test.fa; path = "Tests/Test-BCFoundation/DataFiles/test.fa"; sourceTree = "<group>"; };
+		D642FF0C0CA45FF100946E18 /* transposon.clustalw */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = transposon.clustalw; path = "Tests/Test-BCFoundation/DataFiles/transposon.clustalw"; sourceTree = "<group>"; };
+		D642FF0D0CA45FF100946E18 /* transposon.fasta */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = transposon.fasta; path = "Tests/Test-BCFoundation/DataFiles/transposon.fasta"; sourceTree = "<group>"; };
+		D65244740C67CE5C00045868 /* BCMCP.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = BCMCP.h; path = BCFoundation/BCAnalysis/BCMCP.h; sourceTree = "<group>"; };
+		D65244750C67CE5C00045868 /* BCMCP.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = BCMCP.m; path = BCFoundation/BCAnalysis/BCMCP.m; sourceTree = "<group>"; };
+		D65244760C67CE5C00045868 /* BCSuffixArray.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = BCSuffixArray.h; path = BCFoundation/BCAnalysis/BCSuffixArray.h; sourceTree = "<group>"; };
+		D65244770C67CE5C00045868 /* BCSuffixArray.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = BCSuffixArray.m; path = BCFoundation/BCAnalysis/BCSuffixArray.m; sourceTree = "<group>"; };
+		D689018C0D4FDA7D003DFAEE /* Publications.txt */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = Publications.txt; sourceTree = "<group>"; wrapsLines = 0; };
+		D69310500C511444001936CC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		F55B857D026897B60100012B /* MainController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = MainController.h; path = Examples/SequenceConverter/MainController.h; sourceTree = "<group>"; };
+		F55B857E026897B60100012B /* MainController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = MainController.m; path = Examples/SequenceConverter/MainController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4802008207D424F100D236DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4802008307D424F100D236DF /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		489E72A407D041B700CF2786 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4818329307FFC4B800B42A19 /* BioCocoa.framework in Frameworks */,
+				D69310650C511444001936CC /* SenTestingKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A62DB5DA07ED8029006E8051 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A62DB7A107ED8C66006E8051 /* BioCocoa.framework in Frameworks */,
+				A62DB5DB07ED8029006E8051 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A62DB5F107ED8029006E8051 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A62DB7A207ED8C6F006E8051 /* BioCocoa.framework in Frameworks */,
+				A62DB5F207ED8029006E8051 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A62DB61E07ED8167006E8051 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A62DB78207ED8ABE006E8051 /* BioCocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0448156609BCC4DC00B8FA97 /* DeveloperDocs */ = {
+			isa = PBXGroup;
+			children = (
+				0448156909BCC4DC00B8FA97 /* bc.css */,
+				0448156709BCC4DC00B8FA97 /* about-cvs.html */,
+				5D85BE7509D77D410059781C /* about-svn.html */,
+				0448156809BCC4DC00B8FA97 /* about-tests.html */,
+				0448156A09BCC4DC00B8FA97 /* biococoaxcode.html */,
+				0448156B09BCC4DC00B8FA97 /* headerdoc.html */,
+				0448156C09BCC4DC00B8FA97 /* index.html */,
+				0448156D09BCC4DC00B8FA97 /* newfiles.html */,
+				0448156E09BCC4DC00B8FA97 /* newtargets.html */,
+				0448156F09BCC4DC00B8FA97 /* todo.html */,
+			);
+			path = DeveloperDocs;
+			sourceTree = "<group>";
+		};
+		080E96DDFE201D6D7F000001 /* SequenceConverter */ = {
+			isa = PBXGroup;
+			children = (
+				F55B857E026897B60100012B /* MainController.m */,
+				F55B857D026897B60100012B /* MainController.h */,
+				04B2970305611C9E00B91DE5 /* ToolbarController.m */,
+				04B2970205611C9E00B91DE5 /* ToolbarController.h */,
+				A6FB913506F4929500802A94 /* main.m */,
+				A62DB64C07ED830B006E8051 /* Resources */,
+			);
+			name = SequenceConverter;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D69310500C511444001936CC /* SenTestingKit.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				489E72A707D041B700CF2786 /* Test - BCFoundation.framework */,
+				4802008907D424F100D236DF /* BioCocoa.framework */,
+				A62DB5E007ED8029006E8051 /* SequenceConverter.app */,
+				A62DB5F707ED8029006E8051 /* Translation.app */,
+				A62DB62007ED8167006E8051 /* Peptides.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Xtract */ = {
+			isa = PBXGroup;
+			children = (
+				0448156609BCC4DC00B8FA97 /* DeveloperDocs */,
+				A6D52FB306F33CF300F51735 /* Documentation */,
+				A6D52FB506F33D5000F51735 /* BCAppkit */,
+				A6D52FB406F33D2F00F51735 /* BCFoundation */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				A69A38CF06F22D7400A82E04 /* Examples */,
+				48DCBB52081C627A00C222EA /* Tests */,
+				A62DB74707ED8793006E8051 /* General Sources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = Xtract;
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0465452209BDCFCE00E7688D /* BC.icns */,
+				0448160209BDC4BC00B8FA97 /* Info-BioCocoa.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		48DCBB52081C627A00C222EA /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				48DCBB55081C629800C222EA /* Test-BCFoundation */,
+			);
+			name = Tests;
+			sourceTree = "<group>";
+		};
+		48DCBB55081C629800C222EA /* Test-BCFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				D642FDE80CA2C0D200946E18 /* Data Files */,
+				48DCBB5A081C62CB00C222EA /* Test-BCFoundation_Prefix.h */,
+				48DCBB5B081C62CC00C222EA /* Test-BCFoundation-Info.plist */,
+				48DCBB5E081C62CC00C222EA /* TestBCSequenceInit.h */,
+				48DCBB5F081C62CC00C222EA /* TestBCSequenceInit.m */,
+				48DCBB60081C62CC00C222EA /* TestBCSequenceProperties.h */,
+				48DCBB61081C62CC00C222EA /* TestBCSequenceProperties.m */,
+				D642FDC40CA2BC5E00946E18 /* TestBCSequenceReader.h */,
+				D642FDC50CA2BC5E00946E18 /* TestBCSequenceReader.m */,
+				D64201330CA810C800946E18 /* TestBCSuffixArray.h */,
+				D64201340CA810C800946E18 /* TestBCSuffixArray.m */,
+				D642026D0CA9B78C00946E18 /* TestBCCachedSequenceFile.h */,
+				D642026E0CA9B78C00946E18 /* TestBCCachedSequenceFile.m */,
+			);
+			name = "Test-BCFoundation";
+			sourceTree = "<group>";
+		};
+		5D4CD6DD06BB117800CD5783 /* BCUtils */ = {
+			isa = PBXGroup;
+			children = (
+				04C2DB28065A5ED50015C8C7 /* BCUtilStrings.h */,
+				04C2DB29065A5ED50015C8C7 /* BCUtilStrings.m */,
+				5D6F4F940891DE0B0072286F /* BCUtilData.h */,
+				5D6F4F950891DE0B0072286F /* BCUtilData.m */,
+			);
+			name = BCUtils;
+			sourceTree = "<group>";
+		};
+		5D560AA5072B133D00C28752 /* BCSequenceTools */ = {
+			isa = PBXGroup;
+			children = (
+				5DEB8F08074ED0200062A5DE /* BCToolComplement.h */,
+				5DEB8F09074ED0200062A5DE /* BCToolComplement.m */,
+				5DA65F150731CE1000E4B0D9 /* BCToolSequenceFinder.h */,
+				5DA65F160731CE1000E4B0D9 /* BCToolSequenceFinder.m */,
+				5D583D92073087E4004AB031 /* BCToolSymbolCounter.h */,
+				5D583D93073087E4004AB031 /* BCToolSymbolCounter.m */,
+			);
+			name = BCSequenceTools;
+			sourceTree = "<group>";
+		};
+		5D81C606088DD07500DEB16C /* BCGeneticCode */ = {
+			isa = PBXGroup;
+			children = (
+				5D81C607088DD07500DEB16C /* BCCodon.h */,
+				5D81C608088DD07500DEB16C /* BCCodon.m */,
+				5D81C609088DD07500DEB16C /* BCCodonDNA.h */,
+				5D81C60A088DD07500DEB16C /* BCCodonDNA.m */,
+				5D81C60B088DD07500DEB16C /* BCCodonRNA.h */,
+				5D81C60C088DD07500DEB16C /* BCCodonRNA.m */,
+				5D81C60D088DD07500DEB16C /* BCGeneticCode.h */,
+				5D81C60E088DD07500DEB16C /* BCGeneticCode.m */,
+				5D81C60F088DD07500DEB16C /* Genetic Codes */,
+			);
+			name = BCGeneticCode;
+			path = BCFoundation/BCGeneticCode;
+			sourceTree = "<group>";
+		};
+		5D81C60F088DD07500DEB16C /* Genetic Codes */ = {
+			isa = PBXGroup;
+			children = (
+				5D81C610088DD07500DEB16C /* universal genetic code.plist */,
+				5D81C611088DD07500DEB16C /* vertebrate mitochondrial genetic code.plist */,
+			);
+			path = "Genetic Codes";
+			sourceTree = "<group>";
+		};
+		5D81C621088DD14A00DEB16C /* BCTranslation */ = {
+			isa = PBXGroup;
+			children = (
+				5D81C622088DD14A00DEB16C /* BCToolTranslator.h */,
+				5D81C623088DD14A00DEB16C /* BCToolTranslator.m */,
+				5D81C624088DD14A00DEB16C /* BCToolTranslatorDNA.h */,
+				5D81C625088DD14A00DEB16C /* BCToolTranslatorDNA.m */,
+			);
+			name = BCTranslation;
+			path = BCFoundation/BCTools/BCTranslation;
+			sourceTree = "<group>";
+		};
+		5D81C748088DED8E00DEB16C /* BCProteinStructure */ = {
+			isa = PBXGroup;
+			children = (
+				5D81C775088DEFFD00DEB16C /* BCSecondaryStructure.h */,
+				5D81C776088DEFFD00DEB16C /* BCSecondaryStructure.m */,
+				5D81C749088DED8E00DEB16C /* BCAtom.h */,
+				5D81C74A088DED8E00DEB16C /* BCAtom.m */,
+				5D81C74B088DED8E00DEB16C /* BCChain.h */,
+				5D81C74C088DED8E00DEB16C /* BCChain.m */,
+				5D81C74D088DED8E00DEB16C /* BCProteinStructure.h */,
+				5D81C74E088DED8E00DEB16C /* BCProteinStructure.m */,
+				5D81C74F088DED8E00DEB16C /* BCResidue.h */,
+				5D81C750088DED8E00DEB16C /* BCResidue.m */,
+				5D81C753088DED8E00DEB16C /* BCSequenceStructure.h */,
+				5D81C754088DED8E00DEB16C /* BCSequenceStructure.m */,
+			);
+			name = BCProteinStructure;
+			path = BCFoundation/BCProteinStructure;
+			sourceTree = "<group>";
+		};
+		5D81C7B2088DF07600DEB16C /* BCAlignment */ = {
+			isa = PBXGroup;
+			children = (
+				5D81C7B3088DF07600DEB16C /* BCPairwiseAlignment.h */,
+				5D81C7B4088DF07600DEB16C /* BCPairwiseAlignment.m */,
+				5D81C7B5088DF07600DEB16C /* BCScoreMatrix.h */,
+				5D81C7B6088DF07600DEB16C /* BCScoreMatrix.m */,
+				5D81C7B7088DF07600DEB16C /* BCSequenceAlignment.h */,
+				5D81C7B8088DF07600DEB16C /* BCSequenceAlignment.m */,
+			);
+			name = BCAlignment;
+			path = BCFoundation/BCAlignment;
+			sourceTree = "<group>";
+		};
+		8407370906DEC0450067BC1C /* Translation */ = {
+			isa = PBXGroup;
+			children = (
+				840737D206DED0AB0067BC1C /* theController.h */,
+				840737D306DED0AB0067BC1C /* theController.m */,
+				840737D006DED0AB0067BC1C /* main.m */,
+				A62DB64B07ED82E6006E8051 /* Resources */,
+			);
+			name = Translation;
+			sourceTree = "<group>";
+		};
+		844A3E4B06D59FB600423B33 /* BCSequence */ = {
+			isa = PBXGroup;
+			children = (
+				5D81C63F088DD28600DEB16C /* BCSequenceCodon.h */,
+				5D81C640088DD28600DEB16C /* BCSequenceCodon.m */,
+				4897A0F807B34C960024883E /* BCSequence.h */,
+				4897A0F907B34C960024883E /* BCSequence.m */,
+				A6BC0D8A07CB89970084DA38 /* BCAnnotation.h */,
+				A6BC0D8B07CB89970084DA38 /* BCAnnotation.m */,
+				5DB533F308F945970043BAC3 /* BCSequenceArray.h */,
+				5DB533F408F945970043BAC3 /* BCSequenceArray.m */,
+			);
+			name = BCSequence;
+			sourceTree = "<group>";
+		};
+		844A3E5906D59FE500423B33 /* BCSymbol */ = {
+			isa = PBXGroup;
+			children = (
+				844A3E5E06D59FFA00423B33 /* BCAminoAcid.h */,
+				844A3E5F06D59FFA00423B33 /* BCAminoAcid.m */,
+				8499CF1D07CFE68B00E71F3B /* BCNucleotide.h */,
+				8499CF1E07CFE68B00E71F3B /* BCNucleotide.m */,
+				844A3E6006D59FFA00423B33 /* BCNucleotideDNA.h */,
+				844A3E6106D59FFA00423B33 /* BCNucleotideDNA.m */,
+				84476337070095540008A46C /* BCNucleotideRNA.h */,
+				84476338070095540008A46C /* BCNucleotideRNA.m */,
+				844A3E6206D59FFA00423B33 /* BCSymbol.h */,
+				844A3E6306D59FFA00423B33 /* BCSymbol.m */,
+				A6B8D58206F22B1C00D408DE /* BCSymbolSet.h */,
+				A69A394506F2388E00A82E04 /* BCSymbolSet.m */,
+				A6A2293106F23B91007B48B2 /* Symbol Templates */,
+			);
+			name = BCSymbol;
+			sourceTree = "<group>";
+		};
+		A62DB61207ED80ED006E8051 /* Peptides */ = {
+			isa = PBXGroup;
+			children = (
+				5D500D2707FC40CE009C116B /* Peptide.h */,
+				5D500D2807FC40CE009C116B /* Peptide.m */,
+				A62DB63707ED8271006E8051 /* Result.h */,
+				A62DB63807ED8271006E8051 /* Result.m */,
+				A62DB63C07ED8271006E8051 /* theController.h */,
+				A62DB63D07ED8271006E8051 /* theController.m */,
+				A62DB63607ED8271006E8051 /* Peptides_Prefix.pch */,
+				A62DB63507ED8271006E8051 /* main.m */,
+				A62DB64A07ED82BA006E8051 /* Resources */,
+			);
+			name = Peptides;
+			sourceTree = "<group>";
+		};
+		A62DB64A07ED82BA006E8051 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A62DB74107ED8727006E8051 /* InfoPlist.strings */,
+				A62DB74307ED8727006E8051 /* MainMenu.nib */,
+				A62DB73007ED86F3006E8051 /* test1.txt */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A62DB64B07ED82E6006E8051 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				840737E906DED13A0067BC1C /* Info.plist */,
+				840737D106DED0AB0067BC1C /* ReadMe.rtf */,
+				A684930306F431E400C6DE25 /* InfoPlist.strings */,
+				A684930506F431E400C6DE25 /* MainMenu.nib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A62DB64C07ED830B006E8051 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				04C2A936056124D40097E7DD /* export.tiff */,
+				04C2A937056124D40097E7DD /* import.tiff */,
+				049D0E10054ED30C00000102 /* BC.icns */,
+				0405545A0653BAEE00800353 /* Credits.rtf */,
+				A68492E606F4319F00C6DE25 /* InfoPlist.strings */,
+				A68492E806F4319F00C6DE25 /* MainMenu.nib */,
+				A68492EA06F4319F00C6DE25 /* View.nib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A62DB74707ED8793006E8051 /* General Sources */ = {
+			isa = PBXGroup;
+			children = (
+				04C2DB26065A5ED50015C8C7 /* BioCocoa_Prefix.h */,
+				04C2DB27065A5ED50015C8C7 /* main.c */,
+				A62DB5DF07ED8029006E8051 /* Info-Demo-SequenceConverter.plist */,
+				A62DB5F607ED8029006E8051 /* Info-Demo-Translation.plist */,
+				A62DB62207ED8167006E8051 /* Info-Demo-Peptides.plist */,
+			);
+			name = "General Sources";
+			sourceTree = "<group>";
+		};
+		A688523606F39B5B00F25A36 /* BCTools */ = {
+			isa = PBXGroup;
+			children = (
+				5D6B438D0773BBE80020682B /* BCSequenceTool.h */,
+				5D6B438E0773BBE80020682B /* BCSequenceTool.m */,
+				A688523B06F39D5900F25A36 /* BCDigest */,
+				A688524306F39D9200F25A36 /* BCSequenceProperty */,
+				5D560AA5072B133D00C28752 /* BCSequenceTools */,
+				5D81C621088DD14A00DEB16C /* BCTranslation */,
+			);
+			name = BCTools;
+			sourceTree = "<group>";
+		};
+		A688523B06F39D5900F25A36 /* BCDigest */ = {
+			isa = PBXGroup;
+			children = (
+				5DD2B45D07D17C9D000436B2 /* BCToolDigest.h */,
+				5DD2B45E07D17C9D000436B2 /* BCToolDigest.m */,
+			);
+			name = BCDigest;
+			sourceTree = "<group>";
+		};
+		A688524306F39D9200F25A36 /* BCSequenceProperty */ = {
+			isa = PBXGroup;
+			children = (
+				5D27F9AC0823B4AE0008A8CA /* BCToolHydropathyCalculator.h */,
+				5D27F9AD0823B4AE0008A8CA /* BCToolHydropathyCalculator.m */,
+				84D54ABB06DE346700B93E1D /* BCToolMassCalculator.h */,
+				84D54ABC06DE346700B93E1D /* BCToolMassCalculator.m */,
+			);
+			name = BCSequenceProperty;
+			sourceTree = "<group>";
+		};
+		A69A38CF06F22D7400A82E04 /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				A62DB61207ED80ED006E8051 /* Peptides */,
+				8407370906DEC0450067BC1C /* Translation */,
+				080E96DDFE201D6D7F000001 /* SequenceConverter */,
+			);
+			name = Examples;
+			sourceTree = "<group>";
+		};
+		A6A2293106F23B91007B48B2 /* Symbol Templates */ = {
+			isa = PBXGroup;
+			children = (
+				844A3E9406D5A16C00423B33 /* aminoacids.plist */,
+				844A3E9506D5A16C00423B33 /* nucleotides.plist */,
+			);
+			name = "Symbol Templates";
+			sourceTree = "<group>";
+		};
+		A6B8D58606F22C7100D408DE /* BCSequenceIO */ = {
+			isa = PBXGroup;
+			children = (
+				5DC52C890741A9A000E772AB /* BCSequenceReader.h */,
+				5DC52C8A0741A9A000E772AB /* BCSequenceReader.m */,
+				5D6D40920A8E1FEC00147C25 /* BCSequenceWriter.h */,
+				5D6D40930A8E1FEC00147C25 /* BCSequenceWriter.m */,
+				D642F95A0C95A71400946E18 /* BCCachedSequenceFile.h */,
+				D642F95B0C95A71400946E18 /* BCCachedSequenceFile.m */,
+				D642F9700C95A9F000946E18 /* BCCachedFastaFile.h */,
+				D642F9710C95A9F000946E18 /* BCCachedFastaFile.m */,
+			);
+			name = BCSequenceIO;
+			sourceTree = "<group>";
+		};
+		A6D52FB306F33CF300F51735 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				A62DB75707ED87FE006E8051 /* Readme.txt */,
+				5D85F85F0A72612300FD7194 /* license.txt */,
+				D689018C0D4FDA7D003DFAEE /* Publications.txt */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+		A6D52FB406F33D2F00F51735 /* BCFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				D62419AC0CB6BB2F008005CC /* BCInternal.h */,
+				0448162D09BDC6A100B8FA97 /* BCStringDefinitions.h */,
+				0448162E09BDC6A100B8FA97 /* BCStringDefinitions.m */,
+				A684951D06F48F6600C6DE25 /* BCFoundation.h */,
+				A684951E06F48F6600C6DE25 /* BCFoundationDefines.h */,
+				5D81C7B2088DF07600DEB16C /* BCAlignment */,
+				D652446B0C67CC9500045868 /* BCAnalysis */,
+				5D81C606088DD07500DEB16C /* BCGeneticCode */,
+				5D81C748088DED8E00DEB16C /* BCProteinStructure */,
+				844A3E4B06D59FB600423B33 /* BCSequence */,
+				A6B8D58606F22C7100D408DE /* BCSequenceIO */,
+				844A3E5906D59FE500423B33 /* BCSymbol */,
+				A688523606F39B5B00F25A36 /* BCTools */,
+				5D4CD6DD06BB117800CD5783 /* BCUtils */,
+			);
+			name = BCFoundation;
+			sourceTree = "<group>";
+		};
+		A6D52FB506F33D5000F51735 /* BCAppkit */ = {
+			isa = PBXGroup;
+			children = (
+				5D4F377D07CEC219004B7241 /* BCAppKit.h */,
+				5DB9BD7A07D5488500B4C5E3 /* BCAppKitDefines.h */,
+				5D5A0B3607CC19D900578AA1 /* BCSequenceView.h */,
+				5D5A0B3707CC19D900578AA1 /* BCSequenceView.m */,
+			);
+			name = BCAppkit;
+			sourceTree = "<group>";
+		};
+		D642FDE80CA2C0D200946E18 /* Data Files */ = {
+			isa = PBXGroup;
+			children = (
+				D642FF0B0CA45FF100946E18 /* test.fa */,
+				D642FF0C0CA45FF100946E18 /* transposon.clustalw */,
+				D642FF0D0CA45FF100946E18 /* transposon.fasta */,
+				D642FEA80CA4592000946E18 /* hB2AR-CDS.xdna */,
+				D642FEA90CA4592000946E18 /* hB2AR-protein.xprt */,
+				D642FEAA0CA4592000946E18 /* hB26H-N,S oligos */,
+				D642FEAB0CA4592000946E18 /* pCDNA3.xdna */,
+				D642FEAC0CA4592000946E18 /* pvL1392-SFhB26H */,
+				D642FE530CA2FC4B00946E18 /* UBBYB */,
+				D642FE430CA2CC8600946E18 /* pBR322 */,
+			);
+			name = "Data Files";
+			sourceTree = "<group>";
+		};
+		D652446B0C67CC9500045868 /* BCAnalysis */ = {
+			isa = PBXGroup;
+			children = (
+				D65244740C67CE5C00045868 /* BCMCP.h */,
+				D65244750C67CE5C00045868 /* BCMCP.m */,
+				D65244760C67CE5C00045868 /* BCSuffixArray.h */,
+				D65244770C67CE5C00045868 /* BCSuffixArray.m */,
+			);
+			name = BCAnalysis;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4802002F07D424F100D236DF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0448162F09BDC6A100B8FA97 /* BCStringDefinitions.h in Headers */,
+				4802003007D424F100D236DF /* BCSequence.h in Headers */,
+				4802003307D424F100D236DF /* BioCocoa_Prefix.h in Headers */,
+				4802003407D424F100D236DF /* BCUtilStrings.h in Headers */,
+				4802003907D424F100D236DF /* BCAminoAcid.h in Headers */,
+				4802003A07D424F100D236DF /* BCNucleotideDNA.h in Headers */,
+				4802003B07D424F100D236DF /* BCSymbol.h in Headers */,
+				4802003C07D424F100D236DF /* BCToolMassCalculator.h in Headers */,
+				4802004107D424F100D236DF /* BCSymbolSet.h in Headers */,
+				4802004307D424F100D236DF /* BCFoundation.h in Headers */,
+				4802004407D424F100D236DF /* BCFoundationDefines.h in Headers */,
+				4802004507D424F100D236DF /* BCNucleotideRNA.h in Headers */,
+				4802004B07D424F100D236DF /* BCToolSymbolCounter.h in Headers */,
+				4802004C07D424F100D236DF /* BCToolSequenceFinder.h in Headers */,
+				4802004D07D424F100D236DF /* BCSequenceReader.h in Headers */,
+				4802004E07D424F100D236DF /* BCToolComplement.h in Headers */,
+				4802004F07D424F100D236DF /* BCSequenceTool.h in Headers */,
+				4802005007D424F100D236DF /* BCAnnotation.h in Headers */,
+				4802005107D424F100D236DF /* BCSequenceView.h in Headers */,
+				4802005207D424F100D236DF /* BCAppKit.h in Headers */,
+				4802005407D424F100D236DF /* BCNucleotide.h in Headers */,
+				4802005507D424F100D236DF /* BCToolDigest.h in Headers */,
+				5DB9BD7B07D5488500B4C5E3 /* BCAppKitDefines.h in Headers */,
+				5D27F9AE0823B4AE0008A8CA /* BCToolHydropathyCalculator.h in Headers */,
+				5D81C612088DD07500DEB16C /* BCCodon.h in Headers */,
+				5D81C614088DD07500DEB16C /* BCCodonDNA.h in Headers */,
+				5D81C616088DD07500DEB16C /* BCCodonRNA.h in Headers */,
+				5D81C618088DD07500DEB16C /* BCGeneticCode.h in Headers */,
+				5D81C626088DD14A00DEB16C /* BCToolTranslator.h in Headers */,
+				5D81C628088DD14A00DEB16C /* BCToolTranslatorDNA.h in Headers */,
+				5D81C641088DD28600DEB16C /* BCSequenceCodon.h in Headers */,
+				5D81C755088DED8E00DEB16C /* BCAtom.h in Headers */,
+				5D81C757088DED8E00DEB16C /* BCChain.h in Headers */,
+				5D81C759088DED8E00DEB16C /* BCProteinStructure.h in Headers */,
+				5D81C75B088DED8E00DEB16C /* BCResidue.h in Headers */,
+				5D81C75F088DED8E00DEB16C /* BCSequenceStructure.h in Headers */,
+				5D81C777088DEFFD00DEB16C /* BCSecondaryStructure.h in Headers */,
+				5D81C7B9088DF07600DEB16C /* BCPairwiseAlignment.h in Headers */,
+				5D81C7BB088DF07600DEB16C /* BCScoreMatrix.h in Headers */,
+				5D81C7BD088DF07600DEB16C /* BCSequenceAlignment.h in Headers */,
+				5D6F4F960891DE0B0072286F /* BCUtilData.h in Headers */,
+				5DB533F508F945970043BAC3 /* BCSequenceArray.h in Headers */,
+				5D6D40940A8E1FEC00147C25 /* BCSequenceWriter.h in Headers */,
+				D65244780C67CE5C00045868 /* BCMCP.h in Headers */,
+				D652447A0C67CE5C00045868 /* BCSuffixArray.h in Headers */,
+				D642F95C0C95A71400946E18 /* BCCachedSequenceFile.h in Headers */,
+				D642F9720C95A9F000946E18 /* BCCachedFastaFile.h in Headers */,
+				D62419AD0CB6BB2F008005CC /* BCInternal.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		489E72A107D041B700CF2786 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48DCBB66081C62CC00C222EA /* Test-BCFoundation_Prefix.h in Headers */,
+				48DCBB6A081C62CC00C222EA /* TestBCSequenceInit.h in Headers */,
+				48DCBB6C081C62CC00C222EA /* TestBCSequenceProperties.h in Headers */,
+				D642FDC60CA2BC5E00946E18 /* TestBCSequenceReader.h in Headers */,
+				D64201350CA810C800946E18 /* TestBCSuffixArray.h in Headers */,
+				D642026F0CA9B78C00946E18 /* TestBCCachedSequenceFile.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A62DB5C607ED8029006E8051 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A62DB5C707ED8029006E8051 /* MainController.h in Headers */,
+				A62DB5C807ED8029006E8051 /* ToolbarController.h in Headers */,
+				A62DB5CB07ED8029006E8051 /* BioCocoa_Prefix.h in Headers */,
+				A62DB5CC07ED8029006E8051 /* BCUtilStrings.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A62DB5E307ED8029006E8051 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A62DB5E407ED8029006E8051 /* BioCocoa_Prefix.h in Headers */,
+				A62DB5E507ED8029006E8051 /* theController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4802002E07D424F100D236DF /* BioCocoa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DC80DE608835914008257D8 /* Build configuration list for PBXNativeTarget "BioCocoa" */;
+			buildPhases = (
+				4802002F07D424F100D236DF /* Headers */,
+				4802005707D424F100D236DF /* Resources */,
+				4802005D07D424F100D236DF /* Sources */,
+				4802008207D424F100D236DF /* Frameworks */,
+				4802008407D424F100D236DF /* Rez */,
+				4802008507D424F100D236DF /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BioCocoa;
+			productInstallPath = "@executable_path/../Frameworks";
+			productName = BioCocoa;
+			productReference = 4802008907D424F100D236DF /* BioCocoa.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		489E72A607D041B700CF2786 /* Test - BCFoundation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DC80DEA08835914008257D8 /* Build configuration list for PBXNativeTarget "Test - BCFoundation" */;
+			buildPhases = (
+				489E72A107D041B700CF2786 /* Headers */,
+				489E72A207D041B700CF2786 /* Resources */,
+				489E72A307D041B700CF2786 /* Sources */,
+				489E72A407D041B700CF2786 /* Frameworks */,
+				489E72A507D041B700CF2786 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				481832F307FFCA5B00B42A19 /* PBXTargetDependency */,
+			);
+			name = "Test - BCFoundation";
+			productName = "BCFoundation-Tests";
+			productReference = 489E72A707D041B700CF2786 /* Test - BCFoundation.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A62DB5C407ED8029006E8051 /* Demo - SequenceConverter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DC80DF208835914008257D8 /* Build configuration list for PBXNativeTarget "Demo - SequenceConverter" */;
+			buildPhases = (
+				A62DB5C607ED8029006E8051 /* Headers */,
+				A62DB5CE07ED8029006E8051 /* Resources */,
+				A62DB5D607ED8029006E8051 /* Sources */,
+				A62DB5DA07ED8029006E8051 /* Frameworks */,
+				A62DB5DD07ED8029006E8051 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A62DB62707ED8187006E8051 /* PBXTargetDependency */,
+			);
+			name = "Demo - SequenceConverter";
+			productInstallPath = "$(HOME)/Applications";
+			productName = Xtract;
+			productReference = A62DB5E007ED8029006E8051 /* SequenceConverter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A62DB5E207ED8029006E8051 /* Demo - Translation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DC80DF608835914008257D8 /* Build configuration list for PBXNativeTarget "Demo - Translation" */;
+			buildPhases = (
+				A62DB5E307ED8029006E8051 /* Headers */,
+				A62DB5E607ED8029006E8051 /* Resources */,
+				A62DB5EE07ED8029006E8051 /* Sources */,
+				A62DB5F107ED8029006E8051 /* Frameworks */,
+				A62DB5F407ED8029006E8051 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A62DB62907ED8196006E8051 /* PBXTargetDependency */,
+			);
+			name = "Demo - Translation";
+			productInstallPath = "$(USER_APPS_DIR)";
+			productName = demo_app;
+			productReference = A62DB5F707ED8029006E8051 /* Translation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A62DB61F07ED8167006E8051 /* Demo - Peptides */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DC80DEE08835914008257D8 /* Build configuration list for PBXNativeTarget "Demo - Peptides" */;
+			buildPhases = (
+				A62DB61C07ED8167006E8051 /* Resources */,
+				A62DB61D07ED8167006E8051 /* Sources */,
+				A62DB61E07ED8167006E8051 /* Frameworks */,
+				A62DB78507ED8AC7006E8051 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A62DB62B07ED81B9006E8051 /* PBXTargetDependency */,
+			);
+			name = "Demo - Peptides";
+			productName = Peptides;
+			productReference = A62DB62007ED8167006E8051 /* Peptides.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 5DC80DFA08835914008257D8 /* Build configuration list for PBXProject "BioCocoa" */;
+			compatibilityVersion = "Xcode 3.0";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Xtract */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4802002E07D424F100D236DF /* BioCocoa */,
+				489E72A607D041B700CF2786 /* Test - BCFoundation */,
+				A62DB61F07ED8167006E8051 /* Demo - Peptides */,
+				A62DB5C407ED8029006E8051 /* Demo - SequenceConverter */,
+				A62DB5E207ED8029006E8051 /* Demo - Translation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4802005707D424F100D236DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4802005807D424F100D236DF /* aminoacids.plist in Resources */,
+				4802005907D424F100D236DF /* nucleotides.plist in Resources */,
+				5D81C61A088DD07500DEB16C /* universal genetic code.plist in Resources */,
+				5D81C61B088DD07500DEB16C /* vertebrate mitochondrial genetic code.plist in Resources */,
+				0448157009BCC4DC00B8FA97 /* about-cvs.html in Resources */,
+				0448157109BCC4DC00B8FA97 /* about-tests.html in Resources */,
+				0448157209BCC4DC00B8FA97 /* bc.css in Resources */,
+				0448157309BCC4DC00B8FA97 /* biococoaxcode.html in Resources */,
+				0448157409BCC4DC00B8FA97 /* headerdoc.html in Resources */,
+				0448157509BCC4DC00B8FA97 /* index.html in Resources */,
+				0448157609BCC4DC00B8FA97 /* newfiles.html in Resources */,
+				0448157709BCC4DC00B8FA97 /* newtargets.html in Resources */,
+				0448157809BCC4DC00B8FA97 /* todo.html in Resources */,
+				0448160309BDC4BC00B8FA97 /* Info-BioCocoa.plist in Resources */,
+				0465452309BDCFCE00E7688D /* BC.icns in Resources */,
+				D689018D0D4FDA7D003DFAEE /* Publications.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		489E72A207D041B700CF2786 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48DCBB67081C62CC00C222EA /* Test-BCFoundation-Info.plist in Resources */,
+				5D85BE7609D77D420059781C /* about-svn.html in Resources */,
+				D642FE440CA2CC8600946E18 /* pBR322 in Resources */,
+				D642FE540CA2FC4B00946E18 /* UBBYB in Resources */,
+				D642FEAD0CA4592000946E18 /* hB2AR-CDS.xdna in Resources */,
+				D642FEAE0CA4592000946E18 /* hB2AR-protein.xprt in Resources */,
+				D642FEAF0CA4592000946E18 /* hB26H-N,S oligos in Resources */,
+				D642FEB00CA4592000946E18 /* pCDNA3.xdna in Resources */,
+				D642FEB10CA4592000946E18 /* pvL1392-SFhB26H in Resources */,
+				D642FF0E0CA45FF100946E18 /* test.fa in Resources */,
+				D642FF0F0CA45FF100946E18 /* transposon.clustalw in Resources */,
+				D642FF100CA45FF100946E18 /* transposon.fasta in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A62DB5CE07ED8029006E8051 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A62DB5CF07ED8029006E8051 /* BC.icns in Resources */,
+				A62DB5D007ED8029006E8051 /* export.tiff in Resources */,
+				A62DB5D107ED8029006E8051 /* import.tiff in Resources */,
+				A62DB5D207ED8029006E8051 /* Credits.rtf in Resources */,
+				A62DB5D307ED8029006E8051 /* InfoPlist.strings in Resources */,
+				A62DB5D407ED8029006E8051 /* MainMenu.nib in Resources */,
+				A62DB5D507ED8029006E8051 /* View.nib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A62DB5E607ED8029006E8051 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A62DB5E707ED8029006E8051 /* ReadMe.rtf in Resources */,
+				A62DB5E807ED8029006E8051 /* InfoPlist.strings in Resources */,
+				A62DB5E907ED8029006E8051 /* MainMenu.nib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A62DB61C07ED8167006E8051 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A62DB64207ED8271006E8051 /* Peptides_Prefix.pch in Resources */,
+				A62DB64307ED8271006E8051 /* Result.h in Resources */,
+				A62DB64807ED8271006E8051 /* theController.h in Resources */,
+				A62DB73107ED86F3006E8051 /* test1.txt in Resources */,
+				A62DB74507ED8727006E8051 /* InfoPlist.strings in Resources */,
+				A62DB74607ED8727006E8051 /* MainMenu.nib in Resources */,
+				5D500D2907FC40CF009C116B /* Peptide.h in Resources */,
+				5D85F8600A72612300FD7194 /* license.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		4802008407D424F100D236DF /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4802008507D424F100D236DF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/bash;
+			shellScript = "#! /bin/bash\n\nmkdir -p Documentation\n\nheaderdoc2html -o Documentation BCFoundation\ngatherheaderdoc Documentation\n";
+		};
+		489E72A507D041B700CF2786 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = /Developer/Tools/RunTargetUnitTests;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4802005D07D424F100D236DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4802006007D424F100D236DF /* BCUtilStrings.m in Sources */,
+				4802006107D424F100D236DF /* main.c in Sources */,
+				4802006507D424F100D236DF /* BCAminoAcid.m in Sources */,
+				4802006607D424F100D236DF /* BCNucleotideDNA.m in Sources */,
+				4802006707D424F100D236DF /* BCSymbol.m in Sources */,
+				4802006807D424F100D236DF /* BCToolMassCalculator.m in Sources */,
+				4802006E07D424F100D236DF /* BCSymbolSet.m in Sources */,
+				4802006F07D424F100D236DF /* BCNucleotideRNA.m in Sources */,
+				4802007507D424F100D236DF /* BCToolSymbolCounter.m in Sources */,
+				4802007607D424F100D236DF /* BCToolSequenceFinder.m in Sources */,
+				4802007707D424F100D236DF /* BCSequenceReader.m in Sources */,
+				4802007807D424F100D236DF /* BCToolComplement.m in Sources */,
+				4802007907D424F100D236DF /* BCSequenceTool.m in Sources */,
+				4802007A07D424F100D236DF /* BCSequence.m in Sources */,
+				4802007C07D424F100D236DF /* BCAnnotation.m in Sources */,
+				4802007D07D424F100D236DF /* BCSequenceView.m in Sources */,
+				4802007F07D424F100D236DF /* BCNucleotide.m in Sources */,
+				4802008007D424F100D236DF /* BCToolDigest.m in Sources */,
+				5D27F9AF0823B4AE0008A8CA /* BCToolHydropathyCalculator.m in Sources */,
+				5D81C613088DD07500DEB16C /* BCCodon.m in Sources */,
+				5D81C615088DD07500DEB16C /* BCCodonDNA.m in Sources */,
+				5D81C617088DD07500DEB16C /* BCCodonRNA.m in Sources */,
+				5D81C619088DD07500DEB16C /* BCGeneticCode.m in Sources */,
+				5D81C627088DD14A00DEB16C /* BCToolTranslator.m in Sources */,
+				5D81C629088DD14A00DEB16C /* BCToolTranslatorDNA.m in Sources */,
+				5D81C642088DD28600DEB16C /* BCSequenceCodon.m in Sources */,
+				5D81C756088DED8E00DEB16C /* BCAtom.m in Sources */,
+				5D81C758088DED8E00DEB16C /* BCChain.m in Sources */,
+				5D81C75A088DED8E00DEB16C /* BCProteinStructure.m in Sources */,
+				5D81C75C088DED8E00DEB16C /* BCResidue.m in Sources */,
+				5D81C760088DED8E00DEB16C /* BCSequenceStructure.m in Sources */,
+				5D81C778088DEFFD00DEB16C /* BCSecondaryStructure.m in Sources */,
+				5D81C7BA088DF07600DEB16C /* BCPairwiseAlignment.m in Sources */,
+				5D81C7BC088DF07600DEB16C /* BCScoreMatrix.m in Sources */,
+				5D81C7BE088DF07700DEB16C /* BCSequenceAlignment.m in Sources */,
+				5D6F4F970891DE0B0072286F /* BCUtilData.m in Sources */,
+				5DB533F608F945970043BAC3 /* BCSequenceArray.m in Sources */,
+				0448163009BDC6A100B8FA97 /* BCStringDefinitions.m in Sources */,
+				5D6D40950A8E1FEC00147C25 /* BCSequenceWriter.m in Sources */,
+				D65244790C67CE5C00045868 /* BCMCP.m in Sources */,
+				D652447B0C67CE5C00045868 /* BCSuffixArray.m in Sources */,
+				D642F95D0C95A71400946E18 /* BCCachedSequenceFile.m in Sources */,
+				D642F9730C95A9F000946E18 /* BCCachedFastaFile.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		489E72A307D041B700CF2786 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48DCBB6B081C62CC00C222EA /* TestBCSequenceInit.m in Sources */,
+				48DCBB6D081C62CC00C222EA /* TestBCSequenceProperties.m in Sources */,
+				D642FDC70CA2BC5E00946E18 /* TestBCSequenceReader.m in Sources */,
+				D64201360CA810C800946E18 /* TestBCSuffixArray.m in Sources */,
+				D64202700CA9B78C00946E18 /* TestBCCachedSequenceFile.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A62DB5D607ED8029006E8051 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A62DB5D707ED8029006E8051 /* MainController.m in Sources */,
+				A62DB5D807ED8029006E8051 /* ToolbarController.m in Sources */,
+				A62DB5D907ED8029006E8051 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A62DB5EE07ED8029006E8051 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A62DB5EF07ED8029006E8051 /* main.m in Sources */,
+				A62DB5F007ED8029006E8051 /* theController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A62DB61D07ED8167006E8051 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A62DB64107ED8271006E8051 /* main.m in Sources */,
+				A62DB64407ED8271006E8051 /* Result.m in Sources */,
+				A62DB64907ED8271006E8051 /* theController.m in Sources */,
+				5D500D2A07FC40CF009C116B /* Peptide.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		481832F307FFCA5B00B42A19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4802002E07D424F100D236DF /* BioCocoa */;
+			targetProxy = 481832F207FFCA5B00B42A19 /* PBXContainerItemProxy */;
+		};
+		A62DB62707ED8187006E8051 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4802002E07D424F100D236DF /* BioCocoa */;
+			targetProxy = A62DB62607ED8187006E8051 /* PBXContainerItemProxy */;
+		};
+		A62DB62907ED8196006E8051 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4802002E07D424F100D236DF /* BioCocoa */;
+			targetProxy = A62DB62807ED8196006E8051 /* PBXContainerItemProxy */;
+		};
+		A62DB62B07ED81B9006E8051 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4802002E07D424F100D236DF /* BioCocoa */;
+			targetProxy = A62DB62A07ED81B9006E8051 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A62DB74107ED8727006E8051 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A62DB74207ED8727006E8051 /* English */,
+			);
+			name = InfoPlist.strings;
+			path = Examples/Peptides/English.lproj;
+			sourceTree = "<group>";
+		};
+		A62DB74307ED8727006E8051 /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A62DB74407ED8727006E8051 /* English */,
+			);
+			name = MainMenu.nib;
+			path = Examples/Peptides/English.lproj;
+			sourceTree = "<group>";
+		};
+		A68492E606F4319F00C6DE25 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A68492E706F4319F00C6DE25 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A68492E806F4319F00C6DE25 /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A68492E906F4319F00C6DE25 /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+		A68492EA06F4319F00C6DE25 /* View.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A68492EB06F4319F00C6DE25 /* English */,
+			);
+			name = View.nib;
+			sourceTree = "<group>";
+		};
+		A684930306F431E400C6DE25 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A684930406F431E400C6DE25 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A684930506F431E400C6DE25 /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A684930606F431E400C6DE25 /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5DC80DE708835914008257D8 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = "";
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = BioCocoa_Prefix.h;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "Resources/Info-BioCocoa.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = "";
+				OPTIMIZATION_CFLAGS = "-O0";
+				OTHER_LDFLAGS = (
+					"-seg1addr",
+					0x10000000,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = BioCocoa;
+				SDKROOT = "";
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = framework;
+				ZERO_LINK = NO;
+			};
+			name = Development;
+		};
+		5DC80DE808835914008257D8 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = "";
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = BioCocoa_Prefix.h;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "Resources/Info-BioCocoa.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.2;
+				OTHER_LDFLAGS = (
+					"-seg1addr",
+					0x10000000,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = BioCocoa;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.3.9.sdk";
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = framework;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		5DC80DE908835914008257D8 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = "";
+				FRAMEWORK_VERSION = A;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = BioCocoa_Prefix.h;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "Info-BioCocoa.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.2;
+				OTHER_LDFLAGS = (
+					"-seg1addr",
+					0x10000000,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = BioCocoa;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.2.8.sdk";
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = framework;
+				ZERO_LINK = NO;
+			};
+			name = Default;
+		};
+		5DC80DEB08835914008257D8 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks,
+					/System/Library/Frameworks,
+					"$(DEVELOPER_FRAMEWORKS_DIR_QUOTED)",
+				);
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tests/Test-BCFoundation/Test-BCFoundation_Prefix.h";
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				INFOPLIST_FILE = "Tests/Test-BCFoundation/Test-BCFoundation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = "";
+				OPTIMIZATION_CFLAGS = "-O0";
+				OTHER_CFLAGS = "-fobjc-exceptions";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+					"-framework",
+					SenTestingKit,
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = "Test - BCFoundation";
+				SDKROOT = "";
+				SECTORDER_FLAGS = "";
+				TEST_AFTER_BUILD = YES;
+				WARNING_CFLAGS = "-Wmost";
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		5DC80DEC08835914008257D8 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks,
+					"$(DEVELOPER_FRAMEWORKS_DIR_QUOTED)",
+				);
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tests/Test-BCFoundation/Test-BCFoundation_Prefix.h";
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				INFOPLIST_FILE = "Tests/Test-BCFoundation/Test-BCFoundation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.3;
+				OTHER_CFLAGS = "-fobjc-exceptions";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+					"-framework",
+					SenTestingKit,
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = "Test - BCFoundation";
+				SECTORDER_FLAGS = "";
+				TEST_AFTER_BUILD = YES;
+				WARNING_CFLAGS = "-Wmost";
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		5DC80DED08835914008257D8 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks,
+					"$(DEVELOPER_FRAMEWORKS_DIR_QUOTED)",
+				);
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tests/Test-BCFoundation/Test-BCFoundation_Prefix.h";
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				INFOPLIST_FILE = "Tests/Test-BCFoundation/Test-BCFoundation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.3;
+				OTHER_CFLAGS = "-fobjc-exceptions";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+					"-framework",
+					SenTestingKit,
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = "Test - BCFoundation";
+				SECTORDER_FLAGS = "";
+				TEST_AFTER_BUILD = YES;
+				WARNING_CFLAGS = "-Wmost";
+			};
+			name = Default;
+		};
+		5DC80DEF08835914008257D8 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Examples/Peptides/Peptides_Prefix.pch;
+				INFOPLIST_FILE = "Examples/Peptides/Info-Demo-Peptides.plist";
+				INSTALL_PATH = "$(USER_APPS_DIR)";
+				OPTIMIZATION_CFLAGS = "-O0";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Peptides;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		5DC80DF008835914008257D8 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Examples/Peptides/Peptides_Prefix.pch;
+				INFOPLIST_FILE = "Examples/Peptides/Info-Demo-Peptides.plist";
+				INSTALL_PATH = "$(USER_APPS_DIR)";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Peptides;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		5DC80DF108835914008257D8 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Examples/Peptides/Peptides_Prefix.pch;
+				INFOPLIST_FILE = "Examples/Peptides/Info-Demo-Peptides.plist";
+				INSTALL_PATH = "$(USER_APPS_DIR)";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Peptides;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Default;
+		};
+		5DC80DF308835914008257D8 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "Examples/SequenceConverter/Info-Demo-SequenceConverter.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "";
+				OPTIMIZATION_CFLAGS = "-O0";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = SequenceConverter;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		5DC80DF408835914008257D8 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "Examples/SequenceConverter/Info-Demo-SequenceConverter.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = SequenceConverter;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		5DC80DF508835914008257D8 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_OPTIMIZATION_LEVEL = 0;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "Examples/SequenceConverter/Info-Demo-SequenceConverter.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = SequenceConverter;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+			};
+			name = Default;
+		};
+		5DC80DF708835914008257D8 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = "Examples/Translation/Info-Demo-Translation.plist";
+				OPTIMIZATION_CFLAGS = "-O0";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Translation;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		5DC80DF808835914008257D8 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = "Examples/Translation/Info-Demo-Translation.plist";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Translation;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		5DC80DF908835914008257D8 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = "Examples/Translation/Info-Demo-Translation.plist";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Translation;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+			};
+			name = Default;
+		};
+		5DC80DFB08835914008257D8 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					ppc,
+				);
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = "Resources/$(INFOPLIST_FILE)";
+				MACOSX_DEPLOYMENT_TARGET = "";
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Development;
+		};
+		5DC80DFC08835914008257D8 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = "Resources/$(INFOPLIST_FILE)";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				MACOSX_DEPLOYMENT_TARGET_i386 = 10.5;
+				MACOSX_DEPLOYMENT_TARGET_ppc = 10.5;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+				SDKROOT_i386 = /Developer/SDKs/MacOSX10.5.sdk;
+				SDKROOT_ppc = /Developer/SDKs/MacOSX10.5.sdk;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		5DC80DFD08835914008257D8 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				INFOPLIST_FILE = "Resources/$(INFOPLIST_FILE)";
+				MACOSX_DEPLOYMENT_TARGET = 10.3;
+				MACOSX_DEPLOYMENT_TARGET_i386 = 10.4;
+				MACOSX_DEPLOYMENT_TARGET_ppc = 10.3;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+				SDKROOT_i386 = /Developer/SDKs/MacOSX10.4u.sdk;
+				SDKROOT_ppc = /Developer/SDKs/MacOSX10.3.9.sdk;
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5DC80DE608835914008257D8 /* Build configuration list for PBXNativeTarget "BioCocoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DC80DE708835914008257D8 /* Development */,
+				5DC80DE808835914008257D8 /* Deployment */,
+				5DC80DE908835914008257D8 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		5DC80DEA08835914008257D8 /* Build configuration list for PBXNativeTarget "Test - BCFoundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DC80DEB08835914008257D8 /* Development */,
+				5DC80DEC08835914008257D8 /* Deployment */,
+				5DC80DED08835914008257D8 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		5DC80DEE08835914008257D8 /* Build configuration list for PBXNativeTarget "Demo - Peptides" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DC80DEF08835914008257D8 /* Development */,
+				5DC80DF008835914008257D8 /* Deployment */,
+				5DC80DF108835914008257D8 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		5DC80DF208835914008257D8 /* Build configuration list for PBXNativeTarget "Demo - SequenceConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DC80DF308835914008257D8 /* Development */,
+				5DC80DF408835914008257D8 /* Deployment */,
+				5DC80DF508835914008257D8 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		5DC80DF608835914008257D8 /* Build configuration list for PBXNativeTarget "Demo - Translation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DC80DF708835914008257D8 /* Development */,
+				5DC80DF808835914008257D8 /* Deployment */,
+				5DC80DF908835914008257D8 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		5DC80DFA08835914008257D8 /* Build configuration list for PBXProject "BioCocoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DC80DFB08835914008257D8 /* Development */,
+				5DC80DFC08835914008257D8 /* Deployment */,
+				5DC80DFD08835914008257D8 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

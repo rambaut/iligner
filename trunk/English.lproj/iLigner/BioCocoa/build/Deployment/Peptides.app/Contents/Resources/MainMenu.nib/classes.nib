@@ -1,0 +1,27 @@
+{
+    IBClasses = (
+        {CLASS = BCSequenceView; LANGUAGE = ObjC; SUPERCLASS = NSTextView; }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {openInput = id; process = id; revert = id; }; 
+            CLASS = theController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                chargePopup = NSPopUpButton; 
+                general = NSTextField; 
+                indicator = NSProgressIndicator; 
+                massType = NSButton; 
+                mwInput = NSTextField; 
+                peptideCount = NSTextField; 
+                processButton = NSButton; 
+                theDuration = NSTextField; 
+                theInput = BCSequenceView; 
+                toleranceInput = NSTextField; 
+                tolerancePopup = NSPopUpButton; 
+                tv = NSTableView; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

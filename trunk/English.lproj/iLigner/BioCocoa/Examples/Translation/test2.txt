@@ -1,0 +1,54 @@
+ID   O01771      PRELIMINARY;      PRT;   522 AA.
+AC   O01771;
+DT   01-JUL-1997 (TrEMBLrel. 04, Created)
+DT   01-JUL-1997 (TrEMBLrel. 04, Last sequence update)
+DT   01-MAR-2004 (TrEMBLrel. 26, Last annotation update)
+DE   Hypothetical protein.
+GN   ZC581.6.
+OS   Caenorhabditis elegans.
+OC   Eukaryota; Metazoa; Nematoda; Chromadorea; Rhabditida; Rhabditoidea;
+OC   Rhabditidae; Peloderinae; Caenorhabditis.
+OX   NCBI_TaxID=6239;
+RN   [1]
+RP   SEQUENCE FROM N.A.
+RC   STRAIN=Bristol N2;
+RX   MEDLINE=99069613; PubMed=9851916;
+RA   None;
+RT   "Genome sequence of the nematode C. elegans: a platform for
+RT   investigating biology. The C. elegans Sequencing Consortium.";
+RL   Science 282:2012-2018(1998).
+RN   [2]
+RP   SEQUENCE FROM N.A.
+RC   STRAIN=Bristol N2;
+RA   Waterston B., Gattung S., Le T.T.;
+RT   "The sequence of C. elegans cosmid ZC581.";
+RL   Submitted (SEP-2001) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   SEQUENCE FROM N.A.
+RC   STRAIN=Bristol N2;
+RA   Waterston R.;
+RT   "Direct Submission.";
+RL   Submitted (SEP-2001) to the EMBL/GenBank/DDBJ databases.
+DR   EMBL; AF003134; AAB54144.1; -.
+DR   PIR; T29767; T29767.
+DR   WormPep; ZC581.6; CE15245.
+DR   GO; GO:0008233; F:peptidase activity; IEA.
+DR   GO; GO:0004295; F:trypsin activity; IEA.
+DR   GO; GO:0006508; P:proteolysis and peptidolysis; IEA.
+DR   InterPro; IPR001254; Peptidase_S1.
+DR   InterPro; IPR009003; Pept_Ser_Cys.
+DR   Pfam; PF00089; Trypsin; 1.
+DR   SMART; SM00020; Tryp_SPc; 1.
+DR   PROSITE; PS50240; TRYPSIN_DOM; 1.
+KW   Hypothetical protein; Hydrolase; Protease; Serine protease.
+SQ   SEQUENCE   522 AA;  58381 MW;  18A4054D4BF8E27D CRC64;
+     MDKKTAKKGT ANSRSKAMTT TKRRSKPSNK ASSAPSLRKK SSSNPNKGTA RSVSKSVPKS
+     SAIPASPTVQ KEVPPVEIEK KKEEKPENQK KELAEKKLDR TQDDGKEYKE AESALGVVIK
+     EDKAPAKMDD GYEDFGPGCE FPFFLKILEM ILYWLRIPFS AKVYNGRDAS QSEAPWSVFT
+     YLYSKDEQSA TTCTGTIVSP RHILIATHCF AGQNRDGSWN LIEDTFDRSN CKDDDYVITN
+     QEFLKRVEFL SNKKGISRYP EKITLVHACT KRTANRTKKI PPQYYTDDFA IVHLYEELTF
+     SSNVQSVCVA DDETQPNDKL SLEYFGFGLN PPSDINQNGV DNTGQLRYEK IEVFRSHPME
+     IYFFQARDIT DKTVACVVSL KILILNKTQA SLNISLKGDS GGGAIADVKG KKTIIGVLSQ
+     TSCQKRRGGN ETMELYSSVG FYKNQICKYT GICDKADSYN KYHKGYIRTQ KPVRTTEAPR
+     EANARDLKPG SKGGKDKPNG VMGKFLNLII IPVIFSAIIN FL
+//
