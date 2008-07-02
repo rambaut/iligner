@@ -192,7 +192,7 @@
 			"Xdesign Model Editor Bookmark Key" = {
 				UIContextForDetailArea = {
 					_indexOfSelectedPane = 0;
-					_indexOfSelectedView = 0;
+					_indexOfSelectedView = 1;
 				};
 				UIContextForEntityArea = {
 					_indexOfSelectedView = 0;
@@ -213,7 +213,7 @@
 					chosenTableWidths = (
 						103.000000,
 						22.000000,
-						142.080078,
+						254.080078,
 					);
 				};
 				UIContextForLayoutManager = {
@@ -223,8 +223,8 @@
 						_percentageOfCollapsedView = 0;
 						isCollapsed = yes;
 						sizes = (
-							"{{0, 0}, {470, 218}}",
-							"{{475, 0}, {247, 218}}",
+							"{{0, 0}, {646, 220}}",
+							"{{651, 0}, {340, 220}}",
 						);
 					};
 					diagramSplitGeometry = {
@@ -233,8 +233,8 @@
 						_percentageOfCollapsedView = 0;
 						isCollapsed = yes;
 						sizes = (
-							"{{0, 0}, {722, 220}}",
-							"{{0, 225}, {722, 397}}",
+							"{{0, 0}, {991, 220}}",
+							"{{0, 225}, {991, 528}}",
 						);
 					};
 					tableSplitGeometry = {
@@ -243,8 +243,8 @@
 						_percentageOfCollapsedView = 0;
 						isCollapsed = yes;
 						sizes = (
-							"{{0, 0}, {292, 218}}",
-							"{{297, 0}, {171, 218}}",
+							"{{0, 0}, {404, 220}}",
+							"{{409, 0}, {237, 220}}",
 						);
 					};
 				};
@@ -341,9 +341,9 @@
 					);
 				};
 				"xdesign model browser state key - shown/hidden" = 1;
-				"xdesign model diagram view visible rect key" = "{{-5, 0}, {707, 382}}";
+				"xdesign model diagram view visible rect key" = "{{-139, -49}, {976, 513}}";
 			};
-			sepNavWindowFrame = "{{19, 162}, {722, 711}}";
+			sepNavWindowFrame = "{{444, 36}, {991, 842}}";
 		};
 	};
 	8D15AC270486D014006FF6A4 /* iLigner */ = {
