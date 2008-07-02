@@ -26,11 +26,12 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					597,
+					340,
 					20,
 					48,
 					43,
 					43,
+					20,
 					20,
 				);
 				PBXFileTableDataSourceColumnsKey = (
@@ -41,10 +42,11 @@
 					PBXFileDataSource_Errors_ColumnID,
 					PBXFileDataSource_Warnings_ColumnID,
 					PBXFileDataSource_Target_ColumnID,
+					PBXFileDataSource_SCM_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 236644103;
-			PBXWorkspaceStateSaveDate = 236644103;
+			PBXPerProjectTemplateStateSaveDate = 236648893;
+			PBXWorkspaceStateSaveDate = 236648893;
 		};
 		sourceControlManager = 4DA8A1080E1AC17B008969ED /* Source Control */;
 		userBuildSettings = {
@@ -135,6 +137,7 @@
 		fallbackIsa = XCSourceControlManager;
 		isSCMEnabled = 0;
 		scmConfiguration = {
+			repositoryName = iLigner;
 		};
 	};
 	4DA8A1090E1AC17B008969ED /* Code sense */ = {

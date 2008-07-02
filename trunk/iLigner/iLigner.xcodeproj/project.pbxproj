@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D4304A50E1AFAB700BABEE6 /* AlignmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4304A40E1AFAB700BABEE6 /* AlignmentViewController.m */; };
+		4D4304AA0E1AFAD400BABEE6 /* ImageAndTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4304A70E1AFAD400BABEE6 /* ImageAndTextCell.m */; };
+		4D4304AB0E1AFAD400BABEE6 /* SeparatorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4304A90E1AFAD400BABEE6 /* SeparatorCell.m */; };
 		4D7EDE070E1AE81E001594BC /* AlignmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7EDE060E1AE81E001594BC /* AlignmentView.m */; };
 		4D7EDE170E1AEAB8001594BC /* RulerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7EDE160E1AEAB8001594BC /* RulerView.m */; };
 		4DA8A1110E1AC314008969ED /* ILDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DA8A10F0E1AC314008969ED /* ILDocument.xib */; };
@@ -60,6 +63,12 @@
 		2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		32DBCF750370BD2300C91783 /* iLigner_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iLigner_Prefix.pch; sourceTree = "<group>"; };
+		4D4304A30E1AFAB700BABEE6 /* AlignmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlignmentViewController.h; sourceTree = "<group>"; };
+		4D4304A40E1AFAB700BABEE6 /* AlignmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlignmentViewController.m; sourceTree = "<group>"; };
+		4D4304A60E1AFAD400BABEE6 /* ImageAndTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageAndTextCell.h; sourceTree = "<group>"; };
+		4D4304A70E1AFAD400BABEE6 /* ImageAndTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageAndTextCell.m; sourceTree = "<group>"; };
+		4D4304A80E1AFAD400BABEE6 /* SeparatorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeparatorCell.h; sourceTree = "<group>"; };
+		4D4304A90E1AFAD400BABEE6 /* SeparatorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeparatorCell.m; sourceTree = "<group>"; };
 		4D7EDE050E1AE81E001594BC /* AlignmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlignmentView.h; sourceTree = "<group>"; };
 		4D7EDE060E1AE81E001594BC /* AlignmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlignmentView.m; sourceTree = "<group>"; };
 		4D7EDE150E1AEAB8001594BC /* RulerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RulerView.h; sourceTree = "<group>"; };
@@ -150,6 +159,12 @@
 		2A37F4ABFDCFA73011CA2CEA /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				4D4304A30E1AFAB700BABEE6 /* AlignmentViewController.h */,
+				4D4304A40E1AFAB700BABEE6 /* AlignmentViewController.m */,
+				4D4304A60E1AFAD400BABEE6 /* ImageAndTextCell.h */,
+				4D4304A70E1AFAD400BABEE6 /* ImageAndTextCell.m */,
+				4D4304A80E1AFAD400BABEE6 /* SeparatorCell.h */,
+				4D4304A90E1AFAD400BABEE6 /* SeparatorCell.m */,
 				4D7EDE150E1AEAB8001594BC /* RulerView.h */,
 				4D7EDE160E1AEAB8001594BC /* RulerView.m */,
 				2A37F4ACFDCFA73011CA2CEA /* ILDocument.m */,
@@ -310,6 +325,9 @@
 				4DADDD6D0E1AE1EB00D6F182 /* SourceTreeDelegate.m in Sources */,
 				4D7EDE070E1AE81E001594BC /* AlignmentView.m in Sources */,
 				4D7EDE170E1AEAB8001594BC /* RulerView.m in Sources */,
+				4D4304A50E1AFAB700BABEE6 /* AlignmentViewController.m in Sources */,
+				4D4304AA0E1AFAD400BABEE6 /* ImageAndTextCell.m in Sources */,
+				4D4304AB0E1AFAD400BABEE6 /* SeparatorCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
