@@ -5,50 +5,9 @@
 //
 // Version:	   1.0
 //
-// Disclaimer: IMPORTANT:  This Apple software is supplied to you by Apple Inc. ("Apple")
-//			   in consideration of your agreement to the following terms, and your use,
-//			   installation, modification or redistribution of this Apple software
-//			   constitutes acceptance of these terms.  If you do not agree with these
-//			   terms, please do not use, install, modify or redistribute this Apple
-//			   software.
-//
-//			   In consideration of your agreement to abide by the following terms, and
-//			   subject to these terms, Apple grants you a personal, non - exclusive
-//			   license, under Apple's copyrights in this original Apple software ( the
-//			   "Apple Software" ), to use, reproduce, modify and redistribute the Apple
-//			   Software, with or without modifications, in source and / or binary forms;
-//			   provided that if you redistribute the Apple Software in its entirety and
-//			   without modifications, you must retain this notice and the following text
-//			   and disclaimers in all such redistributions of the Apple Software. Neither
-//			   the name, trademarks, service marks or logos of Apple Inc. may be used to
-//			   endorse or promote products derived from the Apple Software without specific
-//			   prior written permission from Apple.	 Except as expressly stated in this
-//			   notice, no other rights or licenses, express or implied, are granted by
-//			   Apple herein, including but not limited to any patent rights that may be
-//			   infringed by your derivative works or by other works in which the Apple
-//			   Software may be incorporated.
-//
-//			   The Apple Software is provided by Apple on an "AS IS" basis.	 APPLE MAKES NO
-//			   WARRANTIES, EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION THE IMPLIED
-//			   WARRANTIES OF NON - INFRINGEMENT, MERCHANTABILITY AND FITNESS FOR A
-//			   PARTICULAR PURPOSE, REGARDING THE APPLE SOFTWARE OR ITS USE AND OPERATION
-//			   ALONE OR IN COMBINATION WITH YOUR PRODUCTS.
-//
-//			   IN NO EVENT SHALL APPLE BE LIABLE FOR ANY SPECIAL, INDIRECT, INCIDENTAL OR
-//			   CONSEQUENTIAL DAMAGES ( INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
-//			   SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
-//			   INTERRUPTION ) ARISING IN ANY WAY OUT OF THE USE, REPRODUCTION, MODIFICATION
-//			   AND / OR DISTRIBUTION OF THE APPLE SOFTWARE, HOWEVER CAUSED AND WHETHER
-//			   UNDER THEORY OF CONTRACT, TORT ( INCLUDING NEGLIGENCE ), STRICT LIABILITY OR
-//			   OTHERWISE, EVEN IF APPLE HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-//
-// Copyright (C) 2007 Apple Inc. All Rights Reserved.
-//
 
-#import "MyWindowController.h"
+#import "SourceViewController.h"
 
-#import "IconViewController.h"
-#import "FileViewController.h"
 #import "ChildEditController.h"
 #import "ChildNode.h"
 #import "ImageAndTextCell.h"
@@ -119,7 +78,7 @@
 @end
 
 
-@implementation MyWindowController
+@implementation SourceViewController
 
 @synthesize dragNodesArray;
 
@@ -169,10 +128,10 @@
 - (void)awakeFromNib
 {
 	// load the icon view controller for later use
-	iconViewController = [[IconViewController alloc] initWithNibName:ICONVIEW_NIB_NAME bundle:nil];
+//	iconViewController = [[IconViewController alloc] initWithNibName:ICONVIEW_NIB_NAME bundle:nil];
 	
 	// load the file view controller for later use
-	fileViewController = [[FileViewController alloc] initWithNibName:FILEVIEW_NIB_NAME bundle:nil];
+//	fileViewController = [[FileViewController alloc] initWithNibName:FILEVIEW_NIB_NAME bundle:nil];
 	
 	// load the child edit view controller for later use
 	childEditController = [[ChildEditController alloc] initWithWindowNibName:CHILDEDIT_NAME];
@@ -210,9 +169,6 @@
 	[menuItem setImage:actionImage];
 	[menuItem release];
 	
-	// truncate to the middle if the url is too long to fit
-	[[urlField cell] setLineBreakMode:NSLineBreakByTruncatingMiddle];
-	
 	// scroll to the top in case the outline contents is very long
 	[[[myOutlineView enclosingScrollView] verticalScroller] setFloatValue:0.0];
 	[[[myOutlineView enclosingScrollView] contentView] scrollToPoint:NSMakePoint(0,0)];
@@ -227,8 +183,6 @@
 											NSFilenamesPboardType,		// from Safari or Finder
 											NSFilesPromisePboardType,	// from Safari or Finder (multiple URLs)
 											nil]];
-											
-	[webView setUIDelegate:self];	// be the webView's delegate to capture NSResponder calls
 }
 
 // -------------------------------------------------------------------------------
@@ -258,21 +212,21 @@
 // -------------------------------------------------------------------------------
 - (void)selectParentFromSelection
 {
-	if ([[treeController selectedNodes] count] > 0)
+	if ([[sequencesController selectedNodes] count] > 0)
 	{
-		NSTreeNode* firstSelectedNode = [[treeController selectedNodes] objectAtIndex:0];
+		NSTreeNode* firstSelectedNode = [[sequencesController selectedNodes] objectAtIndex:0];
 		NSTreeNode* parentNode = [firstSelectedNode parentNode];
 		if (parentNode)
 		{
 			// select the parent
 			NSIndexPath* parentIndex = [parentNode indexPath];
-			[treeController setSelectionIndexPath:parentIndex];
+			[sequencesController setSelectionIndexPath:parentIndex];
 		}
 		else
 		{
 			// no parent exists (we are at the top of tree), so make no selection in our outline
-			NSArray* selectionIndexPaths = [treeController selectionIndexPaths];
-			[treeController removeSelectionIndexPaths:selectionIndexPaths];
+			NSArray* selectionIndexPaths = [sequencesController selectionIndexPaths];
+			[sequencesController removeSelectionIndexPaths:selectionIndexPaths];
 		}
 	}
 }
@@ -282,11 +236,11 @@
 // -------------------------------------------------------------------------------
 -(void)performAddFolder:(TreeAdditionObj *)treeAddition
 {
-	// NSTreeController inserts objects using NSIndexPath, so we need to calculate this
+	// NSsequencesController inserts objects using NSIndexPath, so we need to calculate this
 	NSIndexPath *indexPath = nil;
 	
 	// if there is no selection, we will add a new group to the end of the contents array
-	if ([[treeController selectedObjects] count] == 0)
+	if ([[sequencesController selectedObjects] count] == 0)
 	{
 		// there's no selection so add the folder to the top-level and at the end
 		indexPath = [NSIndexPath indexPathWithIndex:[contents count]];
@@ -296,8 +250,8 @@
 		// get the index of the currently selected node, then add the number its children to the path -
 		// this will give us an index which will allow us to add a node to the end of the currently selected node's children array.
 		//
-		indexPath = [treeController selectionIndexPath];
-		if ([[[treeController selectedObjects] objectAtIndex:0] isLeaf])
+		indexPath = [sequencesController selectionIndexPath];
+		if ([[[sequencesController selectedObjects] objectAtIndex:0] isLeaf])
 		{
 			// user is trying to add a folder on a selected child,
 			// so deselect child and select its parent for addition
@@ -305,7 +259,7 @@
 		}
 		else
 		{
-			indexPath = [indexPath indexPathByAddingIndex:[[[[treeController selectedObjects] objectAtIndex:0] children] count]];
+			indexPath = [indexPath indexPathByAddingIndex:[[[[sequencesController selectedObjects] objectAtIndex:0] children] count]];
 		}
 	}
 	
@@ -313,7 +267,7 @@
 	[node setNodeTitle:[treeAddition nodeName]];
 	
 	// the user is adding a child node, tell the controller directly
-	[treeController insertObject:node atArrangedObjectIndexPath:indexPath];
+	[sequencesController insertObject:node atArrangedObjectIndexPath:indexPath];
 	
 	[node release];
 }
@@ -351,10 +305,10 @@
 // -------------------------------------------------------------------------------
 -(void)performAddChild:(TreeAdditionObj *)treeAddition
 {
-	if ([[treeController selectedObjects] count] > 0)
+	if ([[sequencesController selectedObjects] count] > 0)
 	{
 		// we have a selection
-		if ([[[treeController selectedObjects] objectAtIndex:0] isLeaf])
+		if ([[[sequencesController selectedObjects] objectAtIndex:0] isLeaf])
 		{
 			// trying to add a child to a selected leaf node, so select its parent for add
 			[self selectParentFromSelection];
@@ -363,11 +317,11 @@
 	
 	// find the selection to insert our node
 	NSIndexPath *indexPath;
-	if ([[treeController selectedObjects] count] > 0)
+	if ([[sequencesController selectedObjects] count] > 0)
 	{
 		// we have a selection, insert at the end of the selection
-		indexPath = [treeController selectionIndexPath];
-		indexPath = [indexPath indexPathByAddingIndex:[[[[treeController selectedObjects] objectAtIndex:0] children] count]];
+		indexPath = [sequencesController selectionIndexPath];
+		indexPath = [indexPath indexPathByAddingIndex:[[[[sequencesController selectedObjects] objectAtIndex:0] children] count]];
 	}
 	else
 	{
@@ -398,7 +352,7 @@
 	}
 	
 	// the user is adding a child node, tell the controller directly
-	[treeController insertObject:node atArrangedObjectIndexPath:indexPath];
+	[sequencesController insertObject:node atArrangedObjectIndexPath:indexPath];
 
 	[node release];
 	
@@ -428,9 +382,9 @@
 }
 
 // -------------------------------------------------------------------------------
-//	addBookmarkAction:sender:
+//	addSequenceAction:sender:
 // -------------------------------------------------------------------------------
-- (IBAction)addBookmarkAction:(id)sender
+- (IBAction)addSequenceAction:(id)sender
 {
 	// ask our edit sheet for information on the new child to be added
 	NSMutableDictionary *newValues = [childEditController edit:nil from:self];
@@ -443,11 +397,11 @@
 }
 
 // -------------------------------------------------------------------------------
-//	editChildAction:sender:
+//	editSequenceAction:sender:
 // -------------------------------------------------------------------------------
-- (IBAction)editBookmarkAction:(id)sender
+- (IBAction)editSequenceAction:(id)sender
 {
-	NSIndexPath *indexPath = [treeController selectionIndexPath];
+	NSIndexPath *indexPath = [sequencesController selectionIndexPath];
 	
 	// get the selected item's name and url
 	NSInteger selectedRow = [myOutlineView selectedRow];
@@ -477,10 +431,17 @@
 			[node setNodeTitle:([[newValues objectForKey:@"name"] length] > 0) ? [newValues objectForKey:@"name"] : UNTITLED_NAME];
 			
 			// remove the current selection and replace it with the newly edited child
-			[treeController remove:self];
-			[treeController insertObject:node atArrangedObjectIndexPath:indexPath];
+			[sequencesController remove:self];
+			[sequencesController insertObject:node atArrangedObjectIndexPath:indexPath];
 		}
 	}
+}
+
+// -------------------------------------------------------------------------------
+//	removeSequenceAction:sender:
+// -------------------------------------------------------------------------------
+- (IBAction)removeSequenceAction:(id)sender
+{
 }
 
 // -------------------------------------------------------------------------------
@@ -531,9 +492,9 @@
 	}
 	
 	// inserting children automatically expands its parent, we want to close it
-	if ([[treeController selectedNodes] count] > 0)
+	if ([[sequencesController selectedNodes] count] > 0)
 	{
-		NSTreeNode *lastSelectedNode = [[treeController selectedNodes] objectAtIndex:0];
+		NSTreeNode *lastSelectedNode = [[sequencesController selectedNodes] objectAtIndex:0];
 		[myOutlineView collapseItem:lastSelectedNode];
 	}
 }
@@ -608,41 +569,14 @@
 	buildingOutlineView = NO;		// we're done building our default tree
 	
 	// remove the current selection
-	NSArray *selection = [treeController selectionIndexPaths];
-	[treeController removeSelectionIndexPaths:selection];
+	NSArray *selection = [sequencesController selectionIndexPaths];
+	[sequencesController removeSelectionIndexPaths:selection];
 	
 	[myOutlineView setHidden:NO];	// we are done populating the outline view content, show it again
 	
 	[pool release];
 }
 
-
-#pragma mark - WebView delegate
-
-// -------------------------------------------------------------------------------
-//	webView:makeFirstResponder
-//
-//	We want to keep the outline view in focus as the user clicks various URLs.
-//
-//	So this workaround applies to an unwanted side affect to some web pages that might have
-//	JavaScript code thatt focus their text fields as we target the web view with a particular URL.
-//
-// -------------------------------------------------------------------------------
-- (void)webView:(WebView *)sender makeFirstResponder:(NSResponder *)responder
-{
-	if (retargetWebView)
-	{
-		// we are targeting the webview ourselves as a result of the user clicking
-		// a url in our outlineview: don't do anything, but reset our target check flag
-		//
-		retargetWebView = NO;
-	}
-	else
-	{
-		// continue the responder chain
-		[[self window] makeFirstResponder:sender];
-	}
-}
 
 // -------------------------------------------------------------------------------
 //	isSpecialGroup:
@@ -803,108 +737,104 @@
 // ------------------------------------------------------------------------------
 - (void)changeItemView
 {
-	NSArray		*selection = [treeController selectedObjects];	
+	NSArray		*selection = [sequencesController selectedObjects];	
 	BaseNode	*node = [selection objectAtIndex:0];
 	NSString	*urlStr = [node urlString];
 	
-	if (urlStr)
-	{
-		NSURL *targetURL = [NSURL fileURLWithPath:urlStr];
-		
-		if ([urlStr hasPrefix:HTTP_PREFIX])
-		{
-			// the url is a web-based url
-			if (currentView != webView)
-			{
-				// change to web view
-				[self removeSubview];
-				currentView = nil;
-				[placeHolderView addSubview:webView];
-				currentView = webView;
-			}
-			
-			// this will tell our WebUIDelegate not to retarget first responder since some web pages force
-			// forus to their text fields - we want to keep our outline view in focus.
-			retargetWebView = YES;	
-			
-			[webView setMainFrameURL:nil];		// reset the webview to an empty frame
-			[webView setMainFrameURL:urlStr];	// re-target to the new url
-		}
-		else
-		{
-			// the url is file-system based (folder or file)
-			if (currentView != [fileViewController view] || currentView != [iconViewController view])
-			{
-				// add a spinning progress gear in case populating the icon view takes too long
-				NSRect bounds = [placeHolderView bounds];
-				CGFloat x = (bounds.size.width-32)/2;
-				CGFloat y = (bounds.size.height-32)/2;
-				NSProgressIndicator* busyGear = [[NSProgressIndicator alloc] initWithFrame:NSMakeRect(x, y, 32, 32)];
-				[busyGear setStyle:NSProgressIndicatorSpinningStyle];
-				[busyGear startAnimation:self];
-				[placeHolderView addSubview:busyGear];
-				[placeHolderView displayIfNeeded];	// we want the removed views to disappear right away
-
-				// detect if the url is a directory
-				Boolean isDirectory;
-				FSRef ref;
-				FSPathMakeRef((const UInt8 *)[urlStr fileSystemRepresentation], &ref, &isDirectory);
-				
-				if (isDirectory)
-				{
-					// avoid a flicker effect by not removing the icon view if it is already embedded
-					if (!(currentView == [iconViewController view]))
-					{
-						// remove the old subview
-						[self removeSubview];
-						currentView = nil;
-					}
-					
-					// change to icon view to display folder contents
-					[placeHolderView addSubview:[iconViewController view]];
-					currentView = [iconViewController view];
-					
-					// its a directory - show its contents using NSCollectionView
-					iconViewController.url = targetURL;
-				}
-				else
-				{
-					// its a file, just show the item info
-
-					// remove the old subview
-					[self removeSubview];
-					currentView = nil;
-				
-					// change to file view
-					[placeHolderView addSubview:[fileViewController view]];
-					currentView = [fileViewController view];
-					
-					// update the file's info
-					fileViewController.url = targetURL;
-				}
-				
-				[busyGear removeFromSuperview];
-			}
-		}
-		
-		NSRect newBounds;
-		newBounds.origin.x = 0;
-		newBounds.origin.y = 0;
-		newBounds.size.width = [[currentView superview] frame].size.width;
-		newBounds.size.height = [[currentView superview] frame].size.height;
-		[currentView setFrame:[[currentView superview] frame]];
-		
-		// make sure our added subview is placed and resizes correctly
-		[currentView setFrameOrigin:NSMakePoint(0,0)];
-		[currentView setAutoresizingMask:NSViewWidthSizable | NSViewHeightSizable];
-	}
-	else
-	{
-		// there's no url associated with this node
-		// so a container was selected - no view to display
-		[self removeSubview];
-		currentView = nil;
-	}
+//	if (urlStr)
+//	{
+//		NSURL *targetURL = [NSURL fileURLWithPath:urlStr];
+//		
+//		if ([urlStr hasPrefix:HTTP_PREFIX])
+//		{
+//			// the url is a web-based url
+//			if (currentView != webView)
+//			{
+//				// change to web view
+//				[self removeSubview];
+//				currentView = nil;
+//				[placeHolderView addSubview:webView];
+//				currentView = webView;
+//			}
+//						
+//			[webView setMainFrameURL:nil];		// reset the webview to an empty frame
+//			[webView setMainFrameURL:urlStr];	// re-target to the new url
+//		}
+//		else
+//		{
+//			// the url is file-system based (folder or file)
+//			if (currentView != [fileViewController view] || currentView != [iconViewController view])
+//			{
+//				// add a spinning progress gear in case populating the icon view takes too long
+//				NSRect bounds = [placeHolderView bounds];
+//				CGFloat x = (bounds.size.width-32)/2;
+//				CGFloat y = (bounds.size.height-32)/2;
+//				NSProgressIndicator* busyGear = [[NSProgressIndicator alloc] initWithFrame:NSMakeRect(x, y, 32, 32)];
+//				[busyGear setStyle:NSProgressIndicatorSpinningStyle];
+//				[busyGear startAnimation:self];
+//				[placeHolderView addSubview:busyGear];
+//				[placeHolderView displayIfNeeded];	// we want the removed views to disappear right away
+//
+//				// detect if the url is a directory
+//				Boolean isDirectory;
+//				FSRef ref;
+//				FSPathMakeRef((const UInt8 *)[urlStr fileSystemRepresentation], &ref, &isDirectory);
+//				
+////				if (isDirectory)
+////				{
+////					// avoid a flicker effect by not removing the icon view if it is already embedded
+////					if (!(currentView == [iconViewController view]))
+////					{
+////						// remove the old subview
+////						[self removeSubview];
+////						currentView = nil;
+////					}
+////					
+////					// change to icon view to display folder contents
+////					[placeHolderView addSubview:[iconViewController view]];
+////					currentView = [iconViewController view];
+////					
+////					// its a directory - show its contents using NSCollectionView
+////					iconViewController.url = targetURL;
+////				}
+////				else
+////				{
+////					// its a file, just show the item info
+////
+////					// remove the old subview
+////					[self removeSubview];
+////					currentView = nil;
+////				
+////					// change to file view
+////					[placeHolderView addSubview:[fileViewController view]];
+////					currentView = [fileViewController view];
+////					
+////					// update the file's info
+////					fileViewController.url = targetURL;
+////				}
+//				
+//				[busyGear removeFromSuperview];
+//			}
+//		}
+//		
+//		NSRect newBounds;
+//		newBounds.origin.x = 0;
+//		newBounds.origin.y = 0;
+//		newBounds.size.width = [[currentView superview] frame].size.width;
+//		newBounds.size.height = [[currentView superview] frame].size.height;
+//		[currentView setFrame:[[currentView superview] frame]];
+//		
+//		// make sure our added subview is placed and resizes correctly
+//		[currentView setFrameOrigin:NSMakePoint(0,0)];
+//		[currentView setAutoresizingMask:NSViewWidthSizable | NSViewHeightSizable];
+//	}
+//	else
+//	{
+//		// there's no url associated with this node
+//		// so a container was selected - no view to display
+//		[self removeSubview];
+//		currentView = nil;
+//	}
 }
 
 // -------------------------------------------------------------------------------
@@ -916,7 +846,7 @@
 		return;
 
 	// ask the tree controller for the current selection
-	NSArray *selection = [treeController selectedObjects];
+	NSArray *selection = [sequencesController selectedObjects];
 	if ([selection count] > 1)
 	{
 		// multiple selection - clear the right side view
@@ -1039,7 +969,7 @@
 		[node setLeaf:YES];
 		[node setNodeTitle:[nameArray objectAtIndex:i]];
 		[node setURL:[urlArray objectAtIndex:i]];
-		[treeController insertObject:node atArrangedObjectIndexPath:indexPath];
+		[sequencesController insertObject:node atArrangedObjectIndexPath:indexPath];
 		
 		[node release];
 	}
@@ -1060,7 +990,7 @@
 	NSInteger i;
 	for (i = ([newNodes count] - 1); i >=0; i--)
 	{
-		[treeController moveNode:[newNodes objectAtIndex:i] toIndexPath:indexPath];
+		[sequencesController moveNode:[newNodes objectAtIndex:i] toIndexPath:indexPath];
 	}
 	
 	// keep the moved nodes selected
@@ -1069,7 +999,7 @@
 	{
 		[indexPathList addObject:[[newNodes objectAtIndex:i] indexPath]];
 	}
-	[treeController setSelectionIndexPaths: indexPathList];
+	[sequencesController setSelectionIndexPaths: indexPathList];
 }
 
 // -------------------------------------------------------------------------------
@@ -1095,7 +1025,7 @@
 			[node setLeaf:YES];
 			[node setNodeTitle:name];
 			[node setURL:[url path]];
-			[treeController insertObject:node atArrangedObjectIndexPath:indexPath];
+			[sequencesController insertObject:node atArrangedObjectIndexPath:indexPath];
 			
 			[node release];
 		}
@@ -1151,7 +1081,7 @@
 		}
 		[node setLeaf:YES];
 		
-		[treeController insertObject:node atArrangedObjectIndexPath:indexPath];
+		[sequencesController insertObject:node atArrangedObjectIndexPath:indexPath];
 		
 		[node release];
 	}

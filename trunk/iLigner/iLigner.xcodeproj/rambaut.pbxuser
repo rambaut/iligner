@@ -16,6 +16,10 @@
 		addToTargets = (
 			8D15AC270486D014006FF6A4 /* iLigner */,
 		);
+		breakpoints = (
+			4D4305340E1D904D00BABEE6 /* SourceViewController.h:7 */,
+			4D43053F0E1D920B00BABEE6 /* SourceViewController.m:819 */,
+		);
 		codeSenseManager = 4DA8A1090E1AC17B008969ED /* Code sense */;
 		executables = (
 			4DA8A0FC0E1AC176008969ED /* iLigner */,
@@ -26,7 +30,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					340,
+					492,
 					20,
 					48,
 					43,
@@ -81,6 +85,7 @@
 			sepNavIntBoundsRect = "{{0, 0}, {932, 784}}";
 			sepNavSelRange = "{142, 0}";
 			sepNavVisRange = "{0, 1162}";
+			sepNavWindowFrame = "{{422, 36}, {991, 842}}";
 		};
 	};
 	4D4304D90E1D87F400BABEE6 /* BaseNode.m */ = {
@@ -123,6 +128,84 @@
 			sepNavWindowFrame = "{{42, 10}, {991, 842}}";
 		};
 	};
+	4D4304E20E1D87F400BABEE6 /* ImageAndTextCell.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {932, 738}}";
+			sepNavSelRange = "{157, 0}";
+			sepNavVisRange = "{0, 412}";
+			sepNavWindowFrame = "{{42, 10}, {991, 842}}";
+		};
+	};
+	4D4304E30E1D87F400BABEE6 /* ImageAndTextCell.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {932, 2898}}";
+			sepNavSelRange = "{157, 0}";
+			sepNavVisRange = "{0, 1356}";
+			sepNavWindowFrame = "{{19, 31}, {991, 842}}";
+		};
+	};
+	4D4304E40E1D87F400BABEE6 /* SourceViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {932, 784}}";
+			sepNavSelRange = "{398, 0}";
+			sepNavVisRange = "{0, 1432}";
+			sepNavWindowFrame = "{{134, 36}, {991, 842}}";
+		};
+	};
+	4D4304E50E1D87F400BABEE6 /* SourceViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {932, 17274}}";
+			sepNavSelRange = "{27990, 666}";
+			sepNavVisRange = "{27529, 1776}";
+			sepNavWindowFrame = "{{134, 36}, {991, 842}}";
+		};
+	};
+	4D4304E60E1D87F400BABEE6 /* NSArray_Extensions.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {932, 738}}";
+			sepNavSelRange = "{110, 0}";
+			sepNavVisRange = "{0, 344}";
+			sepNavWindowFrame = "{{42, 10}, {991, 842}}";
+		};
+	};
+	4D4304E70E1D87F400BABEE6 /* NSArray_Extensions.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {932, 770}}";
+			sepNavSelRange = "{110, 0}";
+			sepNavVisRange = "{0, 1484}";
+			sepNavWindowFrame = "{{19, 31}, {991, 842}}";
+		};
+	};
+	4D4305340E1D904D00BABEE6 /* SourceViewController.h:7 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 4D4304E40E1D87F400BABEE6 /* SourceViewController.h */;
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 7;
+		modificationTime = 236818969.273812;
+		state = 0;
+	};
+	4D43053F0E1D920B00BABEE6 /* SourceViewController.m:819 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 4D4304E50E1D87F400BABEE6 /* SourceViewController.m */;
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 819;
+		modificationTime = 236818968.848401;
+		state = 2;
+	};
 	4D7EDE050E1AE81E001594BC /* AlignmentView.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {663, 607}}";
@@ -162,7 +245,7 @@
 		argumentStrings = (
 		);
 		autoAttachOnCrash = 1;
-		breakpointsEnabled = 0;
+		breakpointsEnabled = 1;
 		configStateDict = {
 		};
 		customDataFormattersEnabled = 1;
@@ -246,7 +329,7 @@
 					chosenTableWidths = (
 						103.000000,
 						22.000000,
-						254.080078,
+						253.080078,
 					);
 				};
 				UIContextForLayoutManager = {
@@ -276,8 +359,8 @@
 						_percentageOfCollapsedView = 0;
 						isCollapsed = yes;
 						sizes = (
-							"{{0, 0}, {404, 220}}",
-							"{{409, 0}, {237, 220}}",
+							"{{0, 0}, {403, 218}}",
+							"{{408, 0}, {236, 218}}",
 						);
 					};
 				};

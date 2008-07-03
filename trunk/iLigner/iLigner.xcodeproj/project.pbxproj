@@ -11,7 +11,7 @@
 		4D4304EB0E1D87F400BABEE6 /* ChildEditController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4304DB0E1D87F400BABEE6 /* ChildEditController.m */; };
 		4D4304EC0E1D87F400BABEE6 /* ChildNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4304DD0E1D87F400BABEE6 /* ChildNode.m */; };
 		4D4304EF0E1D87F400BABEE6 /* ImageAndTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4304E30E1D87F400BABEE6 /* ImageAndTextCell.m */; };
-		4D4304F00E1D87F400BABEE6 /* MyWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4304E50E1D87F400BABEE6 /* MyWindowController.m */; };
+		4D4304F00E1D87F400BABEE6 /* SourceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4304E50E1D87F400BABEE6 /* SourceViewController.m */; };
 		4D4304F10E1D87F400BABEE6 /* NSArray_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4304E70E1D87F400BABEE6 /* NSArray_Extensions.m */; };
 		4D4304F20E1D87F400BABEE6 /* SeparatorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4304E90E1D87F400BABEE6 /* SeparatorCell.m */; };
 		4D7EDE070E1AE81E001594BC /* AlignmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7EDE060E1AE81E001594BC /* AlignmentView.m */; };
@@ -74,8 +74,8 @@
 		4D4304DD0E1D87F400BABEE6 /* ChildNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildNode.m; sourceTree = "<group>"; };
 		4D4304E20E1D87F400BABEE6 /* ImageAndTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageAndTextCell.h; sourceTree = "<group>"; };
 		4D4304E30E1D87F400BABEE6 /* ImageAndTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageAndTextCell.m; sourceTree = "<group>"; };
-		4D4304E40E1D87F400BABEE6 /* MyWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyWindowController.h; sourceTree = "<group>"; };
-		4D4304E50E1D87F400BABEE6 /* MyWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyWindowController.m; sourceTree = "<group>"; };
+		4D4304E40E1D87F400BABEE6 /* SourceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SourceViewController.h; sourceTree = "<group>"; };
+		4D4304E50E1D87F400BABEE6 /* SourceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SourceViewController.m; sourceTree = "<group>"; };
 		4D4304E60E1D87F400BABEE6 /* NSArray_Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSArray_Extensions.h; sourceTree = "<group>"; };
 		4D4304E70E1D87F400BABEE6 /* NSArray_Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSArray_Extensions.m; sourceTree = "<group>"; };
 		4D4304E80E1D87F400BABEE6 /* SeparatorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeparatorCell.h; sourceTree = "<group>"; };
@@ -222,8 +222,8 @@
 				4D4304DD0E1D87F400BABEE6 /* ChildNode.m */,
 				4D4304E20E1D87F400BABEE6 /* ImageAndTextCell.h */,
 				4D4304E30E1D87F400BABEE6 /* ImageAndTextCell.m */,
-				4D4304E40E1D87F400BABEE6 /* MyWindowController.h */,
-				4D4304E50E1D87F400BABEE6 /* MyWindowController.m */,
+				4D4304E40E1D87F400BABEE6 /* SourceViewController.h */,
+				4D4304E50E1D87F400BABEE6 /* SourceViewController.m */,
 				4D4304E60E1D87F400BABEE6 /* NSArray_Extensions.h */,
 				4D4304E70E1D87F400BABEE6 /* NSArray_Extensions.m */,
 				4D4304E80E1D87F400BABEE6 /* SeparatorCell.h */,
@@ -351,7 +351,7 @@
 				4D4304EB0E1D87F400BABEE6 /* ChildEditController.m in Sources */,
 				4D4304EC0E1D87F400BABEE6 /* ChildNode.m in Sources */,
 				4D4304EF0E1D87F400BABEE6 /* ImageAndTextCell.m in Sources */,
-				4D4304F00E1D87F400BABEE6 /* MyWindowController.m in Sources */,
+				4D4304F00E1D87F400BABEE6 /* SourceViewController.m in Sources */,
 				4D4304F10E1D87F400BABEE6 /* NSArray_Extensions.m in Sources */,
 				4D4304F20E1D87F400BABEE6 /* SeparatorCell.m in Sources */,
 			);
