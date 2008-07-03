@@ -7,11 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4D4304AB0E1AFAD400BABEE6 /* SeparatorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4304A90E1AFAD400BABEE6 /* SeparatorCell.m */; };
+		4D4304EA0E1D87F400BABEE6 /* BaseNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4304D90E1D87F400BABEE6 /* BaseNode.m */; };
+		4D4304EB0E1D87F400BABEE6 /* ChildEditController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4304DB0E1D87F400BABEE6 /* ChildEditController.m */; };
+		4D4304EC0E1D87F400BABEE6 /* ChildNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4304DD0E1D87F400BABEE6 /* ChildNode.m */; };
+		4D4304EF0E1D87F400BABEE6 /* ImageAndTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4304E30E1D87F400BABEE6 /* ImageAndTextCell.m */; };
+		4D4304F00E1D87F400BABEE6 /* MyWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4304E50E1D87F400BABEE6 /* MyWindowController.m */; };
+		4D4304F10E1D87F400BABEE6 /* NSArray_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4304E70E1D87F400BABEE6 /* NSArray_Extensions.m */; };
+		4D4304F20E1D87F400BABEE6 /* SeparatorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4304E90E1D87F400BABEE6 /* SeparatorCell.m */; };
 		4D7EDE070E1AE81E001594BC /* AlignmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7EDE060E1AE81E001594BC /* AlignmentView.m */; };
 		4D7EDE170E1AEAB8001594BC /* RulerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7EDE160E1AEAB8001594BC /* RulerView.m */; };
 		4DA8A1110E1AC314008969ED /* ILDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DA8A10F0E1AC314008969ED /* ILDocument.xib */; };
-		4DADDD6D0E1AE1EB00D6F182 /* SourceTreeDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DADDD6B0E1AE1EB00D6F182 /* SourceTreeDelegate.m */; };
 		514E9E12081EC6B8009B8CD9 /* GetMetadataForFile.c in Sources */ = {isa = PBXBuildFile; fileRef = 514E9E10081EC6B8009B8CD9 /* GetMetadataForFile.c */; };
 		514E9E13081EC6B8009B8CD9 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 514E9E11081EC6B8009B8CD9 /* main.c */; };
 		514E9E2E081EC793009B8CD9 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 514E9E2D081EC793009B8CD9 /* CoreServices.framework */; };
@@ -61,16 +66,26 @@
 		2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		32DBCF750370BD2300C91783 /* iLigner_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iLigner_Prefix.pch; sourceTree = "<group>"; };
-		4D4304A80E1AFAD400BABEE6 /* SeparatorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeparatorCell.h; sourceTree = "<group>"; };
-		4D4304A90E1AFAD400BABEE6 /* SeparatorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeparatorCell.m; sourceTree = "<group>"; };
+		4D4304D80E1D87F400BABEE6 /* BaseNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNode.h; sourceTree = "<group>"; };
+		4D4304D90E1D87F400BABEE6 /* BaseNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNode.m; sourceTree = "<group>"; };
+		4D4304DA0E1D87F400BABEE6 /* ChildEditController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildEditController.h; sourceTree = "<group>"; };
+		4D4304DB0E1D87F400BABEE6 /* ChildEditController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildEditController.m; sourceTree = "<group>"; };
+		4D4304DC0E1D87F400BABEE6 /* ChildNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildNode.h; sourceTree = "<group>"; };
+		4D4304DD0E1D87F400BABEE6 /* ChildNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildNode.m; sourceTree = "<group>"; };
+		4D4304E20E1D87F400BABEE6 /* ImageAndTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageAndTextCell.h; sourceTree = "<group>"; };
+		4D4304E30E1D87F400BABEE6 /* ImageAndTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageAndTextCell.m; sourceTree = "<group>"; };
+		4D4304E40E1D87F400BABEE6 /* MyWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyWindowController.h; sourceTree = "<group>"; };
+		4D4304E50E1D87F400BABEE6 /* MyWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyWindowController.m; sourceTree = "<group>"; };
+		4D4304E60E1D87F400BABEE6 /* NSArray_Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSArray_Extensions.h; sourceTree = "<group>"; };
+		4D4304E70E1D87F400BABEE6 /* NSArray_Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSArray_Extensions.m; sourceTree = "<group>"; };
+		4D4304E80E1D87F400BABEE6 /* SeparatorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeparatorCell.h; sourceTree = "<group>"; };
+		4D4304E90E1D87F400BABEE6 /* SeparatorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeparatorCell.m; sourceTree = "<group>"; };
 		4D7EDE050E1AE81E001594BC /* AlignmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlignmentView.h; sourceTree = "<group>"; };
 		4D7EDE060E1AE81E001594BC /* AlignmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlignmentView.m; sourceTree = "<group>"; };
 		4D7EDE150E1AEAB8001594BC /* RulerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RulerView.h; sourceTree = "<group>"; };
 		4D7EDE160E1AEAB8001594BC /* RulerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RulerView.m; sourceTree = "<group>"; };
 		4DA8A1100E1AC314008969ED /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/ILDocument.xib; sourceTree = "<group>"; };
 		4DADDD660E1AE11800D6F182 /* ILDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILDocument.h; sourceTree = "<group>"; };
-		4DADDD6B0E1AE1EB00D6F182 /* SourceTreeDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SourceTreeDelegate.m; sourceTree = "<group>"; };
-		4DADDD6C0E1AE1EB00D6F182 /* SourceTreeDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SourceTreeDelegate.h; sourceTree = "<group>"; };
 		514E9DF9081EBF9C009B8CD9 /* iLigner.mdimporter */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iLigner.mdimporter; sourceTree = BUILT_PRODUCTS_DIR; };
 		514E9DFA081EBF9C009B8CD9 /* Importer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "Importer-Info.plist"; path = "Importer/Importer-Info.plist"; sourceTree = "<group>"; };
 		514E9E10081EC6B8009B8CD9 /* GetMetadataForFile.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 30; name = GetMetadataForFile.c; path = Importer/GetMetadataForFile.c; sourceTree = "<group>"; };
@@ -153,16 +168,13 @@
 		2A37F4ABFDCFA73011CA2CEA /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				4D4304A80E1AFAD400BABEE6 /* SeparatorCell.h */,
-				4D4304A90E1AFAD400BABEE6 /* SeparatorCell.m */,
 				4D7EDE150E1AEAB8001594BC /* RulerView.h */,
 				4D7EDE160E1AEAB8001594BC /* RulerView.m */,
 				2A37F4ACFDCFA73011CA2CEA /* ILDocument.m */,
 				4DADDD660E1AE11800D6F182 /* ILDocument.h */,
-				4DADDD6B0E1AE1EB00D6F182 /* SourceTreeDelegate.m */,
 				4D7EDE050E1AE81E001594BC /* AlignmentView.h */,
 				4D7EDE060E1AE81E001594BC /* AlignmentView.m */,
-				4DADDD6C0E1AE1EB00D6F182 /* SourceTreeDelegate.h */,
+				4D4304D70E1D87F400BABEE6 /* SourceView */,
 				514E9E0C081EC698009B8CD9 /* Importer */,
 			);
 			name = Classes;
@@ -197,6 +209,27 @@
 				1058C7A8FEA54F5311CA2CBB /* Other Frameworks */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D4304D70E1D87F400BABEE6 /* SourceView */ = {
+			isa = PBXGroup;
+			children = (
+				4D4304D80E1D87F400BABEE6 /* BaseNode.h */,
+				4D4304D90E1D87F400BABEE6 /* BaseNode.m */,
+				4D4304DA0E1D87F400BABEE6 /* ChildEditController.h */,
+				4D4304DB0E1D87F400BABEE6 /* ChildEditController.m */,
+				4D4304DC0E1D87F400BABEE6 /* ChildNode.h */,
+				4D4304DD0E1D87F400BABEE6 /* ChildNode.m */,
+				4D4304E20E1D87F400BABEE6 /* ImageAndTextCell.h */,
+				4D4304E30E1D87F400BABEE6 /* ImageAndTextCell.m */,
+				4D4304E40E1D87F400BABEE6 /* MyWindowController.h */,
+				4D4304E50E1D87F400BABEE6 /* MyWindowController.m */,
+				4D4304E60E1D87F400BABEE6 /* NSArray_Extensions.h */,
+				4D4304E70E1D87F400BABEE6 /* NSArray_Extensions.m */,
+				4D4304E80E1D87F400BABEE6 /* SeparatorCell.h */,
+				4D4304E90E1D87F400BABEE6 /* SeparatorCell.m */,
+			);
+			path = SourceView;
 			sourceTree = "<group>";
 		};
 		514E9E0C081EC698009B8CD9 /* Importer */ = {
@@ -312,10 +345,15 @@
 				8D15AC310486D014006FF6A4 /* ILDocument.m in Sources */,
 				8D15AC320486D014006FF6A4 /* main.m in Sources */,
 				775BDEF1067A8BF0009058FE /* ILDocument.xcdatamodel in Sources */,
-				4DADDD6D0E1AE1EB00D6F182 /* SourceTreeDelegate.m in Sources */,
 				4D7EDE070E1AE81E001594BC /* AlignmentView.m in Sources */,
 				4D7EDE170E1AEAB8001594BC /* RulerView.m in Sources */,
-				4D4304AB0E1AFAD400BABEE6 /* SeparatorCell.m in Sources */,
+				4D4304EA0E1D87F400BABEE6 /* BaseNode.m in Sources */,
+				4D4304EB0E1D87F400BABEE6 /* ChildEditController.m in Sources */,
+				4D4304EC0E1D87F400BABEE6 /* ChildNode.m in Sources */,
+				4D4304EF0E1D87F400BABEE6 /* ImageAndTextCell.m in Sources */,
+				4D4304F00E1D87F400BABEE6 /* MyWindowController.m in Sources */,
+				4D4304F10E1D87F400BABEE6 /* NSArray_Extensions.m in Sources */,
+				4D4304F20E1D87F400BABEE6 /* SeparatorCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

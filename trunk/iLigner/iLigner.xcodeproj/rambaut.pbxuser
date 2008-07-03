@@ -76,6 +76,53 @@
 			sepNavWindowFrame = "{{203, 11}, {987, 694}}";
 		};
 	};
+	4D4304D80E1D87F400BABEE6 /* BaseNode.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {932, 784}}";
+			sepNavSelRange = "{142, 0}";
+			sepNavVisRange = "{0, 1162}";
+		};
+	};
+	4D4304D90E1D87F400BABEE6 /* BaseNode.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {932, 7364}}";
+			sepNavSelRange = "{145, 0}";
+			sepNavVisRange = "{13221, 1625}";
+			sepNavWindowFrame = "{{42, 10}, {991, 842}}";
+		};
+	};
+	4D4304DA0E1D87F400BABEE6 /* ChildEditController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {932, 738}}";
+			sepNavSelRange = "{121, 0}";
+			sepNavVisRange = "{0, 581}";
+			sepNavWindowFrame = "{{42, 10}, {991, 842}}";
+		};
+	};
+	4D4304DB0E1D87F400BABEE6 /* ChildEditController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {932, 1736}}";
+			sepNavSelRange = "{121, 0}";
+			sepNavVisRange = "{0, 1422}";
+			sepNavWindowFrame = "{{19, 31}, {991, 842}}";
+		};
+	};
+	4D4304DC0E1D87F400BABEE6 /* ChildNode.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {932, 738}}";
+			sepNavSelRange = "{139, 0}";
+			sepNavVisRange = "{0, 411}";
+			sepNavWindowFrame = "{{19, 31}, {991, 842}}";
+		};
+	};
+	4D4304DD0E1D87F400BABEE6 /* ChildNode.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {932, 1120}}";
+			sepNavSelRange = "{142, 0}";
+			sepNavVisRange = "{0, 1423}";
+			sepNavWindowFrame = "{{42, 10}, {991, 842}}";
+		};
+	};
 	4D7EDE050E1AE81E001594BC /* AlignmentView.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {663, 607}}";
@@ -129,6 +176,8 @@
 		executableUserSymbolLevel = 0;
 		libgmallocEnabled = 0;
 		name = iLigner;
+		savedGlobals = {
+		};
 		sourceDirectories = (
 		);
 	};
@@ -143,22 +192,6 @@
 	4DA8A1090E1AC17B008969ED /* Code sense */ = {
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
-	};
-	4DADDD6B0E1AE1EB00D6F182 /* SourceTreeDelegate.m */ = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {956, 3192}}";
-			sepNavSelRange = "{7006, 0}";
-			sepNavVisRange = "{0, 1639}";
-			sepNavWindowFrame = "{{65, 120}, {722, 711}}";
-		};
-	};
-	4DADDD6C0E1AE1EB00D6F182 /* SourceTreeDelegate.h */ = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {663, 607}}";
-			sepNavSelRange = "{276, 0}";
-			sepNavVisRange = "{0, 778}";
-			sepNavWindowFrame = "{{88, 99}, {722, 711}}";
-		};
 	};
 	514E9DF8081EBF9C009B8CD9 /* iLigner Spotlight Importer */ = {
 		activeExec = 0;
