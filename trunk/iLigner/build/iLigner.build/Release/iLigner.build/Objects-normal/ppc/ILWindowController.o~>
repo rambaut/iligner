@@ -1,0 +1,134 @@
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:11:32: error: ChildEditController.h: No such file or directory
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:12:22: error: ChildNode.h: No such file or directory
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:13:29: error: ImageAndTextCell.h: No such file or directory
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:14:26: error: SeparatorCell.h: No such file or directory
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:83: warning: cannot find interface declaration for 'ILWindowController'
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:83: error: no declaration of property 'dragNodesArray' found in the interface
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m: In function '-[ILWindowController initWithWindow:]':
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:90: error: no super class declared in @interface for 'ILWindowController'
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:93: error: 'contents' undeclared (first use in this function)
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:93: error: (Each undeclared identifier is reported only once
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:93: error: for each function it appears in.)
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:96: error: 'folderImage' undeclared (first use in this function)
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:99: error: 'urlImage' undeclared (first use in this function)
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m: In function '-[ILWindowController dealloc]':
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:111: error: 'folderImage' undeclared (first use in this function)
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:112: error: 'urlImage' undeclared (first use in this function)
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:114: error: 'iconViewController' undeclared (first use in this function)
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:116: error: 'contents' undeclared (first use in this function)
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:118: error: 'separatorCell' undeclared (first use in this function)
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:120: error: request for member 'dragNodesArray' in something not a structure or union
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:122: error: no super class declared in @interface for 'ILWindowController'
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m: In function '-[ILWindowController awakeFromNib]':
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:137: error: 'childEditController' undeclared (first use in this function)
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:137: warning: receiver 'ChildEditController' is a forward class and corresponding @interface may not exist
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:139: warning: 'ILWindowController' may not respond to '-window'
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:139: warning: (Messages without a matching method signature
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:139: warning: will be assumed to return 'id' and accept
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:139: warning: '...' as arguments.)
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:140: warning: 'ILWindowController' may not respond to '-window'
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:143: error: 'myOutlineView' undeclared (first use in this function)
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:144: error: 'ImageAndTextCell' undeclared (first use in this function)
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:144: error: 'imageAndTextCell' undeclared (first use in this function)
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:148: error: 'separatorCell' undeclared (first use in this function)
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:148: warning: receiver 'SeparatorCell' is a forward class and corresponding @interface may not exist
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:159: error: 'addFolderButton' undeclared (first use in this function)
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:161: error: 'removeButton' undeclared (first use in this function)
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:168: error: 'actionButton' undeclared (first use in this function)
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m: In function '-[ILWindowController setContents:]':
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:193: error: 'contents' undeclared (first use in this function)
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m: In function '-[ILWindowController contents]':
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:205: error: 'contents' undeclared (first use in this function)
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m: In function '-[ILWindowController selectParentFromSelection]':
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:215: error: 'sequencesController' undeclared (first use in this function)
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m: In function '-[ILWindowController performAddFolder:]':
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:243: error: 'sequencesController' undeclared (first use in this function)
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:246: error: 'contents' undeclared (first use in this function)
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:266: error: 'ChildNode' undeclared (first use in this function)
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:266: error: 'node' undeclared (first use in this function)
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m: In function '-[ILWindowController addFolder:]':
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:282: error: 'buildingOutlineView' undeclared (first use in this function)
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:285: warning: 'ILWindowController' may not respond to '-performSelectorOnMainThread:withObject:waitUntilDone:'
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m: In function '-[ILWindowController performAddChild:]':
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:308: error: 'sequencesController' undeclared (first use in this function)
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:329: error: 'contents' undeclared (first use in this function)
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:333: error: 'ChildNode' undeclared (first use in this function)
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:333: error: 'node' undeclared (first use in this function)
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m: In function '-[ILWindowController addChild:withName:selectParent:]':
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:371: error: 'buildingOutlineView' undeclared (first use in this function)
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:374: warning: 'ILWindowController' may not respond to '-performSelectorOnMainThread:withObject:waitUntilDone:'
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m: In function '-[ILWindowController addSequenceAction:]':
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:390: error: 'childEditController' undeclared (first use in this function)
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m: In function '-[ILWindowController editSequenceAction:]':
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:404: error: 'sequencesController' undeclared (first use in this function)
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:407: error: 'myOutlineView' undeclared (first use in this function)
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:408: error: 'BaseNode' undeclared (first use in this function)
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:408: error: 'node' undeclared (first use in this function)
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:425: error: 'childEditController' undeclared (first use in this function)
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:429: error: 'ChildNode' undeclared (first use in this function)
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m: In function '-[ILWindowController addEntries:]':
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:495: error: 'sequencesController' undeclared (first use in this function)
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:498: error: 'myOutlineView' undeclared (first use in this function)
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m: In function '-[ILWindowController populateOutlineContents:]':
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:561: error: 'buildingOutlineView' undeclared (first use in this function)
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:563: error: 'myOutlineView' undeclared (first use in this function)
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:572: error: 'sequencesController' undeclared (first use in this function)
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m: At top level:
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:584: error: syntax error before 'BaseNode'
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m: In function '-[ILWindowController outlineView:shouldSelectItem:]':
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:599: error: 'BaseNode' undeclared (first use in this function)
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:599: error: 'node' undeclared (first use in this function)
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:600: warning: 'ILWindowController' may not respond to '-isSpecialGroup:'
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m: In function '-[ILWindowController outlineView:dataCellForTableColumn:item:]':
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:613: error: 'BaseNode' undeclared (first use in this function)
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:613: error: 'node' undeclared (first use in this function)
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:615: error: 'separatorCell' undeclared (first use in this function)
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m: In function '-[ILWindowController outlineView:shouldEditTableColumn:item:]':
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:647: warning: 'ILWindowController' may not respond to '-isSpecialGroup:'
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:653: warning: no '-urlString' method found
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m: In function '-[ILWindowController outlineView:willDisplayCell:forTableColumn:item:]':
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:668: error: 'ImageAndTextCell' undeclared (first use in this function)
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:676: warning: no '-urlString' method found
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:682: warning: no '-urlString' method found
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:683: error: 'urlImage' undeclared (first use in this function)
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:686: warning: no '-setNodeIcon:' method found
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:691: warning: no '-setNodeIcon:' method found
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:702: warning: 'ILWindowController' may not respond to '-isSpecialGroup:'
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:704: warning: no '-setNodeIcon:' method found
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:709: error: 'folderImage' undeclared (first use in this function)
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:709: warning: no '-setNodeIcon:' method found
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:715: error: syntax error before ')' token
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m: In function '-[ILWindowController removeSubview]':
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:726: error: 'placeHolderView' undeclared (first use in this function)
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m: In function '-[ILWindowController changeItemView]':
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:740: error: 'sequencesController' undeclared (first use in this function)
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:741: error: 'BaseNode' undeclared (first use in this function)
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:741: error: 'node' undeclared (first use in this function)
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:742: warning: unused variable 'urlStr'
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m: In function '-[ILWindowController outlineViewSelectionDidChange:]':
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:845: error: 'buildingOutlineView' undeclared (first use in this function)
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:849: error: 'sequencesController' undeclared (first use in this function)
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:854: error: 'currentView' undeclared (first use in this function)
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m: In function '-[ILWindowController outlineView:isGroupItem:]':
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:877: warning: 'ILWindowController' may not respond to '-isSpecialGroup:'
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m: In function '-[ILWindowController outlineView:writeItems:toPasteboard:]':
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:906: error: request for member 'dragNodesArray' in something not a structure or union
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m: In function '-[ILWindowController outlineView:validateDrop:proposedItem:proposedChildIndex:]':
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:930: warning: 'ILWindowController' may not respond to '-isSpecialGroup:'
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m: In function '-[ILWindowController handleWebURLDrops:withIndexPath:]':
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:967: error: 'ChildNode' undeclared (first use in this function)
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:967: error: 'node' undeclared (first use in this function)
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:972: error: 'sequencesController' undeclared (first use in this function)
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m: In function '-[ILWindowController handleInternalDrops:withIndexPath:]':
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:987: error: request for member 'dragNodesArray' in something not a structure or union
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:993: error: 'sequencesController' undeclared (first use in this function)
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m: In function '-[ILWindowController handleFileBasedDrops:withIndexPath:]':
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:1022: error: 'ChildNode' undeclared (first use in this function)
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:1022: error: 'node' undeclared (first use in this function)
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:1028: error: 'sequencesController' undeclared (first use in this function)
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m: In function '-[ILWindowController handleURLBasedDrops:withIndexPath:]':
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:1045: error: 'ChildNode' undeclared (first use in this function)
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:1045: error: 'node' undeclared (first use in this function)
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:1084: error: 'sequencesController' undeclared (first use in this function)
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m: In function '-[ILWindowController outlineView:acceptDrop:item:childIndex:]':
+/Users/rambaut/Cocoa/iLigner/Source/ILWindowController.m:1116: error: 'contents' undeclared (first use in this function)
