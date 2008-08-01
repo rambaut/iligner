@@ -22,6 +22,11 @@
 		4D6BF0F10E4325AF005653D8 /* SequencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6BF0DF0E4325AF005653D8 /* SequencesViewController.m */; };
 		4D6BF13F0E432DDA005653D8 /* AlignmentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D6BF13B0E432DDA005653D8 /* AlignmentView.xib */; };
 		4D6BF1400E432DDA005653D8 /* SequencesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D6BF13D0E432DDA005653D8 /* SequencesView.xib */; };
+		4D6BF1A00E434B29005653D8 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6BF19F0E434B29005653D8 /* AppController.m */; };
+		4D6BF1A40E434BA8005653D8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D6BF1A20E434BA8005653D8 /* MainMenu.xib */; };
+		4D6BF1AC0E434CCE005653D8 /* PreferenceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6BF1AB0E434CCE005653D8 /* PreferenceController.m */; };
+		4D6BF1AE0E434D48005653D8 /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D6BF1AD0E434D48005653D8 /* Preferences.xib */; };
+		4D6BF1BE0E43553D005653D8 /* iligner.icns in Resources */ = {isa = PBXBuildFile; fileRef = 4D6BF1BD0E43553D005653D8 /* iligner.icns */; };
 		4DA8A1110E1AC314008969ED /* ILDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DA8A10F0E1AC314008969ED /* ILDocument.xib */; };
 		4DD08AE20E23B1C200F68575 /* BaseNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD08AD10E23B1C200F68575 /* BaseNode.m */; };
 		4DD08AE30E23B1C200F68575 /* ChildEditController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD08AD30E23B1C200F68575 /* ChildEditController.m */; };
@@ -39,7 +44,6 @@
 		775BDEF1067A8BF0009058FE /* ILDocument.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 775BDEF0067A8BF0009058FE /* ILDocument.xcdatamodel */; };
 		775DFF38067A968500C5B868 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */; };
 		8D15AC2C0486D014006FF6A4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */; };
-		8D15AC2D0486D014006FF6A4 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 2A37F4B6FDCFA73011CA2CEA /* MainMenu.nib */; };
 		8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165FFE840EACC02AAC07 /* InfoPlist.strings */; };
 		8D15AC320486D014006FF6A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4B0FDCFA73011CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 /* End PBXBuildFile section */
@@ -71,7 +75,6 @@
 		089C1660FE840EACC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		2A37F4B0FDCFA73011CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2A37F4B7FDCFA73011CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
 		2A37F4BAFDCFA73011CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/Credits.rtf; sourceTree = "<group>"; };
 		2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
@@ -104,6 +107,13 @@
 		4D6BF0DF0E4325AF005653D8 /* SequencesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SequencesViewController.m; path = Source/SequencesViewController.m; sourceTree = "<group>"; };
 		4D6BF13C0E432DDA005653D8 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/AlignmentView.xib; sourceTree = "<group>"; };
 		4D6BF13E0E432DDA005653D8 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/SequencesView.xib; sourceTree = "<group>"; };
+		4D6BF19E0E434B29005653D8 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		4D6BF19F0E434B29005653D8 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
+		4D6BF1A30E434BA8005653D8 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4D6BF1AA0E434CCE005653D8 /* PreferenceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferenceController.h; sourceTree = "<group>"; };
+		4D6BF1AB0E434CCE005653D8 /* PreferenceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferenceController.m; sourceTree = "<group>"; };
+		4D6BF1AD0E434D48005653D8 /* Preferences.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Preferences.xib; sourceTree = "<group>"; };
+		4D6BF1BD0E43553D005653D8 /* iligner.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = iligner.icns; sourceTree = "<group>"; };
 		4DA8A1100E1AC314008969ED /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/ILDocument.xib; sourceTree = "<group>"; };
 		4DD08AD00E23B1C200F68575 /* BaseNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNode.h; sourceTree = "<group>"; };
 		4DD08AD10E23B1C200F68575 /* BaseNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNode.m; sourceTree = "<group>"; };
@@ -199,22 +209,18 @@
 		2A37F4ABFDCFA73011CA2CEA /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				4D6BF0C70E4325AF005653D8 /* AlignmentView.h */,
-				4D6BF0C80E4325AF005653D8 /* AlignmentView.m */,
-				4D6BF0CA0E4325AF005653D8 /* AlignmentViewController.h */,
-				4D6BF0CB0E4325AF005653D8 /* AlignmentViewController.m */,
+				4D6BF19E0E434B29005653D8 /* AppController.h */,
+				4D6BF19F0E434B29005653D8 /* AppController.m */,
+				4D6BF1AA0E434CCE005653D8 /* PreferenceController.h */,
+				4D6BF1AB0E434CCE005653D8 /* PreferenceController.m */,
 				4D6BF0CC0E4325AF005653D8 /* ILDocument.h */,
 				4D6BF0CD0E4325AF005653D8 /* ILDocument.m */,
 				4D6BF0CF0E4325AF005653D8 /* ILWindowController.h */,
 				4D6BF0D00E4325AF005653D8 /* ILWindowController.m */,
 				4D6BF0D50E4325AF005653D8 /* ManagingViewController.h */,
 				4D6BF0D60E4325AF005653D8 /* ManagingViewController.m */,
-				4D6BF0D70E4325AF005653D8 /* RulerView.h */,
-				4D6BF0D80E4325AF005653D8 /* RulerView.m */,
-				4D6BF0DB0E4325AF005653D8 /* SequencesArrayController.h */,
-				4D6BF0DC0E4325AF005653D8 /* SequencesArrayController.m */,
-				4D6BF0DE0E4325AF005653D8 /* SequencesViewController.h */,
-				4D6BF0DF0E4325AF005653D8 /* SequencesViewController.m */,
+				4D6BF1750E433444005653D8 /* AlignmentView */,
+				4D6BF1730E433431005653D8 /* SequencesView */,
 				4DD08ACF0E23B1C200F68575 /* SourceView */,
 				514E9E0C081EC698009B8CD9 /* Importer */,
 			);
@@ -237,10 +243,12 @@
 				4D6BF13D0E432DDA005653D8 /* SequencesView.xib */,
 				4DA8A10F0E1AC314008969ED /* ILDocument.xib */,
 				2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */,
-				2A37F4B6FDCFA73011CA2CEA /* MainMenu.nib */,
+				4D6BF1A20E434BA8005653D8 /* MainMenu.xib */,
 				8D15AC360486D014006FF6A4 /* Info.plist */,
 				089C165FFE840EACC02AAC07 /* InfoPlist.strings */,
 				514E9DFA081EBF9C009B8CD9 /* Importer-Info.plist */,
+				4D6BF1AD0E434D48005653D8 /* Preferences.xib */,
+				4D6BF1BD0E43553D005653D8 /* iligner.icns */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -252,6 +260,30 @@
 				1058C7A8FEA54F5311CA2CBB /* Other Frameworks */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D6BF1730E433431005653D8 /* SequencesView */ = {
+			isa = PBXGroup;
+			children = (
+				4D6BF0DB0E4325AF005653D8 /* SequencesArrayController.h */,
+				4D6BF0DC0E4325AF005653D8 /* SequencesArrayController.m */,
+				4D6BF0DE0E4325AF005653D8 /* SequencesViewController.h */,
+				4D6BF0DF0E4325AF005653D8 /* SequencesViewController.m */,
+			);
+			name = SequencesView;
+			sourceTree = "<group>";
+		};
+		4D6BF1750E433444005653D8 /* AlignmentView */ = {
+			isa = PBXGroup;
+			children = (
+				4D6BF0C70E4325AF005653D8 /* AlignmentView.h */,
+				4D6BF0C80E4325AF005653D8 /* AlignmentView.m */,
+				4D6BF0CA0E4325AF005653D8 /* AlignmentViewController.h */,
+				4D6BF0CB0E4325AF005653D8 /* AlignmentViewController.m */,
+				4D6BF0D70E4325AF005653D8 /* RulerView.h */,
+				4D6BF0D80E4325AF005653D8 /* RulerView.m */,
+			);
+			name = AlignmentView;
 			sourceTree = "<group>";
 		};
 		4DD08ACF0E23B1C200F68575 /* SourceView */ = {
@@ -372,11 +404,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D15AC2C0486D014006FF6A4 /* Credits.rtf in Resources */,
-				8D15AC2D0486D014006FF6A4 /* MainMenu.nib in Resources */,
 				8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */,
 				4DA8A1110E1AC314008969ED /* ILDocument.xib in Resources */,
 				4D6BF13F0E432DDA005653D8 /* AlignmentView.xib in Resources */,
 				4D6BF1400E432DDA005653D8 /* SequencesView.xib in Resources */,
+				4D6BF1A40E434BA8005653D8 /* MainMenu.xib in Resources */,
+				4D6BF1AE0E434D48005653D8 /* Preferences.xib in Resources */,
+				4D6BF1BE0E43553D005653D8 /* iligner.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +451,8 @@
 				4D6BF0EE0E4325AF005653D8 /* Sequence.m in Sources */,
 				4D6BF0EF0E4325AF005653D8 /* SequencesArrayController.m in Sources */,
 				4D6BF0F10E4325AF005653D8 /* SequencesViewController.m in Sources */,
+				4D6BF1A00E434B29005653D8 /* AppController.m in Sources */,
+				4D6BF1AC0E434CCE005653D8 /* PreferenceController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,14 +473,6 @@
 				089C1660FE840EACC02AAC07 /* English */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		2A37F4B6FDCFA73011CA2CEA /* MainMenu.nib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2A37F4B7FDCFA73011CA2CEA /* English */,
-			);
-			name = MainMenu.nib;
 			sourceTree = "<group>";
 		};
 		2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */ = {
@@ -469,6 +497,14 @@
 				4D6BF13E0E432DDA005653D8 /* English */,
 			);
 			name = SequencesView.xib;
+			sourceTree = "<group>";
+		};
+		4D6BF1A20E434BA8005653D8 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D6BF1A30E434BA8005653D8 /* English */,
+			);
+			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
 		4DA8A10F0E1AC314008969ED /* ILDocument.xib */ = {
