@@ -7,13 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D6BF0E20E4325AF005653D8 /* Album.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6BF0C40E4325AF005653D8 /* Album.m */; };
+		4D6BF0E30E4325AF005653D8 /* Alignment.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6BF0C60E4325AF005653D8 /* Alignment.m */; };
+		4D6BF0E40E4325AF005653D8 /* AlignmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6BF0C80E4325AF005653D8 /* AlignmentView.m */; };
+		4D6BF0E60E4325AF005653D8 /* AlignmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6BF0CB0E4325AF005653D8 /* AlignmentViewController.m */; };
+		4D6BF0E70E4325AF005653D8 /* ILDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6BF0CD0E4325AF005653D8 /* ILDocument.m */; };
+		4D6BF0E90E4325AF005653D8 /* ILWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6BF0D00E4325AF005653D8 /* ILWindowController.m */; };
+		4D6BF0EA0E4325AF005653D8 /* Indel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6BF0D20E4325AF005653D8 /* Indel.m */; };
+		4D6BF0EB0E4325AF005653D8 /* IndelList.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6BF0D40E4325AF005653D8 /* IndelList.m */; };
+		4D6BF0EC0E4325AF005653D8 /* ManagingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6BF0D60E4325AF005653D8 /* ManagingViewController.m */; };
+		4D6BF0ED0E4325AF005653D8 /* RulerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6BF0D80E4325AF005653D8 /* RulerView.m */; };
+		4D6BF0EE0E4325AF005653D8 /* Sequence.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6BF0DA0E4325AF005653D8 /* Sequence.m */; };
+		4D6BF0EF0E4325AF005653D8 /* SequencesArrayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6BF0DC0E4325AF005653D8 /* SequencesArrayController.m */; };
+		4D6BF0F10E4325AF005653D8 /* SequencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6BF0DF0E4325AF005653D8 /* SequencesViewController.m */; };
+		4D6BF13F0E432DDA005653D8 /* AlignmentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D6BF13B0E432DDA005653D8 /* AlignmentView.xib */; };
+		4D6BF1400E432DDA005653D8 /* SequencesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D6BF13D0E432DDA005653D8 /* SequencesView.xib */; };
 		4DA8A1110E1AC314008969ED /* ILDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DA8A10F0E1AC314008969ED /* ILDocument.xib */; };
-		4DD08ADC0E23B1C200F68575 /* AlignmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD08AC40E23B1C200F68575 /* AlignmentView.m */; };
-		4DD08ADD0E23B1C200F68575 /* AlignmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD08AC60E23B1C200F68575 /* AlignmentViewController.m */; };
-		4DD08ADE0E23B1C200F68575 /* ILDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD08AC80E23B1C200F68575 /* ILDocument.m */; };
-		4DD08ADF0E23B1C200F68575 /* ILWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD08ACA0E23B1C200F68575 /* ILWindowController.m */; };
-		4DD08AE00E23B1C200F68575 /* RulerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD08ACC0E23B1C200F68575 /* RulerView.m */; };
-		4DD08AE10E23B1C200F68575 /* SourceTreeDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD08ACE0E23B1C200F68575 /* SourceTreeDelegate.m */; };
 		4DD08AE20E23B1C200F68575 /* BaseNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD08AD10E23B1C200F68575 /* BaseNode.m */; };
 		4DD08AE30E23B1C200F68575 /* ChildEditController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD08AD30E23B1C200F68575 /* ChildEditController.m */; };
 		4DD08AE40E23B1C200F68575 /* ChildNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD08AD50E23B1C200F68575 /* ChildNode.m */; };
@@ -67,19 +76,35 @@
 		2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		32DBCF750370BD2300C91783 /* iLigner_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iLigner_Prefix.pch; sourceTree = "<group>"; };
+		4D6BF0C30E4325AF005653D8 /* Album.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Album.h; path = Source/Album.h; sourceTree = "<group>"; };
+		4D6BF0C40E4325AF005653D8 /* Album.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Album.m; path = Source/Album.m; sourceTree = "<group>"; };
+		4D6BF0C50E4325AF005653D8 /* Alignment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Alignment.h; path = Source/Alignment.h; sourceTree = "<group>"; };
+		4D6BF0C60E4325AF005653D8 /* Alignment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Alignment.m; path = Source/Alignment.m; sourceTree = "<group>"; };
+		4D6BF0C70E4325AF005653D8 /* AlignmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AlignmentView.h; path = Source/AlignmentView.h; sourceTree = "<group>"; };
+		4D6BF0C80E4325AF005653D8 /* AlignmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AlignmentView.m; path = Source/AlignmentView.m; sourceTree = "<group>"; };
+		4D6BF0CA0E4325AF005653D8 /* AlignmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AlignmentViewController.h; path = Source/AlignmentViewController.h; sourceTree = "<group>"; };
+		4D6BF0CB0E4325AF005653D8 /* AlignmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AlignmentViewController.m; path = Source/AlignmentViewController.m; sourceTree = "<group>"; };
+		4D6BF0CC0E4325AF005653D8 /* ILDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ILDocument.h; path = Source/ILDocument.h; sourceTree = "<group>"; };
+		4D6BF0CD0E4325AF005653D8 /* ILDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ILDocument.m; path = Source/ILDocument.m; sourceTree = "<group>"; };
+		4D6BF0CF0E4325AF005653D8 /* ILWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ILWindowController.h; path = Source/ILWindowController.h; sourceTree = "<group>"; };
+		4D6BF0D00E4325AF005653D8 /* ILWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ILWindowController.m; path = Source/ILWindowController.m; sourceTree = "<group>"; };
+		4D6BF0D10E4325AF005653D8 /* Indel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Indel.h; path = Source/Indel.h; sourceTree = "<group>"; };
+		4D6BF0D20E4325AF005653D8 /* Indel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Indel.m; path = Source/Indel.m; sourceTree = "<group>"; };
+		4D6BF0D30E4325AF005653D8 /* IndelList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IndelList.h; path = Source/IndelList.h; sourceTree = "<group>"; };
+		4D6BF0D40E4325AF005653D8 /* IndelList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IndelList.m; path = Source/IndelList.m; sourceTree = "<group>"; };
+		4D6BF0D50E4325AF005653D8 /* ManagingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ManagingViewController.h; path = Source/ManagingViewController.h; sourceTree = "<group>"; };
+		4D6BF0D60E4325AF005653D8 /* ManagingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ManagingViewController.m; path = Source/ManagingViewController.m; sourceTree = "<group>"; };
+		4D6BF0D70E4325AF005653D8 /* RulerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RulerView.h; path = Source/RulerView.h; sourceTree = "<group>"; };
+		4D6BF0D80E4325AF005653D8 /* RulerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RulerView.m; path = Source/RulerView.m; sourceTree = "<group>"; };
+		4D6BF0D90E4325AF005653D8 /* Sequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Sequence.h; path = Source/Sequence.h; sourceTree = "<group>"; };
+		4D6BF0DA0E4325AF005653D8 /* Sequence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Sequence.m; path = Source/Sequence.m; sourceTree = "<group>"; };
+		4D6BF0DB0E4325AF005653D8 /* SequencesArrayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SequencesArrayController.h; path = Source/SequencesArrayController.h; sourceTree = "<group>"; };
+		4D6BF0DC0E4325AF005653D8 /* SequencesArrayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SequencesArrayController.m; path = Source/SequencesArrayController.m; sourceTree = "<group>"; };
+		4D6BF0DE0E4325AF005653D8 /* SequencesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SequencesViewController.h; path = Source/SequencesViewController.h; sourceTree = "<group>"; };
+		4D6BF0DF0E4325AF005653D8 /* SequencesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SequencesViewController.m; path = Source/SequencesViewController.m; sourceTree = "<group>"; };
+		4D6BF13C0E432DDA005653D8 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/AlignmentView.xib; sourceTree = "<group>"; };
+		4D6BF13E0E432DDA005653D8 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/SequencesView.xib; sourceTree = "<group>"; };
 		4DA8A1100E1AC314008969ED /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/ILDocument.xib; sourceTree = "<group>"; };
-		4DD08AC30E23B1C200F68575 /* AlignmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AlignmentView.h; path = Source/AlignmentView.h; sourceTree = "<group>"; };
-		4DD08AC40E23B1C200F68575 /* AlignmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AlignmentView.m; path = Source/AlignmentView.m; sourceTree = "<group>"; };
-		4DD08AC50E23B1C200F68575 /* AlignmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AlignmentViewController.h; path = Source/AlignmentViewController.h; sourceTree = "<group>"; };
-		4DD08AC60E23B1C200F68575 /* AlignmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AlignmentViewController.m; path = Source/AlignmentViewController.m; sourceTree = "<group>"; };
-		4DD08AC70E23B1C200F68575 /* ILDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ILDocument.h; path = Source/ILDocument.h; sourceTree = "<group>"; };
-		4DD08AC80E23B1C200F68575 /* ILDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ILDocument.m; path = Source/ILDocument.m; sourceTree = "<group>"; };
-		4DD08AC90E23B1C200F68575 /* ILWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ILWindowController.h; path = Source/ILWindowController.h; sourceTree = "<group>"; };
-		4DD08ACA0E23B1C200F68575 /* ILWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ILWindowController.m; path = Source/ILWindowController.m; sourceTree = "<group>"; };
-		4DD08ACB0E23B1C200F68575 /* RulerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RulerView.h; path = Source/RulerView.h; sourceTree = "<group>"; };
-		4DD08ACC0E23B1C200F68575 /* RulerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RulerView.m; path = Source/RulerView.m; sourceTree = "<group>"; };
-		4DD08ACD0E23B1C200F68575 /* SourceTreeDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SourceTreeDelegate.h; path = Source/SourceTreeDelegate.h; sourceTree = "<group>"; };
-		4DD08ACE0E23B1C200F68575 /* SourceTreeDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SourceTreeDelegate.m; path = Source/SourceTreeDelegate.m; sourceTree = "<group>"; };
 		4DD08AD00E23B1C200F68575 /* BaseNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNode.h; sourceTree = "<group>"; };
 		4DD08AD10E23B1C200F68575 /* BaseNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNode.m; sourceTree = "<group>"; };
 		4DD08AD20E23B1C200F68575 /* ChildEditController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildEditController.h; sourceTree = "<group>"; };
@@ -174,18 +199,22 @@
 		2A37F4ABFDCFA73011CA2CEA /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				4DD08AC30E23B1C200F68575 /* AlignmentView.h */,
-				4DD08AC40E23B1C200F68575 /* AlignmentView.m */,
-				4DD08AC50E23B1C200F68575 /* AlignmentViewController.h */,
-				4DD08AC60E23B1C200F68575 /* AlignmentViewController.m */,
-				4DD08AC70E23B1C200F68575 /* ILDocument.h */,
-				4DD08AC80E23B1C200F68575 /* ILDocument.m */,
-				4DD08AC90E23B1C200F68575 /* ILWindowController.h */,
-				4DD08ACA0E23B1C200F68575 /* ILWindowController.m */,
-				4DD08ACB0E23B1C200F68575 /* RulerView.h */,
-				4DD08ACC0E23B1C200F68575 /* RulerView.m */,
-				4DD08ACD0E23B1C200F68575 /* SourceTreeDelegate.h */,
-				4DD08ACE0E23B1C200F68575 /* SourceTreeDelegate.m */,
+				4D6BF0C70E4325AF005653D8 /* AlignmentView.h */,
+				4D6BF0C80E4325AF005653D8 /* AlignmentView.m */,
+				4D6BF0CA0E4325AF005653D8 /* AlignmentViewController.h */,
+				4D6BF0CB0E4325AF005653D8 /* AlignmentViewController.m */,
+				4D6BF0CC0E4325AF005653D8 /* ILDocument.h */,
+				4D6BF0CD0E4325AF005653D8 /* ILDocument.m */,
+				4D6BF0CF0E4325AF005653D8 /* ILWindowController.h */,
+				4D6BF0D00E4325AF005653D8 /* ILWindowController.m */,
+				4D6BF0D50E4325AF005653D8 /* ManagingViewController.h */,
+				4D6BF0D60E4325AF005653D8 /* ManagingViewController.m */,
+				4D6BF0D70E4325AF005653D8 /* RulerView.h */,
+				4D6BF0D80E4325AF005653D8 /* RulerView.m */,
+				4D6BF0DB0E4325AF005653D8 /* SequencesArrayController.h */,
+				4D6BF0DC0E4325AF005653D8 /* SequencesArrayController.m */,
+				4D6BF0DE0E4325AF005653D8 /* SequencesViewController.h */,
+				4D6BF0DF0E4325AF005653D8 /* SequencesViewController.m */,
 				4DD08ACF0E23B1C200F68575 /* SourceView */,
 				514E9E0C081EC698009B8CD9 /* Importer */,
 			);
@@ -204,6 +233,8 @@
 		2A37F4B8FDCFA73011CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				4D6BF13B0E432DDA005653D8 /* AlignmentView.xib */,
+				4D6BF13D0E432DDA005653D8 /* SequencesView.xib */,
 				4DA8A10F0E1AC314008969ED /* ILDocument.xib */,
 				2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */,
 				2A37F4B6FDCFA73011CA2CEA /* MainMenu.nib */,
@@ -256,6 +287,16 @@
 			isa = PBXGroup;
 			children = (
 				775BDEF0067A8BF0009058FE /* ILDocument.xcdatamodel */,
+				4D6BF0C30E4325AF005653D8 /* Album.h */,
+				4D6BF0C40E4325AF005653D8 /* Album.m */,
+				4D6BF0C50E4325AF005653D8 /* Alignment.h */,
+				4D6BF0C60E4325AF005653D8 /* Alignment.m */,
+				4D6BF0D10E4325AF005653D8 /* Indel.h */,
+				4D6BF0D20E4325AF005653D8 /* Indel.m */,
+				4D6BF0D30E4325AF005653D8 /* IndelList.h */,
+				4D6BF0D40E4325AF005653D8 /* IndelList.m */,
+				4D6BF0D90E4325AF005653D8 /* Sequence.h */,
+				4D6BF0DA0E4325AF005653D8 /* Sequence.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -334,6 +375,8 @@
 				8D15AC2D0486D014006FF6A4 /* MainMenu.nib in Resources */,
 				8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */,
 				4DA8A1110E1AC314008969ED /* ILDocument.xib in Resources */,
+				4D6BF13F0E432DDA005653D8 /* AlignmentView.xib in Resources */,
+				4D6BF1400E432DDA005653D8 /* SequencesView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,18 +398,25 @@
 			files = (
 				8D15AC320486D014006FF6A4 /* main.m in Sources */,
 				775BDEF1067A8BF0009058FE /* ILDocument.xcdatamodel in Sources */,
-				4DD08ADC0E23B1C200F68575 /* AlignmentView.m in Sources */,
-				4DD08ADD0E23B1C200F68575 /* AlignmentViewController.m in Sources */,
-				4DD08ADE0E23B1C200F68575 /* ILDocument.m in Sources */,
-				4DD08ADF0E23B1C200F68575 /* ILWindowController.m in Sources */,
-				4DD08AE00E23B1C200F68575 /* RulerView.m in Sources */,
-				4DD08AE10E23B1C200F68575 /* SourceTreeDelegate.m in Sources */,
 				4DD08AE20E23B1C200F68575 /* BaseNode.m in Sources */,
 				4DD08AE30E23B1C200F68575 /* ChildEditController.m in Sources */,
 				4DD08AE40E23B1C200F68575 /* ChildNode.m in Sources */,
 				4DD08AE50E23B1C200F68575 /* ImageAndTextCell.m in Sources */,
 				4DD08AE60E23B1C200F68575 /* NSArray_Extensions.m in Sources */,
 				4DD08AE70E23B1C200F68575 /* SeparatorCell.m in Sources */,
+				4D6BF0E20E4325AF005653D8 /* Album.m in Sources */,
+				4D6BF0E30E4325AF005653D8 /* Alignment.m in Sources */,
+				4D6BF0E40E4325AF005653D8 /* AlignmentView.m in Sources */,
+				4D6BF0E60E4325AF005653D8 /* AlignmentViewController.m in Sources */,
+				4D6BF0E70E4325AF005653D8 /* ILDocument.m in Sources */,
+				4D6BF0E90E4325AF005653D8 /* ILWindowController.m in Sources */,
+				4D6BF0EA0E4325AF005653D8 /* Indel.m in Sources */,
+				4D6BF0EB0E4325AF005653D8 /* IndelList.m in Sources */,
+				4D6BF0EC0E4325AF005653D8 /* ManagingViewController.m in Sources */,
+				4D6BF0ED0E4325AF005653D8 /* RulerView.m in Sources */,
+				4D6BF0EE0E4325AF005653D8 /* Sequence.m in Sources */,
+				4D6BF0EF0E4325AF005653D8 /* SequencesArrayController.m in Sources */,
+				4D6BF0F10E4325AF005653D8 /* SequencesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,6 +453,22 @@
 				2A37F4BAFDCFA73011CA2CEA /* English */,
 			);
 			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		4D6BF13B0E432DDA005653D8 /* AlignmentView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D6BF13C0E432DDA005653D8 /* English */,
+			);
+			name = AlignmentView.xib;
+			sourceTree = "<group>";
+		};
+		4D6BF13D0E432DDA005653D8 /* SequencesView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D6BF13E0E432DDA005653D8 /* English */,
+			);
+			name = SequencesView.xib;
 			sourceTree = "<group>";
 		};
 		4DA8A10F0E1AC314008969ED /* ILDocument.xib */ = {
@@ -487,6 +553,8 @@
 		26FC0ACF0875C91100E6366F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_ENABLE_OBJC_GC = supported;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
@@ -501,6 +569,8 @@
 					ppc,
 					i386,
 				);
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_ENABLE_OBJC_GC = supported;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
