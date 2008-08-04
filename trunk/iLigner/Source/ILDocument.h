@@ -8,7 +8,13 @@
 
 #import <Cocoa/Cocoa.h>
 
+@class Alignment;
+
 @interface ILDocument : NSPersistentDocument {
 }
 
+- (Alignment *)newAlignment;
+
 @end
+
+
