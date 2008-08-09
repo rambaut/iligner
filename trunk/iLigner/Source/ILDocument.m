@@ -7,16 +7,27 @@
 //
 
 #import "ILDocument.h"
-#import "SourceSection.h"
-#import "Alignment.h"
+#import "ILEngine.h"
+#import "AlignmentViewController.h"
+#import "SequencesViewController.h"
 
 @implementation ILDocument
+
+@synthesize alignmentEngine;
 
 - (id)init 
 {
     self = [super init];
     if (self != nil) {
-		// init here
+		ILEngine* engine = [[ILEngine alloc] init];
+		[engine setManagedObjectContext:[self managedObjectContext]];
+		[self setAlignmentEngine:engine];	
+		
+		alignmentViewController = [[AlignmentViewController alloc] init];
+		[alignmentViewController setAlignmentEngine:[self alignmentEngine]];
+		
+ 		sequencesViewController = [[SequencesViewController alloc] init];
+		[alignmentViewController setAlignmentEngine:[self alignmentEngine]];
 	}
     return self;
 }
@@ -29,20 +40,43 @@
 - (void)windowControllerDidLoadNib:(NSWindowController *)windowController 
 {
     [super windowControllerDidLoadNib:windowController];
-
-	SourceSection *sourceSection = [[SourceSection alloc] init];
-	sourceSection.displayName = @"Alignments";
-	[windowController insertSection:sourceSection];	
-
-	sourceSection = [[SourceSection alloc] init];
-	sourceSection.displayName = @"Sequences";
-	[windowController insertSection:sourceSection];	
 }	
 
-- (Alignment *)newAlignment
+// -------------------------------------------------------------------------------
+//	outlineViewSelectionDidChange:notification
+// -------------------------------------------------------------------------------
+- (void)sourcesSelected:(NSArray *)selection
 {
-	Alignment *alignment = [NSEntityDescription insertNewObjectForEntityForName:@"Alignment" inManagedObjectContext:[self managedObjectContext]];
-	return alignment;
+//	NSLog(@"sourcesSelected: %@", selection);
+	if ([selection count] == 1) {
+		if ([[selection objectAtIndex:0] alignment] != nil) {
+			[self displayViewController:alignmentViewController];
+		} else {
+			[self displayViewController:sequencesViewController];
+		}
+	} else {
+		[self displayViewController:nil];
+	}
+}
+
+- (void)displayViewController:(ILViewController *)vc
+{	
+	// Try to end editing
+//	NSWindow *w = [box window];
+//	BOOL ended = [w makeFirstResponder: w];
+//	if (!ended) {
+//		NSBeep();
+//		return;
+//	}
+	
+	if (vc != nil) {
+		NSView *v = [vc view];
+		[box setContentView: v];
+	} else {
+		[box setContentView:nil];
+	}
+ 
+	
 }
 
 @end
