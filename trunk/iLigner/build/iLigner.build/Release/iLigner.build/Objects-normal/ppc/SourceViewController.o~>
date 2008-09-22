@@ -1,2 +1,0 @@
-/Users/rambaut/Cocoa/iLigner/SourceView/SourceViewController.m: In function '-[SourceViewController changeItemView]':
-/Users/rambaut/Cocoa/iLigner/SourceView/SourceViewController.m:742: warning: unused variable 'urlStr'
