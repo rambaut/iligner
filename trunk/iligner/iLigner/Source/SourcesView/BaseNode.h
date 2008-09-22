@@ -1,0 +1,51 @@
+//
+// File:	   BaseNode.h
+//
+// Abstract:   Generic multi-use node object used with NSOutlineView and NSTreeController.
+//
+// Version:    1.0
+//
+
+#import <Cocoa/Cocoa.h>
+
+@interface BaseNode : NSObject <NSCoding, NSCopying>
+{
+	NSString		*nodeTitle;
+	NSMutableArray	*children;
+	BOOL			isLeaf;
+	NSImage			*nodeIcon;
+}
+
+- (id)initLeaf;
+
+- (void)setNodeTitle:(NSString*)newNodeTitle;
+- (NSString*)nodeTitle;
+
+- (void)setChildren:(NSArray*)newChildren;
+- (NSMutableArray*)children;
+
+- (void)setLeaf:(BOOL)flag;
+- (BOOL)isLeaf;
+
+- (void)setNodeIcon:(NSImage*)icon;
+- (NSImage*)nodeIcon;
+
+- (BOOL)isDraggable;
+
+- (NSComparisonResult)compare:(BaseNode*)aNode;
+
+- (NSArray*)mutableKeys;
+
+- (NSDictionary*)dictionaryRepresentation;
+- (id)initWithDictionary:(NSDictionary*)dictionary;
+
+- (id)parentFromArray:(NSArray*)array;
+- (void)removeObjectFromChildren:(id)obj;
+- (NSArray*)descendants;
+- (NSArray*)allChildLeafs;
+- (NSArray*)groupChildren;
+- (BOOL)isDescendantOfOrOneOfNodes:(NSArray*)nodes;
+- (BOOL)isDescendantOfNodes:(NSArray*)nodes;
+- (NSIndexPath*)indexPathInArray:(NSArray*)array;
+
+@end
