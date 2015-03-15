@@ -1,0 +1,1 @@
+This is a project to develop the next generation of sequence alignment editor for the Mac OS X platform. It is being developed in the Cocoa framework to produce a fast and intuitive tool for manual and semi-automated sequence alignment.
